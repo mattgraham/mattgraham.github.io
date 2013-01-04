@@ -1,0 +1,53 @@
+
+$background: #597f0b;
+$copy: whiteSmoke;
+
+body {
+	background: $background url('/images/harmony/background.png') no-repeat fixed left 0px;
+}
+
+p {
+	margin-bottom: 10px;
+	color: rgba($copy, .8);
+
+}
+
+a {
+	text-decoration: none;
+	color: lighten($background, 12%);
+}
+
+#featured {
+	margin-top: 60px;
+	float: left;
+	clear: both;
+
+	img {
+		margin-top: -50px;
+		margin-bottom: 30px;
+		max-width: 100%;
+		z-index: 9999;
+		position: relative;
+	}
+}
+
+header {
+
+	.name {
+		color: $background;
+	}
+
+	nav {
+		float: right;
+
+		li{
+			padding: 10px 0;
+			display: inline-block;
+			color: $background;
+		}
+
+		li + li {
+			margin-left: 10px;
+		}
+	}
+}
