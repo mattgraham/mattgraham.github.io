@@ -1,54 +1,14 @@
-<!doctype html>
-<html>
-<head>
-  <title>Matt Graham</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="/assets/css/main.css">
-  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-  <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
-  <script type="text/javascript" src="/assets/js/main.js"></script>
-</head>
-<body>
-  <header>
-    <a class="title" href=""><strong>Matt Graham,</strong> Designer / Frontend Development</a>
-    <nav>
-      <ul>
-        <li><a href="" class="blog">Thoughts Archive</a></li>
-        <li class="github"><a href="">GitHub</a></li>
-        <li class="twitter"><a href="">Twitter</a></li>
-      </ul>
-    </nav>
-  </header>
-  <article>
-    <div class="article-header gauges">
-      <a href="" class="prev-post">Harmony Relaunched</a>
-      <a href="" class="next-post">Gauges for Android</a>
-      <span class="asset">
-        <img src="/assets/images/logo-gauges.png" class="logo">
-        <img src="/assets/images/asset-gauges.png" class="art">
-      </span>
-    </div>
-    <div class="article-content">
-      <h1>Shipping GitHub for Android &amp; releasing the code to the wild.</h1>
-      <div class="article-meta">
-        <span class="date">Thurs. July 18, 2012</span>
-        <a href="" class="category">Shipments</a>
-      </div>
-      <p>We've been working hard on the latest updates for Gaug.es, and today we're excited to announce several updates. The first - welcoming Gaug.es to the Android market! All versions of Android from Froyo (Android 2.2) to Ice Cream Sandwich (Android 4.0) now have their own native app. The app gives you the same accessibility as the iPhone version, where you can get a quick look dashboard with all of your gauges, list views of your daily traffic, most viewed content, and top web referrers, and are able to watch visitors from all over the globe hit your websites as it happens with AirTraffic.</p>
-      <p>We've been working hard on the latest updates for Gaug.es, and today we're excited to announce several updates. The first - welcoming Gaug.es to the Android market! All versions of Android from Froyo (Android 2.2) to Ice Cream Sandwich (Android 4.0) now have their own native app. The app gives you the same accessibility as the iPhone version, where you can get a quick look dashboard with all of your gauges, list views of your daily traffic.</p>
-    </div>
-    <div class="article-sidebar">
-      <blockquote>
-        I can't believe I said this; it was so amazing that I had to add it in as a nicredible quote on the sidebar.
-      </blockquote>
-      <div class="sidebar-module">
-        <h2>Read More</h2>
-        <ul>
-          <li><a href="">Gauges Android Store</a></li>
-          <li><a href="">GitHub Blog Article</a></li>
-        </ul>
-      </div>
-    </div>
-  </article>
-</body>
-</html>
+---
+title: welcome home
+layout: home
+---
+<ul class="">
+  {% for post in site.posts limit:5 %}
+      <li class="{% cycle 'even', 'odd' %}">
+        <a href="{{ post.url }}">
+          <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
+          <span class="article-title">{{ post.title }}</span>
+        </a>
+      </li>
+  {% endfor %}
+</ul>
