@@ -4,6 +4,10 @@ customCSS: post-mlb.css
 ---
 
 <div class="article-header">
+	<span class="title">
+		<h1>MLB Stadium</h1>
+		<h2>Countdown</h2>
+	</span>
 </div>
 
 <article>
