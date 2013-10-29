@@ -3,7 +3,7 @@ title: welcome home
 layout: home
 ---
 <ul class="">
-  {% for post in site.posts limit:5 %}
+  {% for post in site.posts %}
       <li class="{% cycle 'even', 'odd' %}">
         <a href="{{ post.url }}">
           <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
