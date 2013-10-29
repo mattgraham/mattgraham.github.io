@@ -3,6 +3,7 @@
 @import "base";
 @import "settings";
 @import "syntax";
+@import "octicons";
 
 body {
   font-family:$font;
@@ -45,6 +46,15 @@ header {
       border-left:1px solid #111;
       border-right:1px solid #111;
       margin-left:-1px;
+      transition: background .2s ease-in;
+
+      &.github:hover {
+        background: #e5821f;
+      }
+
+      &.twitter:hover {
+        background: #4099FF;
+      }
     }
 
     a {
@@ -54,10 +64,13 @@ header {
       color:#999;
       border-left:1px solid #333;
       border-right:1px solid #333;
-      transition: all .2s ease-in;
+      transition: color .2s ease-in;
+
+      .octicon {
+        margin-right: 5px;
+      }
 
       &:hover {
-        background:#0b0b0b;
         color:#fff;
       }
     }
