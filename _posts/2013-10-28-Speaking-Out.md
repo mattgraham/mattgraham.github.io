@@ -5,8 +5,9 @@ customCSS: post-frontend.css
 
 <div class="article-header">
 	<iframe src="//player.vimeo.com/video/78038499?title=0&amp;byline=0&amp;portrait=0" width="840" height="472" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-	<script async class="speakerdeck-embed" data-id="845fbc30bcd301306d0f224190033e99" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
+
+<script async class="speakerdeck-embed" data-id="845fbc30bcd301306d0f224190033e99" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 <article>
 	<h1>Speaking Out</h1>
