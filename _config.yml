@@ -1,4 +1,4 @@
-destination:    ./madebygraham/_site
+destination:    ./_site
 safe:           true
 lsi:            false
 pygments:       true
