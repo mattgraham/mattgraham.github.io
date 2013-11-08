@@ -7,6 +7,3 @@ permalink: /:categories/:year/:title
 # permalink: /writing/:categories/:year/:title
 markdown:       kramdown
 markdown_ext:   markdown,mkd,mkdn,md
-source: http://mattgraham.github.io/madebygraham/
-
-

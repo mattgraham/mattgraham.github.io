@@ -1,13 +1,15 @@
 .CodeRay     {
-    background:#333;
-    margin:20px auto;
-    padding:15px 20px; font:14px/1.4 monospace;
-    color:#E6E0DB;
-    overflow:auto;
-    border-radius: 2px;
-  }
+  background:#333;
+  margin:20px auto;
+  padding:15px 0px;
+  font:14px/1.4 monospace;
+  color:#E6E0DB;
+  overflow:auto;
+  border-radius: 2px;
+}
+
 .CodeRay pre {margin:0; padding:0; overflow:visible;}
-.CodeRay br {display:none;}
+.CodeRay br  {display:none;}
 .CodeRay .an {color:#E7BE69;}                      /* html attribute */
 .CodeRay .c  {color:#BC9358; font-style: italic;}  /* comment */
 .CodeRay .ch {color:#509E4F;}                      /* escaped character */
@@ -17,7 +19,7 @@
 .CodeRay .fu {color:#FFC56D;}                      /* function */
 .CodeRay .gv {color:#D0CFFE;}                      /* global variable */
 .CodeRay .i  {color:#A4C260;}                      /* integer */
-.CodeRay .il {background:#333;}                 /* inline code */
+.CodeRay .il {background:#333;}                    /* inline code */
 .CodeRay .iv {color:#D0CFFE;}                      /* instance variable */
 .CodeRay .pp {color:#E7BE69;}                      /* doctype */
 .CodeRay .r  {color:#CB7832;}                      /* keyword */
@@ -31,20 +33,19 @@
 .CodeRay .di {color:#e35d41;}
 .CodeRay .er {color:#ebfee3;}
 
+code.highlight                    {font-weight:bold;}
+code span.brackets                {font-weight:bold;}
+code span.comment                 {color:#999;}
+code span.keywords,
+code span.tag                     {color:#8C4A1C;}
 
-  code.highlight                    {font-weight:bold;}
-  code span.brackets                {font-weight:bold;}
-  code span.comment                 {color:#999;}
-  code span.keywords,
-  code span.tag                     {color:#8C4A1C;}
+code.javascript span.string,
+code.css span.urls,
+code.css span.selectors,
+code.ruby span.string,
+code span.instance                {color:#03c;}
 
-  code.javascript span.string,
-  code.css span.urls,
-  code.css span.selectors,
-  code.ruby span.string,
-  code span.instance                {color:#03c;}
-
-  code.javascript span.global,
-  code.css span.properties,
-  code.ruby span.symbol,
-  code span.method                  {color:#2c85cc;}
+code.javascript span.global,
+code.css span.properties,
+code.ruby span.symbol,
+code span.method                  {color:#2c85cc;}
