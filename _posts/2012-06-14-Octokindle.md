@@ -52,13 +52,16 @@ layout: post
 </ol>
 
 <div class="multiline_code"><div class="CodeRay">
-  <div class="code"><pre>mntroot rw
+{% highlight html %}
+mntroot rw
 mkdir /mnt/us/screensavers
 cp /usr/share/blanket/screensaver/*.png /mnt/us/screensavers/
 rm -rf /usr/share/blanket/screensaver
 ln -sfn /mnt/us/screensavers /usr/share/blanket/screensaver
-exit</pre></div>
-</div>
+exit
+{% endhighlight %}
+</div></div>
+
 </div><p>Finshed! You&#8217;ll be able to use any images you like as the screensavers on your Kindle by uploading them in the &#8216;screensavers&#8217; folder that will now appear on the Kindle drive. In order for the screensavers to be recognized however, there are some requirements you need to adhere to:</p>
 <ul>
 	<li>Screensavers must be <span class="caps">PNG</span> images</li>
