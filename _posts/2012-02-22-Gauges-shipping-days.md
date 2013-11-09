@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /blog/archives/2012/02/22/gauges-shipping-days/
 ---
 
 <div class="article-header">

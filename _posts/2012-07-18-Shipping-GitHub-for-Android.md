@@ -1,6 +1,7 @@
 ---
 layout: post
 customCSS: post-gauges.css
+permalink: /blog/archives/2012/07/09/github-for-android/
 ---
 
 <div class="article-header">

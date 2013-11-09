@@ -1,7 +1,7 @@
 @import "settings";
 @import "compass/css3";
 
-$primary: #006444;
+$primary: #349cc1;
 
 a {
 	color: $primary;
@@ -43,4 +43,24 @@ article {
 	width: 100%;
 	border-radius: 3px;
 	margin: 20px 0;
+}
+
+@media screen and (max-width: 420px) {
+
+	body {
+		margin-top: 44px;
+	}
+
+	article .deck {
+		display: none;
+	}
+
+ .article-header {
+ 		background: $primary;
+ 		min-height: 200px;
+
+		.video {
+			width: 90%;
+		}
+	}
 }

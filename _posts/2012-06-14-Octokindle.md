@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /blog/archives/2012/06/14/octokindle/
 ---
 
 <div class="article-header">

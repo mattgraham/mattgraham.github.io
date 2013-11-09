@@ -1,6 +1,7 @@
 ---
 layout: post
 customCSS: post-mlb.css
+permalink: /blog/archives/2012/05/08/ballpark/
 ---
 
 <div class="article-header">

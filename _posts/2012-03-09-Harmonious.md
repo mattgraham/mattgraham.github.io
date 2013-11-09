@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /blog/archives/2012/03/09/harmonious/
 ---
 
 <div class="article-header">

@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /blog/archives/2011/12/19/gauges-iphone-app-v10/
 ---
 
 <div class="article-header">

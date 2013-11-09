@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /blog/archives/2011/12/03/creating-company-culture/
 ---
 
 <div class="article-header">

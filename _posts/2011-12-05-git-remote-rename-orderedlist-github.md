@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /blog/archives/2011/12/05/git-remote-rename-orderedlist-github/
 ---
 
 <div class="article-header">

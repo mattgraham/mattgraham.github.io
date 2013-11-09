@@ -1,0 +1,139 @@
+@import "settings";
+@import "compass/css3";
+@import "settings";
+
+$primary: #99ccff;
+
+a {
+	color: $primary;
+	text-decoration:none;
+	transition: color .2s ease-in;
+
+	&:hover {
+		color: lighten($primary, 15%);
+	}
+}
+
+body {
+	background: url(http://c.gr4m.com/image/1b1y3q1f0F42/image) no-repeat fixed center #0f020b;
+	background-size: cover;
+	color: #fff;
+	margin-top: 120px;
+}
+
+h1 {
+	line-height: 1em;
+}
+
+p {
+	font-size: 1.4em;
+	line-height: 1.3em;
+	color: rgba(#fff, .8);
+	max-width: 600px;
+}
+
+img {
+	float: right;
+	margin-top: -50px;
+}
+
+.article-header {
+	display: inline-block;
+	height: 0;
+	min-height: 380px;
+	max-height: 800px;
+	width: 100%;
+	margin-bottom:55px;
+	text-align: center;
+	background: none;
+
+	.asset p {
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		max-width: 800px;
+		text-align: left;
+		font-size: 20px;
+		line-height: 1.4em;
+		padding: 30px;
+
+		.logo {
+			position: relative;
+		  bottom: -240px;
+		  float: left;
+		}
+
+		.art {
+		  bottom: -40px;
+		  float: right;
+		}
+	}
+}
+
+.postings {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 60px;
+	max-width: 640px;
+
+	li {
+		display: inline-block;
+		width: 100%;
+		padding: 10px 0;
+		@include box-shadow(inset 0 1px 0 rgba(#fff, .2));
+		margin-top: -4px;
+
+		.article-title {
+			font-size: 1.4em;
+			line-height: 42px;
+			font-weight: normal;
+			font-family: $font-serif;
+			display: inline-block;
+			float: left;
+			padding-left: 10px;
+		}
+
+		.article-date {
+			font-size: .8em;
+			font-family: $font-sans;
+			font-weight: normal;
+			color: rgba(#fff, .3);
+			line-height: 42px;
+			float: right;
+			text-align: right;
+			width: 100px;
+		}
+	}
+}
+
+@media screen and (max-width: 420px) {
+
+body {
+	@include background-image(linear-gradient(top, darken($primary, 20%), #222222));
+	@include filter-gradient($primary, #222222, vertical);
+}
+
+.postings {
+	max-width: none;
+	width: 100%;
+
+	li {
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+
+		.article-title {
+			font-size: 1.1em;
+			float: none;
+			padding-left: none;
+			text-align: center;
+		}
+
+		.article-date {
+			display: none;
+		}
+	}
+}
+
+}

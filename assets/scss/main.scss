@@ -5,19 +5,56 @@
 @import "syntax";
 @import "octicons";
 
+* {
+  box-sizing: border-box;
+}
+
+$primary: #3369e8;
+
 body {
-  font-family:$font;
+  font-family: $font-sans;
   color:$text-color;
-  font-size: 14px;
-  line-height: 1.5em;
+  font-size: 16px;
+  margin-top: 60px;
+}
+
+p {
+  font-family: $font-serif;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  font-weight: normal;
+  max-width: 800px;
+  color: #333;
+}
+
+a {
+  color: $primary;
+  transition: color .2s ease-in;
+
+  &:hover {
+    color: lighten($primary, 20%);
+  }
+}
+
+h1 {
+  font-family: $font-serif;
+  font-size: 2.8em;
+  line-height: 1em;
+  font-weight: normal;
+  letter-spacing: -0.02em;
 }
 
 header {
-  box-shadow:0 1px 1px rgba(#000,.3);
+  font-size: 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow:0 4px 0 rgba(#000,.3);
   background:#212121;
   @include background(linear-gradient(#212121,#222));
   border:1px solid #111;
-  padding:0 40px 0 0;
+  padding:0 25px;
   overflow:hidden;
   z-index:1;
 
@@ -26,7 +63,11 @@ header {
     text-decoration:none;
     font-weight:normal;
     float:left;
-    padding:20px 40px;
+    padding:20px 0px;
+
+    &:hover {
+      color: lighten($primary, 20%);
+    }
   }
 
   nav {
@@ -42,18 +83,21 @@ header {
     }
 
     li {
+      font-size: 0em;
       float:left;
       border-left:1px solid #111;
       border-right:1px solid #111;
       margin-left:-1px;
       transition: background .2s ease-in;
+      transition: font-size .2s ease-in;
 
-      &.github:hover {
-        background: #e5821f;
-      }
+      &:hover {
+        background: #111;
+        font-size: .9em;
 
-      &.twitter:hover {
-        background: #4099FF;
+        .octicon {
+          margin-right: 5px;
+        }
       }
     }
 
@@ -65,10 +109,6 @@ header {
       border-left:1px solid #333;
       border-right:1px solid #333;
       transition: color .2s ease-in;
-
-      .octicon {
-        margin-right: 5px;
-      }
 
       &:hover {
         color:#fff;
@@ -84,7 +124,7 @@ img {
 
 article {
   display: block;
-  max-width: 840px;
+  max-width: 800px;
   padding: 0 30px;
   margin: 0 auto;
   margin-bottom: 40px;
@@ -98,21 +138,8 @@ article {
   margin-bottom:55px;
 }
 
-h1 {
-  font-size: 46px;
-  font-weight: 300;
-  line-height: 46px;
-  margin-top:0;
-}
-
-p {
-  font-family: "ff-tisa-web-pro",Georgia,Cambria,"Times New Roman",Times,serif;
-  font-size: 20px;
-  line-height: 30px;
-  color: #555;
-}
-
 .page-navigation {
+  font-size: .9em;
   @include box-shadow(inset 0 1px 0 rgba(#000, .05));
   display: inline-block;
   width: 100%;
@@ -120,12 +147,28 @@ p {
 
   .right {
     float: right;
-    max-width: 50%;
+    max-width: 45%;
     text-align: right;
   }
   .left {
     float: left;
-    max-width: 50%;
+    max-width: 45%;
     text-align: left;
   }
 }
+
+@media screen and (max-width: 420px) {
+
+  .page-navigation {
+    .right, .left {
+      display: inline-block;
+      float: none;
+      width: 100%;
+      max-width: 100%;
+      text-align: center;
+      padding: 5px 0;
+    }
+  }
+
+}
+

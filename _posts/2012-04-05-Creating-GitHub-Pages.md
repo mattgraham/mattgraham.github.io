@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /blog/archives/2012/04/05/creating-github-pages/
 ---
 
 <div class="article-header">

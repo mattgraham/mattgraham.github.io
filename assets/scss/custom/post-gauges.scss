@@ -46,3 +46,20 @@ a {
 	border-radius: 3px;
 	margin: 20px 0;
 }
+
+@media screen and (max-width: 420px) {
+
+	.article-header {
+		margin-bottom: 75px;
+		.asset {
+			.logo {
+				top: 40px;
+				left: 40px;
+			}
+			.art {
+				bottom: -20px;
+			}
+		}
+	}
+
+}
