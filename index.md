@@ -6,7 +6,7 @@ customCSS: post-home.css
 <article>
 #$ git commit -m 'who is Matt Graham'
 
-I'm an interactive and mobile designer for GitHub. Building things like Gaug.es, Speaker Deck, GitHub for Android, Gaug.es for Android, Play, as well as other fun and exciting projects. I love creating ways to make life easier through design and technology. I am a christian who knows I do not yet have the stamina of love that Jesus has; but hope that I can be known as one who tries to reach that standard. If I can help answer any questions or just to keep track of what we're building you can catch me on twitter at @michigangraham
+I'm a creative. Professionally I am a frontend design and developer for what has been refered to as a, "Little-known social coding start-up," by the WSJ however, some of you know us as GitHub. I design community tools. Things like <a href="http://speakerdeck.com" target="_blank">Speaker Deck</a>, <a href="https://play.google.com/store/apps/details?id=com.github.mobile&hl=en" target="_blank">GitHub for Android</a>, <a href="http://gaug.es" target="_blank">Gaug.es</a>, <a href="https://github.com/play/play/" target="_blank">Play</a> and other fun apps that we can't talk about yet. I love creating ways to make life easier through design and technology. Have thoughts send them to me via twitter <a href="http://twitter.com/michigangraham" target="_blank">@michigangraham</a>
 
 <ul class="postings">
   {% for post in site.posts %}
