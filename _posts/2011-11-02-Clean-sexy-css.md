@@ -18,8 +18,7 @@ permalink: /blog/archives/2011/11/02/clean-sexy-css/
 
 ###Here is the SCSS:
 
-{% highlight CSS %}
-
+```SCSS
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -97,5 +96,5 @@ permalink: /blog/archives/2011/11/02/clean-sexy-css/
     }
   }
 }
-{% endhighlight %}
+```
 </article>

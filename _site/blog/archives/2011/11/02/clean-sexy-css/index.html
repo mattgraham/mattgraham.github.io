@@ -38,86 +38,84 @@
 <p>(Please, for the sake of all man kind use a modern day web browser while viewing, Chrome, Safari or Firefox. All IE users, please give in, your missing out on much of the web).</p>
 
 <h3>Here is the SCSS:</h3>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * &lt;link href=&quot;/stylesheets/screen.css&quot; media=&quot;screen, projection&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt; */
 
-<div class="highlight"><pre><code class="css"><span class="c">/* Welcome to Compass.</span>
-<span class="c"> * In this file you should write your main styles. (or centralize your imports)</span>
-<span class="c"> * Import this file using the following HTML or equivalent:</span>
-<span class="c"> * &lt;link href=&quot;/stylesheets/screen.css&quot; media=&quot;screen, projection&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt; */</span>
+@import &quot;compass/css3&quot;;
 
-<span class="k">@import</span> <span class="s2">&quot;compass/css3&quot;</span><span class="p">;</span>
+@mixin animate($speed:100ms) {
+  -webkit-transition:all $speed ease-in;
+  -moz-transition:all $speed ease-in;
+}
 
-<span class="k">@mixin</span> <span class="nt">animate</span><span class="o">(</span><span class="err">$</span><span class="nt">speed</span><span class="nd">:100ms</span><span class="o">)</span> <span class="p">{</span>
-  <span class="nt">-webkit-transition</span><span class="nd">:all</span> <span class="err">$</span><span class="nt">speed</span> <span class="nt">ease-in</span><span class="o">;</span>
-  <span class="nt">-moz-transition</span><span class="nd">:all</span> <span class="err">$</span><span class="nt">speed</span> <span class="nt">ease-in</span><span class="o">;</span>
-<span class="p">}</span>
+#wrapper{
+  width: 100px;
+  height: 60px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #f6f6f6;
+  background-image: -webkit-gradient(linear, top, bottom, from(rgb(255, 255, 255)),to(rgb(229, 229, 229)));
+  background-image: -webkit-linear-gradient(top, rgb(255, 255, 255), rgb(229, 229, 229));
+  background-image: -moz-linear-gradient(top, rgb(255, 255, 255), rgb(229, 229, 229));
+  background-image: -o-linear-gradient(top, rgb(255, 255, 255), rgb(229, 229, 229));
+  background-image: -ms-linear-gradient(top, rgb(255, 255, 255), rgb(229, 229, 229));
+  background-image: linear-gradient(top, rgb(255, 255, 255), rgb(229, 229, 229));
+  @include box-shadow(inset rgba(255,255,255,1) 0px -1px 0px, rgba(#000, .1) 0 1px 3px);
+  @include border-radius(4px);
 
-<span class="nf">#wrapper</span><span class="p">{</span>
-  <span class="k">width</span><span class="o">:</span> <span class="m">100px</span><span class="p">;</span>
-  <span class="k">height</span><span class="o">:</span> <span class="m">60px</span><span class="p">;</span>
-  <span class="k">margin</span><span class="o">:</span> <span class="m">40px</span> <span class="k">auto</span><span class="p">;</span>
-  <span class="k">padding</span><span class="o">:</span> <span class="m">40px</span><span class="p">;</span>
-  <span class="k">background-color</span><span class="o">:</span> <span class="m">#f6f6f6</span><span class="p">;</span>
-  <span class="k">background-image</span><span class="o">:</span> <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">gradient</span><span class="p">(</span><span class="n">linear</span><span class="o">,</span> <span class="k">top</span><span class="o">,</span> <span class="k">bottom</span><span class="o">,</span> <span class="n">from</span><span class="p">(</span><span class="k">rgb</span><span class="p">(</span><span class="m">255</span><span class="o">,</span> <span class="m">255</span><span class="o">,</span> <span class="m">255</span><span class="p">))</span><span class="o">,</span><span class="n">to</span><span class="p">(</span><span class="k">rgb</span><span class="p">(</span><span class="m">229</span><span class="o">,</span> <span class="m">229</span><span class="o">,</span> <span class="m">229</span><span class="p">)));</span>
-  <span class="k">background-image</span><span class="o">:</span> <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">linear</span><span class="o">-</span><span class="n">gradient</span><span class="p">(</span><span class="k">top</span><span class="o">,</span> <span class="k">rgb</span><span class="p">(</span><span class="m">255</span><span class="o">,</span> <span class="m">255</span><span class="o">,</span> <span class="m">255</span><span class="p">)</span><span class="o">,</span> <span class="k">rgb</span><span class="p">(</span><span class="m">229</span><span class="o">,</span> <span class="m">229</span><span class="o">,</span> <span class="m">229</span><span class="p">));</span>
-  <span class="k">background-image</span><span class="o">:</span> <span class="o">-</span><span class="n">moz</span><span class="o">-</span><span class="n">linear</span><span class="o">-</span><span class="n">gradient</span><span class="p">(</span><span class="k">top</span><span class="o">,</span> <span class="k">rgb</span><span class="p">(</span><span class="m">255</span><span class="o">,</span> <span class="m">255</span><span class="o">,</span> <span class="m">255</span><span class="p">)</span><span class="o">,</span> <span class="k">rgb</span><span class="p">(</span><span class="m">229</span><span class="o">,</span> <span class="m">229</span><span class="o">,</span> <span class="m">229</span><span class="p">));</span>
-  <span class="k">background-image</span><span class="o">:</span> <span class="o">-</span><span class="n">o</span><span class="o">-</span><span class="n">linear</span><span class="o">-</span><span class="n">gradient</span><span class="p">(</span><span class="k">top</span><span class="o">,</span> <span class="k">rgb</span><span class="p">(</span><span class="m">255</span><span class="o">,</span> <span class="m">255</span><span class="o">,</span> <span class="m">255</span><span class="p">)</span><span class="o">,</span> <span class="k">rgb</span><span class="p">(</span><span class="m">229</span><span class="o">,</span> <span class="m">229</span><span class="o">,</span> <span class="m">229</span><span class="p">));</span>
-  <span class="k">background-image</span><span class="o">:</span> <span class="o">-</span><span class="n">ms</span><span class="o">-</span><span class="n">linear</span><span class="o">-</span><span class="n">gradient</span><span class="p">(</span><span class="k">top</span><span class="o">,</span> <span class="k">rgb</span><span class="p">(</span><span class="m">255</span><span class="o">,</span> <span class="m">255</span><span class="o">,</span> <span class="m">255</span><span class="p">)</span><span class="o">,</span> <span class="k">rgb</span><span class="p">(</span><span class="m">229</span><span class="o">,</span> <span class="m">229</span><span class="o">,</span> <span class="m">229</span><span class="p">));</span>
-  <span class="k">background-image</span><span class="o">:</span> <span class="n">linear</span><span class="o">-</span><span class="n">gradient</span><span class="p">(</span><span class="k">top</span><span class="o">,</span> <span class="k">rgb</span><span class="p">(</span><span class="m">255</span><span class="o">,</span> <span class="m">255</span><span class="o">,</span> <span class="m">255</span><span class="p">)</span><span class="o">,</span> <span class="k">rgb</span><span class="p">(</span><span class="m">229</span><span class="o">,</span> <span class="m">229</span><span class="o">,</span> <span class="m">229</span><span class="p">));</span>
-  <span class="o">@</span><span class="n">include</span> <span class="n">box</span><span class="o">-</span><span class="n">shadow</span><span class="p">(</span><span class="k">inset</span> <span class="n">rgba</span><span class="p">(</span><span class="m">255</span><span class="o">,</span><span class="m">255</span><span class="o">,</span><span class="m">255</span><span class="o">,</span><span class="m">1</span><span class="p">)</span> <span class="m">0px</span> <span class="m">-1px</span> <span class="m">0px</span><span class="o">,</span> <span class="n">rgba</span><span class="p">(</span><span class="m">#000</span><span class="o">,</span> <span class="o">.</span><span class="m">1</span><span class="p">)</span> <span class="m">0</span> <span class="m">1px</span> <span class="m">3px</span><span class="p">);</span>
-  <span class="o">@</span><span class="n">include</span> <span class="k">border</span><span class="o">-</span><span class="n">radius</span><span class="p">(</span><span class="m">4px</span><span class="p">);</span>
+.button-outside {
+  @include background(top, linear-gradient(#e6e6e6, #f5f5f5));
+  padding: 23px 0px 25px 0;
+  margin: 0;
+  float: left;
+  @include border-radius(4px);
+  @include box-shadow(inset rgba(255,255,255,1) 0px -1px 0px, inset rgba(#333, .1) 0 1px 1px);
+  margin-top: -5px;
+}
 
-<span class="o">.</span><span class="n">button</span><span class="o">-</span><span class="k">outside</span> <span class="err">{</span>
-  <span class="o">@</span><span class="n">include</span> <span class="k">background</span><span class="p">(</span><span class="k">top</span><span class="o">,</span> <span class="n">linear</span><span class="o">-</span><span class="n">gradient</span><span class="p">(</span><span class="m">#e6e6e6</span><span class="o">,</span> <span class="m">#f5f5f5</span><span class="p">));</span>
-  <span class="k">padding</span><span class="o">:</span> <span class="m">23px</span> <span class="m">0px</span> <span class="m">25px</span> <span class="m">0</span><span class="p">;</span>
-  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
-  <span class="k">float</span><span class="o">:</span> <span class="k">left</span><span class="p">;</span>
-  <span class="o">@</span><span class="n">include</span> <span class="k">border</span><span class="o">-</span><span class="n">radius</span><span class="p">(</span><span class="m">4px</span><span class="p">);</span>
-  <span class="o">@</span><span class="n">include</span> <span class="n">box</span><span class="o">-</span><span class="n">shadow</span><span class="p">(</span><span class="k">inset</span> <span class="n">rgba</span><span class="p">(</span><span class="m">255</span><span class="o">,</span><span class="m">255</span><span class="o">,</span><span class="m">255</span><span class="o">,</span><span class="m">1</span><span class="p">)</span> <span class="m">0px</span> <span class="m">-1px</span> <span class="m">0px</span><span class="o">,</span> <span class="k">inset</span> <span class="n">rgba</span><span class="p">(</span><span class="m">#333</span><span class="o">,</span> <span class="o">.</span><span class="m">1</span><span class="p">)</span> <span class="m">0</span> <span class="m">1px</span> <span class="m">1px</span><span class="p">);</span>
-  <span class="k">margin-top</span><span class="o">:</span> <span class="m">-5px</span><span class="p">;</span>
-<span class="p">}</span>
+.button {
+  @include background(top, linear-gradient(#f0f0f0, #FFF));
+  border: 3px solid #FFF;
+  font: 14px/16px &quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Helvetica, Arial, Verdana, sans-serif;
+  color: #c1c1c1;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.02em;
+  @include text-shadow(rgba(#FFF, 1) 0 2px 0px);
+  text-decoration: none;
+  padding: 8px 16px;
+  margin: 10px;
+  @include border-radius(4px);
+  @include box-shadow(
+    inset rgba(#FFF, 1) 0 -1px 0,
+    inset rgba(#333, .05) 0 1px 3px,
+    inset rgba(#f1f1f1, 1) 0 2px 0px,
+    rgba(#f4f2f3, 1) 0 -1px 0px,
+    rgba(#f3f3f3, 1) 0 1px 0px,
+    rgba(#333, 0.3) 0px 6px 4px,
+    rgba(#333, .1) 0px 2px 0px,
+    rgba(#333, 0.3) 0px 4px 1px);
+  @include animate();
 
-<span class="nc">.button</span> <span class="p">{</span>
-  <span class="o">@</span><span class="n">include</span> <span class="k">background</span><span class="p">(</span><span class="k">top</span><span class="o">,</span> <span class="n">linear</span><span class="o">-</span><span class="n">gradient</span><span class="p">(</span><span class="m">#f0f0f0</span><span class="o">,</span> <span class="m">#FFF</span><span class="p">));</span>
-  <span class="k">border</span><span class="o">:</span> <span class="m">3px</span> <span class="k">solid</span> <span class="m">#FFF</span><span class="p">;</span>
-  <span class="k">font</span><span class="o">:</span> <span class="m">14px</span><span class="o">/</span><span class="m">16px</span> <span class="s2">&quot;Lucida Grande&quot;</span><span class="o">,</span> <span class="s2">&quot;Lucida Sans Unicode&quot;</span><span class="o">,</span> <span class="n">Helvetica</span><span class="o">,</span> <span class="n">Arial</span><span class="o">,</span> <span class="n">Verdana</span><span class="o">,</span> <span class="k">sans-serif</span><span class="p">;</span>
-  <span class="k">color</span><span class="o">:</span> <span class="m">#c1c1c1</span><span class="p">;</span>
-  <span class="k">font-weight</span><span class="o">:</span> <span class="k">normal</span><span class="p">;</span>
-  <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="k">font</span><span class="o">-</span><span class="n">smoothing</span><span class="o">:</span> <span class="n">antialiased</span><span class="p">;</span>
-  <span class="k">letter-spacing</span><span class="o">:</span> <span class="m">-0.02em</span><span class="p">;</span>
-  <span class="o">@</span><span class="n">include</span> <span class="k">text-shadow</span><span class="p">(</span><span class="n">rgba</span><span class="p">(</span><span class="m">#FFF</span><span class="o">,</span> <span class="m">1</span><span class="p">)</span> <span class="m">0</span> <span class="m">2px</span> <span class="m">0px</span><span class="p">);</span>
-  <span class="k">text-decoration</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span>
-  <span class="k">padding</span><span class="o">:</span> <span class="m">8px</span> <span class="m">16px</span><span class="p">;</span>
-  <span class="k">margin</span><span class="o">:</span> <span class="m">10px</span><span class="p">;</span>
-  <span class="o">@</span><span class="n">include</span> <span class="k">border</span><span class="o">-</span><span class="n">radius</span><span class="p">(</span><span class="m">4px</span><span class="p">);</span>
-  <span class="o">@</span><span class="n">include</span> <span class="n">box</span><span class="o">-</span><span class="n">shadow</span><span class="p">(</span>
-    <span class="k">inset</span> <span class="n">rgba</span><span class="p">(</span><span class="m">#FFF</span><span class="o">,</span> <span class="m">1</span><span class="p">)</span> <span class="m">0</span> <span class="m">-1px</span> <span class="m">0</span><span class="o">,</span>
-    <span class="k">inset</span> <span class="n">rgba</span><span class="p">(</span><span class="m">#333</span><span class="o">,</span> <span class="o">.</span><span class="m">05</span><span class="p">)</span> <span class="m">0</span> <span class="m">1px</span> <span class="m">3px</span><span class="o">,</span>
-    <span class="k">inset</span> <span class="n">rgba</span><span class="p">(</span><span class="m">#f1f1f1</span><span class="o">,</span> <span class="m">1</span><span class="p">)</span> <span class="m">0</span> <span class="m">2px</span> <span class="m">0px</span><span class="o">,</span>
-    <span class="n">rgba</span><span class="p">(</span><span class="m">#f4f2f3</span><span class="o">,</span> <span class="m">1</span><span class="p">)</span> <span class="m">0</span> <span class="m">-1px</span> <span class="m">0px</span><span class="o">,</span>
-    <span class="n">rgba</span><span class="p">(</span><span class="m">#f3f3f3</span><span class="o">,</span> <span class="m">1</span><span class="p">)</span> <span class="m">0</span> <span class="m">1px</span> <span class="m">0px</span><span class="o">,</span>
-    <span class="n">rgba</span><span class="p">(</span><span class="m">#333</span><span class="o">,</span> <span class="m">0</span><span class="o">.</span><span class="m">3</span><span class="p">)</span> <span class="m">0px</span> <span class="m">6px</span> <span class="m">4px</span><span class="o">,</span>
-    <span class="n">rgba</span><span class="p">(</span><span class="m">#333</span><span class="o">,</span> <span class="o">.</span><span class="m">1</span><span class="p">)</span> <span class="m">0px</span> <span class="m">2px</span> <span class="m">0px</span><span class="o">,</span>
-    <span class="n">rgba</span><span class="p">(</span><span class="m">#333</span><span class="o">,</span> <span class="m">0</span><span class="o">.</span><span class="m">3</span><span class="p">)</span> <span class="m">0px</span> <span class="m">4px</span> <span class="m">1px</span><span class="p">);</span>
-  <span class="o">@</span><span class="n">include</span> <span class="n">animate</span><span class="p">();</span>
-
- <span class="o">&amp;:</span><span class="n">hover</span> <span class="err">{</span>
-    <span class="o">@</span><span class="n">include</span> <span class="k">background</span><span class="p">(</span><span class="k">top</span><span class="o">,</span> <span class="n">linear</span><span class="o">-</span><span class="n">gradient</span><span class="p">(</span><span class="m">#f1f1f1</span><span class="o">,</span> <span class="m">#fbfbfb</span><span class="p">));</span>
-    <span class="k">border</span><span class="o">:</span> <span class="m">3px</span> <span class="k">solid</span> <span class="m">#FFF</span><span class="p">;</span>
-    <span class="k">color</span><span class="o">:</span> <span class="m">#aaaaaa</span><span class="p">;</span>
-    <span class="o">@</span><span class="n">include</span> <span class="k">text-shadow</span><span class="p">(</span><span class="n">rgba</span><span class="p">(</span><span class="m">#FFF</span><span class="o">,</span> <span class="m">1</span><span class="p">)</span> <span class="m">0</span> <span class="m">1px</span> <span class="m">0px</span><span class="p">);</span>
-    <span class="o">@</span><span class="n">include</span> <span class="n">box</span><span class="o">-</span><span class="n">shadow</span><span class="p">(</span>
-    <span class="k">inset</span> <span class="n">rgba</span><span class="p">(</span><span class="m">#FFF</span><span class="o">,</span> <span class="m">1</span><span class="p">)</span> <span class="m">0</span> <span class="m">-1px</span> <span class="m">0</span><span class="o">,</span>
-    <span class="k">inset</span> <span class="n">rgba</span><span class="p">(</span><span class="m">#333</span><span class="o">,</span> <span class="o">.</span><span class="m">08</span><span class="p">)</span> <span class="m">0</span> <span class="m">1px</span> <span class="m">3px</span><span class="o">,</span>
-    <span class="n">rgba</span><span class="p">(</span><span class="m">#f4f2f3</span><span class="o">,</span> <span class="m">1</span><span class="p">)</span> <span class="m">0</span> <span class="m">-1px</span> <span class="m">0px</span><span class="o">,</span>
-    <span class="n">rgba</span><span class="p">(</span><span class="m">#f3f3f3</span><span class="o">,</span> <span class="m">1</span><span class="p">)</span> <span class="m">0</span> <span class="m">1px</span> <span class="m">0px</span><span class="o">,</span>
-    <span class="n">rgba</span><span class="p">(</span><span class="m">#333</span><span class="o">,</span> <span class="m">0</span><span class="o">.</span><span class="m">01</span><span class="p">)</span> <span class="m">0px</span> <span class="m">6px</span> <span class="m">6px</span><span class="o">,</span>
-    <span class="n">rgba</span><span class="p">(</span><span class="m">#999</span><span class="o">,</span> <span class="m">0</span><span class="o">.</span><span class="m">3</span><span class="p">)</span> <span class="m">0px</span> <span class="m">1px</span> <span class="m">2px</span><span class="o">,</span>
-    <span class="n">rgba</span><span class="p">(</span><span class="m">#333</span><span class="o">,</span> <span class="m">0</span><span class="o">.</span><span class="m">4</span><span class="p">)</span> <span class="m">0px</span> <span class="m">1px</span> <span class="m">2px</span><span class="p">)</span>
-    <span class="p">}</span>
-  <span class="err">}</span>
-<span class="err">}</span>
+ &amp;:hover {
+    @include background(top, linear-gradient(#f1f1f1, #fbfbfb));
+    border: 3px solid #FFF;
+    color: #aaaaaa;
+    @include text-shadow(rgba(#FFF, 1) 0 1px 0px);
+    @include box-shadow(
+    inset rgba(#FFF, 1) 0 -1px 0,
+    inset rgba(#333, .08) 0 1px 3px,
+    rgba(#f4f2f3, 1) 0 -1px 0px,
+    rgba(#f3f3f3, 1) 0 1px 0px,
+    rgba(#333, 0.01) 0px 6px 6px,
+    rgba(#999, 0.3) 0px 1px 2px,
+    rgba(#333, 0.4) 0px 1px 2px)
+    }
+  }
+}
 </code></pre></div>
-
 <p></article></p>
 
 
