@@ -6,8 +6,6 @@ permalink: /blog/archives/2012/05/08/ballpark/
 
 <div class="article-header">
 	<span class="title">
-		<h1>MLB Stadium</h1>
-		<h2>Countdown</h2>
 	</span>
 </div>
 
