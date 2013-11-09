@@ -159,6 +159,22 @@ article {
 
 @media screen and (max-width: 420px) {
 
+  header {
+    nav a, nav ul {
+      border: none;
+    }
+
+    nav ul li {
+      border: none;
+      box-shadow: none;
+      margin-right: -20px;
+
+      &.github {
+        display: none;
+      }
+    }
+  }
+
   .page-navigation {
     .right, .left {
       display: inline-block;
