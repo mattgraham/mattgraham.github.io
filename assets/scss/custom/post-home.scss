@@ -29,8 +29,8 @@ h1 {
 }
 
 p {
-	font-size: 1.4em;
-	line-height: 1.3em;
+	font-size: 1.2em;
+	line-height: 1.57em;
 	color: rgba(#fff, .8);
 	max-width: 600px;
 }
@@ -88,10 +88,10 @@ img {
 		margin-top: -4px;
 
 		.article-title {
-			font-size: 1.4em;
+			font-size: 1.2em;
 			line-height: 42px;
 			font-weight: normal;
-			font-family: $font-serif;
+			font-family: $font-sans;
 			display: inline-block;
 			float: left;
 			padding-left: 10px;
