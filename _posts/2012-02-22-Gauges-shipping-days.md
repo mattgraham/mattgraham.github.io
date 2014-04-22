@@ -1,9 +1,14 @@
 ---
 layout: post
+customCSS: post-gauges.css
 permalink: /blog/archives/2012/02/22/gauges-shipping-days/
 ---
 
 <div class="article-header">
+	<span class="asset">
+		<img src="/assets/images/logo-gauges.png" class="logo">
+		<img src="/assets/images/asset-gauges.png" class="art">
+	</span>
 </div>
 
 <article>
@@ -18,9 +23,7 @@ permalink: /blog/archives/2012/02/22/gauges-shipping-days/
 	<p><a href="https://github.com/JakeWharton/Android-ViewPagerIndicator">JakeWharton/Android-ViewPagerIndicator</a> &#8211; for being able to swipe between content, traffic and referrer pages.</p>
 	<p><a href="https://github.com/JakeWharton/NineOldAndroids">JakeWharton/NineOldAndroids</a> &#8211; for the AirTraffic view animations.</p>
 	<p><a href="https://github.com/jayway/maven-android-plugin">jayway/android-maven-plugin</a> &#8211; for building the app and running the integration and unit tests.</p>
-
 	<h2>iOS Updates</h2>
 	<p><img src="http://f.cl.ly/items/2k2Z1P1g1V0y3x2e0I1i/gauges_v2.png" style="float:right; margin-left: 20px;">We are also submitting several updates to the iTunes Store for Gaug.es for iPhone. The updates include several small bug fixes, security and performance additions and of course, exciting for me, an updated iOS icon to grow a little closer to the series of GitHub family iOS icons.</p>
 	<p>There is always much going on behind the scenes at GitHub, and you can be sure we&#8217;re always looking for the next way to shock and awe the markets around us. If you didn&#8217;t catch the <a href="http://gr4m.com/AxQHpd">Wired Magazine</a> article about GitHub this past week, make sure to give it a quick read.</p></div>
-
 </article>

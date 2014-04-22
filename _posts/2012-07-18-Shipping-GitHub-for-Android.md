@@ -1,13 +1,12 @@
 ---
 layout: post
-customCSS: post-gauges.css
+customCSS: post-github-android.css
 permalink: /blog/archives/2012/07/09/github-for-android/
 ---
 
 <div class="article-header">
   <span class="asset">
-    <img src="/assets/images/logo-gauges.png" class="logo">
-    <img src="/assets/images/asset-gauges.png" class="art">
+    <img src="/assets/images/droidtocat.png" class="art">
   </span>
 </div>
 
