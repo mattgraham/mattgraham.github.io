@@ -1,0 +1,10 @@
+- id: mlb
+  description: This is the first gallery
+  imagefolder: /images/mlb
+  images:
+  - name: angles.png
+    text: Angels Image
+  - name: astros.png
+    text: Astros Image
+  - name: blue_jays.png
+    text: Blue Jays Image
