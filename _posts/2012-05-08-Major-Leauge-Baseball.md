@@ -1,9 +1,7 @@
 ---
 layout: post
 customCSS: post-mlb.css
-permalink: /blog/archives/2012/05/08/ballpark/
-alias: [/blog/archives/2012/05/08/ballpark/, /mlb]
-
+permalink: mlb
 ---
 
 <div class="article-header">
