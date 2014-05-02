@@ -18,7 +18,7 @@ permalink: mlb
 <strong>2014 Target Fields:</strong><br/>
 <ul>
 	<li>Rogers Stadium, Toronto, CA</li>
-	<li>Wriggley Field, Chicago, IL</li>
+	<li>Wrigley Field, Chicago, IL</li>
 	<li>Progressive Field, Cleveland, OH</li>
 </ul>
 
