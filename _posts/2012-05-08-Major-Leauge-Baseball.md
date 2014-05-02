@@ -7,7 +7,7 @@ permalink: mlb
 <div class="article-header">
 <span class="details">
 <strong>LATEST STADIUM:</strong>
-<br />Kauffman Stadium, Kansas City, MO</br>Detroit Tigers at Kansas City Royals, May 2nd, 2014</span>
+<br />Kauffman Stadium, Kansas City, MO<br />Detroit Tigers at Kansas City Royals, May 2nd, 2014</span>
 </div>
 
 <article>
