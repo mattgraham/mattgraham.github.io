@@ -17,6 +17,7 @@ permalink: mlb
 
 <strong>2014 Target Fields:</strong><br/>
 <ul>
+	<li class="done">Kauffman Stadium, Kansas City, MO  <span class="octicon octicon-check" style="color: green; margin-left: 5px;"></span></li>
 	<li>Rogers Stadium, Toronto, CA</li>
 	<li>Wriggley Field, Chicago, IL</li>
 	<li>Progressive Field, Cleveland, OH</li>
