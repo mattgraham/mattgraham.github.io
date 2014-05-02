@@ -5,17 +5,26 @@ permalink: mlb
 ---
 
 <div class="article-header">
-	<span class="title">
-	</span>
+<span class="details">
+<strong>LATEST STADIUM:</strong>
+<br />Kauffman Stadium, Kansas City, MO</br>Detroit Tigers at Kansas City Royals, May 2nd, 2014</span>
 </div>
 
 <article>
-<h1>Major League Ballparks</h1>
-<p>Many of you know my love for the game of baseball, for those who who could care less; you may exit now, this won&#8217;t intrest you. I grew up with day dream that one day I might be able to visit a few ballparks and now that I&#8217;m traveling more, the dream has expanded. I&#8217;m looking forward to hitting as many <span class="caps">MLB</span> parks as time allows.
-<p>I&#8217;ve put together this page for two reasons, the first so that I have a beautiful way to keep track of the list of parks that I&#8217;ve been to and the second, now you know which parks I still need to complete the list, thus, better educating you on which tickets to send my way. <br />
+<h1>Major League Ballpark Tour</h1>
+<p>I love the game of baseball.  Being able to sit in the stands with the aroma of the game, friends at your side, and hopefully the Detroit Tigers leading the way is a great event for me. I grew up with the goal to see as many Major League Ballparks as possible, and as I've started to travel more I've been able to continue the countdown to see them all.
+<p>I&#8217;ve put together this page for two reasons, the first so that I have a beautiful way to keep track of the list of parks that I&#8217;ve been to and the second, now you know which parks I still need to complete the list, thus, better educating you on which I'm headed to next. <br />
 
-<h2>9 of 30 Current Ballparks Visited</h2>
+<strong>2014 Target Fields:</strong><br/>
+<ul>
+	<li>Rogers Stadium, Toronto, CA</li>
+	<li>Wriggley Field, Chicago, IL</li>
+	<li>Progressive Field, Cleveland, OH</li>
+</ul>
 
+<br />
+
+<h2>Current MLB Ballparks <span class="count">10 of 30 Complete</span></h2>
 <ul id="baseball">
 	<span class="division">
 		<span class="title">AL East</span>
@@ -53,9 +62,9 @@ permalink: mlb
 		</li>
 		<li class="off"><span class="image-box"><img src="/assets/images/mlb/indians.png"></span>
 			<h3>Progressive Field</h3>
-			<p>Cleavland Indians</p>
+			<p>Cleveland Indians</p>
 		</li>
-		<li class="off"><span class="image-box"><img src="/assets/images/mlb/royals.png"></span>
+		<li class="on"><span class="image-box"><img src="/assets/images/mlb/royals.png"></span>
 			<h3>Kauffman Stadium</h3>
 			<p>Kansas City Royals</p>
 		</li>

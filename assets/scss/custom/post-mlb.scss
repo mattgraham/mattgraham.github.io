@@ -14,16 +14,39 @@ a {
 }
 
 .article-header {
-	display: inline-block;
-	height: auto;
-	width: 100%;
+	height: 0;
+	min-height: 380px;
 	max-height: 800px;
-	margin-bottom: 40px;
-	background: $primary;
+	margin-bottom:35px;
+	background: url("/assets/images/cover-mlb.jpg") no-repeat center right, $primary;
 	background-size: cover;
-	text-align: left;
-	padding: 40px 0;
-	overflow: hidden;
+	text-align: center;
+
+	.details {
+		text-align: left;
+		font-size: 12px;
+		position: absolute;
+		border-radius: 2px;
+		bottom: 20px;
+		left: 0px;
+		padding: 20px 20px 20px 20px;
+		background: rgba(#000, .6);
+		color: #fff;
+		text-shadow: 0 1px 2px rgba(#000, .9);
+	}
+
+	.asset {
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		max-width: 800px;
+
+		.art {
+			bottom: -180px;
+			float: right;
+			max-width: 360px;
+		}
+	}
 
 	.title {
 		display: block;
@@ -53,6 +76,16 @@ a {
 			padding: 0;
 			@include text-shadow(0 1px 0 rgba(#fff, .30), 0 2px 0 rgba(#fff, .30), 0 3px 0 rgba(#fff, .30), 0 4px 2px rgba(#000, .1));
 		}
+	}
+}
+
+ul {
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0 0 0 20px;
+
+	li {
+		padding-left: 0px;
 	}
 }
 
@@ -171,7 +204,34 @@ a {
 	margin: 20px 0;
 }
 
+.count {
+	font-size: 14px;
+	line-height: 30px;
+	float: right;
+	text-transform: uppercase;
+}
+
 @media screen and (max-width: 840px) {
+	.article-header {
+		height: 0;
+		min-height: 280px;
+		max-height: 800px;
+
+		.details {
+			text-align: center;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+	}
+
+	.count {
+		font-size: 14px;
+		line-height: 30px;
+		float: left;
+		text-transform: uppercase;
+	}
+
 	#baseball {
 		.division, .division:nth-child(2n) {
 			width: 100%;
