@@ -18,7 +18,7 @@ a {
 	min-height: 380px;
 	max-height: 800px;
 	margin-bottom:35px;
-	background: url("/assets/images/cover-mlb.jpg") no-repeat center right, $primary;
+	background: url("/assets/images/cover-mlb.jpg") no-repeat center center, $primary;
 	background-size: cover;
 	text-align: center;
 
@@ -87,7 +87,7 @@ ul {
 	li {
 		padding-left: 0px;
 	}
-	
+
 	.done {
 		text-decoration: line-through;
 	}
