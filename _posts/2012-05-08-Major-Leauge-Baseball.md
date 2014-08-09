@@ -7,7 +7,7 @@ permalink: mlb
 <div class="article-header">
 <span class="details">
 <strong>LATEST STADIUM:</strong>
-<br />Kauffman Stadium, Kansas City, MO<br />Detroit Tigers at Kansas City Royals, May 2nd, 2014</span>
+<br />Rodgers Centre, Toronto, ON<br />Detroit Tigers (5) at Toronto Blue Jays (4), August  8, 2014</span>
 </div>
 
 <article>
@@ -18,7 +18,7 @@ permalink: mlb
 <strong>2014 Target Fields:</strong><br/>
 <ul>
 	<li class="done">Kauffman Stadium, Kansas City, MO  <span class="octicon octicon-check" style="color: green; margin-left: 5px;"></span></li>
-	<li>Rogers Stadium, Toronto, CA</li>
+	<li class="done">Rogers Centre, Toronto, CA</li>
 	<li>Wrigley Field, Chicago, IL</li>
 	<li>Progressive Field, Cleveland, OH</li>
 </ul>
@@ -45,7 +45,7 @@ permalink: mlb
 			<h3>Tropicana Field</h3>
 			<p>Tampa Bay Rays</p>
 		</li>
-		<li class="off"><span class="image-box"><img src="/assets/images/mlb/blue_jays.png"></span>
+		<li class="on"><span class="image-box"><img src="/assets/images/mlb/blue_jays.png"></span>
 			<h3>Rogers Centre</h3>
 			<p>Toronto Blue Jays</p>
 		</li>
