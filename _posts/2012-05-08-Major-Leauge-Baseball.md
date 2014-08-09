@@ -18,14 +18,14 @@ permalink: mlb
 <strong>2014 Target Fields:</strong><br/>
 <ul>
 	<li class="done">Kauffman Stadium, Kansas City, MO  <span class="octicon octicon-check" style="color: green; margin-left: 5px;"></span></li>
-	<li class="done">Rogers Centre, Toronto, CA</li>
+	<li class="done">Rogers Centre, Toronto, ON <span class="octicon octicon-check" style="color: green; margin-left: 5px;"></span></li>
 	<li>Wrigley Field, Chicago, IL</li>
 	<li>Progressive Field, Cleveland, OH</li>
 </ul>
 
 <br />
 
-<h2>Current MLB Ballparks <span class="count">10 of 30 Complete</span></h2>
+<h2>Current MLB Ballparks <span class="count">11 of 30 Complete</span></h2>
 <ul id="baseball">
 	<span class="division">
 		<span class="title">AL East</span>
