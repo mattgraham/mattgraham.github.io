@@ -4,7 +4,7 @@ customCSS: post-home.css
 ---
 
 <article>
-#Introducing Matt Graham
+#Hello, I am Matt Graham
 
 UX Designer and frontend developer living in Port Huron, MI. Formerly at GitHub, Orderedlist. My designs and thoughts have gone into <a href="http://atom.io">Atom.io</a>, <a href="http://speakerdeck.com" target="_blank">Speaker Deck</a>, <a href="https://play.google.com/store/apps/details?id=com.github.mobile&hl=en" target="_blank">GitHub for Android</a>, <a href="http://gaug.es" target="_blank">Gaug.es</a>, <a href="https://github.com/play/play/" target="_blank">Play</a> among others. Connect via twitter <a href="http://twitter.com/michigangraham" target="_blank">@michigangraham</a>
 
