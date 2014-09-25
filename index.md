@@ -2,21 +2,30 @@
 layout: home
 customCSS: post-home.css
 ---
+<div class="welcome">
+  <div class="content">
+    <h1>Matt<span>Graham</span></h1>
+    <h3>UX and Frontend Developement</h3>
+    <ul>
+      <li class="twitter">twitter</li>
+      <li class="github">github</li>
+      <li class="codepen">codepen</li>
+      <li class="dribbble">dribbble</li>
+    </ul>
+  </div>
+</div>
+<!-- end welcome -->
 
-<article>
-#Hello, I am Matt Graham
+<div class="about">
+  <div class="content">
+  <h3>A creative at heart, delivering apps that cause change.</h3>
+  <p>Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id tempor ipsum. Fusce at massa ac nunc porta fringilla sed eget neque. Quisque quis pretium nulla. Fusce eget bibendum neque, vel volutpat augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+  </div>
+</div>
 
-UX Designer and frontend developer living in Port Huron, MI. Formerly at GitHub, Orderedlist. My designs and thoughts have gone into <a href="http://atom.io">Atom.io</a>, <a href="http://speakerdeck.com" target="_blank">Speaker Deck</a>, <a href="https://play.google.com/store/apps/details?id=com.github.mobile&hl=en" target="_blank">GitHub for Android</a>, <a href="http://gaug.es" target="_blank">Gaug.es</a>, <a href="https://github.com/play/play/" target="_blank">Play</a> among others. Connect via twitter <a href="http://twitter.com/michigangraham" target="_blank">@michigangraham</a>
-
-<ul class="postings">
-  {% for post in site.posts %}
-      <li class="{% cycle 'even', 'odd' %}">
-        <a href="{{ post.url }}">
-          <span class="article-title">{{ post.title }}</span>
-          <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
-        </a>
-      </li>
-  {% endfor %}
-</ul>
-
-</article>
+<div class="skills">
+  <div class="content">
+  <h3>A creative at heart, delivering apps that cause change.</h3>
+  <p>Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id tempor ipsum. Fusce at massa ac nunc porta fringilla sed eget neque. Quisque quis pretium nulla. Fusce eget bibendum neque, vel volutpat augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+  </div>
+</div>

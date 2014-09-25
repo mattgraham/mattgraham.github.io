@@ -1,0 +1,61 @@
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+@mixin font-size($multiplier: 1) {
+  font-size: $font-size*$multiplier;
+}
+
+@mixin line-height($multiplier: 1) {
+  line-height: $line-height*$multiplier;
+}
+
+@mixin scrollbar($size, $primary, $secondary: lighten($primary, 25%)) {
+    ::-webkit-scrollbar {
+        width:  $size;
+        height: $size;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: $primary;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: $secondary;
+    }
+
+  // For Internet Explorer
+  body {
+    scrollbar-face-color: $primary;
+    scrollbar-track-color: $secondary;
+  }
+}
+
+@mixin full-size {
+  width: 100%;
+  height: 100%;
+}
+
+@mixin show-size {
+  width: 100%;
+  height: 80%;
+}
+
+@mixin half-size {
+  width: 100%;
+  height: 50%;
+}
+
+@mixin third-size {
+  width: 100%;
+  height: 33%;
+}
+
+@mixin quarter-size {
+  width: 100%;
+  height: 25%;
+}

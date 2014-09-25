@@ -1,6 +1,7 @@
 @import "settings";
 @import "compass/css3";
 @import "settings";
+@import "mixins";
 
 $primary: #99ccff;
 
@@ -15,62 +16,87 @@ a {
 }
 
 body {
-	background: url(http://c.gr4m.com/image/1b1y3q1f0F42/image) no-repeat fixed center #0f020b;
-	background-size: cover;
-	color: #fff;
-	margin-top: 120px;
 }
 
-h1 {
-	line-height: 1.3em;
-	font-size: 2.6em;
-	letter-spacing: 0em;
-}
-
-p {
-	font-size: 1.2em;
-	line-height: 1.57em;
-	color: rgba(#fff, .8);
-	max-width: 600px;
-}
-
-img {
-	float: right;
-	margin-top: -50px;
-}
-
-.article-header {
-	display: inline-block;
-	height: 0;
-	min-height: 380px;
-	max-height: 800px;
+.content {
+	padding: 20px;
 	width: 100%;
-	margin-bottom:55px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.welcome {
+	background: url(http://c.gr4m.com/image/1b1y3q1f0F42/image) no-repeat right center #0f020b;
+	background-size: cover;
+	overflow: hidden;
+	@include show-size;
 	text-align: center;
-	background: none;
+	color: #fff;
 
-	.asset p {
-		position: relative;
-		display: inline-block;
-		width: 100%;
-		max-width: 800px;
-		text-align: left;
-		font-size: 20px;
-		line-height: 1.4em;
-		padding: 30px;
+	h1 {
+		@include font-size(4.6);
+		@include line-height(5.4);
+		margin: 0;
 
-		.logo {
-			position: relative;
-		  bottom: -240px;
-		  float: left;
+		span {
+			margin-left: 5px;
 		}
+	}
 
-		.art {
-		  bottom: -40px;
-		  float: right;
+	h3 {
+		margin: 0;
+		margin-bottom: 40px;
+	}
+
+	.content {
+		@include vertical-align;
+
+		ul {
+			margin: 0;
+			padding: 0;
+
+			li {
+				margin: 0;
+				padding: 0;
+				display: inline-block;
+				background: red;
+			}
 		}
 	}
 }
+
+.about {
+	overflow: hidden;
+	background: #F3F5F8;
+	text-align: center;
+	@include third-size;
+
+	.content {
+		@include vertical-align;
+
+		p {
+			color: #8C9398;
+			text-align: left;
+		}
+	}
+}
+
+.skills {
+	overflow: hidden;
+	text-align: center;
+	@include half-size;
+
+	.content {
+		@include vertical-align;
+
+		p {
+			color: #8C9398;
+			text-align: left;
+		}
+	}
+}
+
+
 
 .postings {
 	list-style-type: none;
@@ -110,38 +136,6 @@ img {
 }
 
 @media screen and (max-width: 420px) {
-
-body {
-}
-
-.postings {
-	max-width: none;
-	width: 100%;
-
-	li {
-		display: inline-block;
-		width: 100%;
-		padding: 10px 0;
-
-		.article-title {
-			display: block;
-			width: 100%;
-			font-size: 1em;
-			padding-left: 0;
-			padding-left: none;
-			text-align: left;
-			float: left;
-			line-height: auto;
-			line-height: 1.8em;
-		}
-
-		.article-date {
-			text-align: left;
-			float: left;
-			padding: 0;
-			line-height: 14px;
-		}
+	body {
 	}
-}
-
 }
