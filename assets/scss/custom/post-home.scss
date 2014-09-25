@@ -21,7 +21,7 @@ body {
 .content {
 	padding: 20px;
 	width: 100%;
-	max-width: 900px;
+	max-width: 1024px;
 	margin: 0 auto;
 }
 
@@ -44,6 +44,7 @@ body {
 	}
 
 	h3 {
+		@include font-size(1.8);
 		margin: 0;
 		margin-bottom: 40px;
 	}
@@ -81,10 +82,44 @@ body {
 	}
 }
 
-.skills {
+#skills {
 	overflow: hidden;
 	text-align: center;
-	@include half-size;
+	padding: 60px 0;
+	font-size: 0;
+
+	article {
+		height: auto;
+		width: 100%;
+		max-width: 33.333333333%;
+		display: inline-block;
+		vertical-align: top;
+
+		.icon {
+			display: inline-block;
+			height: 164px;
+			width: 164px;
+			border-radius: 50%;
+			background: #F3F5F8;
+		}
+
+		h3 {
+			@include font-size(1.8);
+			display: block;
+		}
+	}
+
+	p {
+		color: #8C9398;
+		text-align: left;
+	}
+}
+
+.product {
+	overflow: hidden;
+	background: #424242;
+	text-align: center;
+	@include third-size;
 
 	.content {
 		@include vertical-align;
@@ -95,7 +130,6 @@ body {
 		}
 	}
 }
-
 
 
 .postings {
