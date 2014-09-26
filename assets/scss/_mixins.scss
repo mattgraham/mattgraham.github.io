@@ -4,6 +4,7 @@
   	-webkit-transform: translateY(-50%);
   	-ms-transform: translateY(-50%);
   	transform: translateY(-50%);
+    overflow: hidden;
 }
 
 @mixin font-size($multiplier: 1) {

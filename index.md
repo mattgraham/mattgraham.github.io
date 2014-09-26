@@ -7,10 +7,9 @@ customCSS: post-home.css
     <h1>Matt<span>Graham</span></h1>
     <h3>UX and Frontend Developement</h3>
     <ul>
-      <li class="twitter">twitter</li>
-      <li class="github">github</li>
-      <li class="codepen">codepen</li>
-      <li class="dribbble">dribbble</li>
+      <li class="twitter"><a href="http://twitter.com/michigangraham"><span class="icon-twitter"></span></a></li>
+      <li class="github"><a href="http://github.com/mattgraham"><span class="icon-github"></span></a></li>
+      <li class="dribbble"><a href="http://dribbble.com/mattgraham"><span class="icon-dribbble"></span></a></li>
     </ul>
   </div>
 </div>
@@ -73,6 +72,7 @@ customCSS: post-home.css
         <li>Show Me Your Glory</li>
       </ol>
     </div>
+
     <div class="now-playing">
       <span href="#" class="album-art">
         <img src="http://jc-albums.s3.amazonaws.com/uploads/artwork/image/23/reconstructed-web.jpg" />
