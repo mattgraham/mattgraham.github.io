@@ -44,10 +44,10 @@ customCSS: post-home.css
 
 <div id="product" class="atom">
   <div class="first-half">
-    <img src="/assets/images/atom.png" alt="">
+    <img src="assets/images/atom.png" alt="">
   </div>
   <div class="second-half">
-    <img src="/assets/images/atom-logo.svg" class="logo" alt="">
+    <img src="assets/images/atom-logo.svg" class="logo" alt="">
     <p>Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id tempor ipsum. Fusce at massa ac nunc porta fringilla sed eget neque. Quisque quis pretium nulla. Fusce eget bibendum neque, vel volutpat augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
   </div>
 </div>
@@ -82,7 +82,7 @@ customCSS: post-home.css
     <div class="clear"></div>
   </div>
   <div class="second-half">
-    <img src="/assets/images/play-logo.png" class="logo" alt="">
+    <img src="assets/images/play-logo.png" class="logo" alt="">
     <p>Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id tempor ipsum. Fusce at massa ac nunc porta fringilla sed eget neque. Quisque quis pretium nulla. Fusce eget bibendum neque, vel volutpat augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
   </div>
 </div>
