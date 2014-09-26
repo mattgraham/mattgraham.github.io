@@ -76,6 +76,8 @@ body {
 		@include vertical-align;
 
 		p {
+			max-width: 700px;
+			margin: 0 auto;
 			color: #8C9398;
 			text-align: left;
 		}
@@ -115,22 +117,136 @@ body {
 	}
 }
 
-.product {
+#product {
 	overflow: hidden;
-	background: #424242;
+	background: #EFEAE1;
 	text-align: center;
-	@include third-size;
+	height: 0;
+	min-height: 300px;
+	padding-bottom: 33%;
 
-	.content {
+	.second-half {
+		position: absolute;
+		top: 10%;
+		bottom: 0;
+		left: 50%;
+		margin-left: 60px;
+		width: calc(50% - 120px);
+		max-width: 600px;
+		color: #fff;
 		@include vertical-align;
 
+		.logo {
+			margin: 10px 0 20px;
+			max-width: 300px;
+		}
+
+		h2 {
+			@include font-size(6.8);
+			margin: 10px 0;
+			font-weight: 100;
+			text-align: center;
+		}
+
 		p {
+			@include font-size(1.7);
+			margin: 0 auto;
 			color: #8C9398;
 			text-align: left;
+			margin-left: 0;
+		}
+	}
+
+	&.atom {
+		.first-half {
+			position: absolute;
+			top: 10%;
+			bottom: 0;
+			left: 0;
+			width: 50%;
+			opacity: .9;
+			transition: opacity .1s ease-in;
+
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+
+	&.play {
+		background-image: linear-gradient(-133deg, #531E3A 0%, #33284D 100%);
+
+		.first-half {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			width: 50%;
+			opacity: .9;
+			transition: opacity .1s ease-in;
+			color: #fff;
+
+			.now-playing {
+				display: inline-block;
+		    text-shadow: 0 1px 1px rgba(#000, .8);
+				font-size: 0;
+				box-sizing: border-box;
+
+		    .album-art {
+		      max-width: 400px;
+		      display: block;
+		      position: relative;
+		      @include box-shadow(0 1px 3px rgba(#000, .4));
+					border-radius: 2px;
+
+					&:before {
+						z-index: 999;
+						display: block;
+						content: '';
+						position: absolute;
+						width: 100%;
+						height: 100%;
+						@include box-shadow(inset 0px 0px 0px 2px rgba(#fff,.15),inset 0px 0px 0px 1px #000);
+						border-radius: 2px;
+					}
+
+		      img {
+						border-radius: 2px;
+		        max-width: 400px;
+		        max-height: 400px;
+		        display: block;
+		      }
+		    }
+			}
+		}
+
+		.album {
+			text-align: left;
+			width: 30%;
+			margin-right: 10%;
+			float: right;
+			ul {margin: 0; padding:0;}
+
+			li {
+				@include line-height(2.4);
+				list-type: ordered;
+				color: #fff;
+			}
+		}
+		.second-half {
+		}
+	}
+
+	&.github-android {
+		background: #006444;
+
+		.first-half {
+			background: url("http://madebygraham.com/assets/images/droidtocat.png")  no-repeat center bottom;
+			background-size: auto 100%;
+
 		}
 	}
 }
-
 
 .postings {
 	list-style-type: none;
