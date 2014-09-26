@@ -54,13 +54,8 @@ customCSS: post-home.css
 </div>
 
 <div id="product" class="play">
+  <div class="background"></div>
   <div class="first-half">
-
-    <div class="now-playing">
-      <span href="#" class="album-art">
-        <img src="http://jc-albums.s3.amazonaws.com/uploads/artwork/image/23/reconstructed-web.jpg" />
-      </span>
-    </div>
     <div class="album">
       <h3>Jesus Culture Reconstructed</h3>
       <h4>Jesus Culture</h4>
@@ -78,6 +73,13 @@ customCSS: post-home.css
         <li>Show Me Your Glory</li>
       </ol>
     </div>
+    <div class="now-playing">
+      <span href="#" class="album-art">
+        <img src="http://jc-albums.s3.amazonaws.com/uploads/artwork/image/23/reconstructed-web.jpg" />
+      </span>
+    </div>
+
+    <div class="clear"></div>
   </div>
   <div class="second-half">
     <img src="/assets/images/play-logo.png" class="logo" alt="">

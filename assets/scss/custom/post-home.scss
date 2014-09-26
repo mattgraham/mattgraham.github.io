@@ -18,6 +18,10 @@ a {
 body {
 }
 
+.clear {
+	clear: both;
+}
+
 .content {
 	padding: 20px;
 	width: 100%;
@@ -149,9 +153,9 @@ body {
 		}
 
 		p {
-			@include font-size(1.7);
+			@include font-size(1.6);
 			margin: 0 auto;
-			color: #8C9398;
+			color: rgba(#fff, .6);
 			text-align: left;
 			margin-left: 0;
 		}
@@ -171,10 +175,27 @@ body {
 				opacity: 1;
 			}
 		}
+
+		.second-half p {
+			color: rgba(#000, .6);
+		}
 	}
 
 	&.play {
 		background-image: linear-gradient(-133deg, #531E3A 0%, #33284D 100%);
+
+		.background {
+			position: absolute;
+			z-index: 0;
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			background: url("http://jc-albums.s3.amazonaws.com/uploads/artwork/image/23/reconstructed-web.jpg" ) no-repeat center center;
+			background-size: cover;
+			opacity: .2;
+		  -webkit-filter: blur(30px);
+		}
 
 		.first-half {
 			position: absolute;
@@ -185,12 +206,15 @@ body {
 			opacity: .9;
 			transition: opacity .1s ease-in;
 			color: #fff;
+			@include vertical-align;
 
 			.now-playing {
 				display: inline-block;
 		    text-shadow: 0 1px 1px rgba(#000, .8);
 				font-size: 0;
 				box-sizing: border-box;
+				float: right;
+				margin-right: 40px;
 
 		    .album-art {
 		      max-width: 400px;
@@ -222,18 +246,38 @@ body {
 
 		.album {
 			text-align: left;
-			width: 30%;
 			margin-right: 10%;
 			float: right;
-			ul {margin: 0; padding:0;}
+			@include font-size(1.5);
+
+			h3 {
+				margin: 0;
+				margin-top: 20px;
+			}
+
+			h4 {
+				margin: 0;
+				font-weight: normal;
+			}
+
+			ol {
+				list-style-position: inside;
+				padding: 0 5px;
+			}
 
 			li {
-				@include line-height(2.4);
-				list-type: ordered;
+				@include line-height(2.6);
 				color: #fff;
+				transition: color .1s ease-in;
+				cursor: pointer;
+				&:hover {
+					color: #cc33cc;
+				}
 			}
 		}
+
 		.second-half {
+			position: absolute;
 		}
 	}
 
