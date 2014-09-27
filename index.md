@@ -42,56 +42,73 @@ customCSS: post-home.css
   </div>
 </div>
 
-<div id="product" class="atom">
-  <div class="first-half">
+<div class="portfolio-item" id="atom">
+  <div class="portfolio-item-inner">
+  <div class="portfolio-item-demo">
     <img src="assets/images/atom.png" alt="">
   </div>
-  <div class="second-half">
+  <div class="portfolio-item-content">
     <img src="assets/images/atom-logo.svg" class="logo" alt="">
     <p>Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id tempor ipsum. Fusce at massa ac nunc porta fringilla sed eget neque. Quisque quis pretium nulla. Fusce eget bibendum neque, vel volutpat augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
   </div>
+  </div>
 </div>
 
-<div id="product" class="play">
-  <div class="background"></div>
-  <div class="first-half">
-    <div class="album">
-      <h3>Jesus Culture Reconstructed</h3>
-      <h4>Jesus Culture</h4>
-      <ol>
-        <li>Forevermore</li>
-        <li>Alive</li>
-        <li>He Is the Light</li>
-        <li>I Belong to You</li>
-        <li>Awaken Me</li>
-        <li>Rooftops</li>
-        <li>Alleluia</li>
-        <li>Pursuit</li>
-        <li>King of All the Earth</li>
-        <li>Your Love Never Fails</li>
-        <li>Show Me Your Glory</li>
-      </ol>
-    </div>
+<div class="portfolio-item" id="play">
+  <div class="portfolio-item-inner">
+  <div class="portfolio-item-demo">
 
-    <div class="now-playing">
-      <span href="#" class="album-art">
-        <img src="http://jc-albums.s3.amazonaws.com/uploads/artwork/image/23/reconstructed-web.jpg" />
-      </span>
-    </div>
+      <img src="http://ecx.images-amazon.com/images/I/510Smm7LcEL._SS500_.jpg" class="album-art" />
 
-    <div class="clear"></div>
+      <div class="album-tracks">
+        <h3>Onething 09 Live</h3>
+        <h4>Forerunner Music <span>(2010)</span></h4>
+        <ol>
+          <li>Lowest Place</li>
+          <li>You Made a Way</li>
+          <li>I Put On Christ</li>
+          <li>Psalm of Abraham</li>
+          <li>Where I Belong</li>
+          <li>My Beloved</li>
+          <li>People Get Ready</li>
+          <li>Forevermore</li>
+          <li>Real Love</li>
+          <li>Grace to Love You</li>
+          <li>Reason to Dance</li>
+          <li>Whom the Son Sets Free</li>
+          <li>No One Else</li>
+        </ol>
+      </div>
+
   </div>
-  <div class="second-half">
+  <div class="portfolio-item-content">
     <img src="assets/images/play-logo.png" class="logo" alt="">
     <p>Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id tempor ipsum. Fusce at massa ac nunc porta fringilla sed eget neque. Quisque quis pretium nulla. Fusce eget bibendum neque, vel volutpat augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
   </div>
+  </div>
 </div>
 
-<div id="product" class="github-android">
-  <div class="first-half">
+<div class="portfolio-item" id="android">
+  <div class="portfolio-item-inner">
+  <div class="portfolio-item-demo">
+    <img src="assets/images/atom.png" alt="">
   </div>
-  <div class="second-half">
-    <h2>GitHub for Android</h2>
+  <div class="portfolio-item-content">
+    <img src="assets/images/githubandroid-logo.svg" class="logo" alt="">
     <p>Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id tempor ipsum. Fusce at massa ac nunc porta fringilla sed eget neque. Quisque quis pretium nulla. Fusce eget bibendum neque, vel volutpat augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+  </div>
+  </div>
+</div>
+
+<div id="articles">
+  <div class="content">
+  {% for post in site.posts limit:3 %}
+      <li class="{% cycle 'even', 'odd' %}">
+        <a href="{{ post.url }}">
+          <span class="article-title">{{ post.title }}</span>
+          <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
+        </a>
+      </li>
+  {% endfor %}
   </div>
 </div>
