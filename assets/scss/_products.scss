@@ -29,7 +29,7 @@
     text-align: left;
     @include font-size(1.7);
     @include line-height(2.8);
-    color: rgba(#fff, .6);
+    color: rgba(#fff, 1);
   }
 
   @media #{$mobile} {
@@ -74,6 +74,16 @@
     .logo {
       width: auto;
       max-height: 90px;
+    }
+
+    a {
+      color: $play-pink;
+      opacity: 1;
+      transition: opacity .1s ease-in;
+
+      &:hover {
+        opacity: .7;
+      }
     }
 
     &:before {
@@ -152,6 +162,10 @@
         }
       }
 
+      .portfolio-item-content p {
+        color: rgba(#fff, .8);
+      }
+
       @media #{$mobile} {
         margin-bottom: 0;
         margin-left: 0;
@@ -168,10 +182,6 @@
           width: 100%;
         }
       }
-    }
-
-    .portfolio-item-content p {
-      color: rgba(#fff, .6);
     }
   }
 
@@ -199,6 +209,16 @@
   &#android {
     background: url('/assets/images/cover-gauges.jpg') no-repeat right center #006444;
     background-size: cover;
+
+    a {
+      color: #2ecc71;
+      opacity: 1;
+      transition: opacity .1s ease-in;
+
+      &:hover {
+        opacity: .7;
+      }
+    }
 
     .portfolio-item-demo {
       margin: 60px auto;

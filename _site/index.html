@@ -10,13 +10,20 @@
   
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <script type="text/javascript" src="//use.typekit.net/wpw2zdl.js"></script>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="/assets/js/fittext.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
 
 	<div class="welcome">
   <div class="content">
-    <h1>Matt<span>Graham</span></h1>
+      <h1 id="fittext1">Matt Graham</h1>
+
+      <script type="text/javascript">
+        $("#fittext1").fitText(1.1, { minFontSize: '36px', maxFontSize: '125px' });
+      </script>
+
     <h3>UX and Frontend Developement</h3>
     <ul>
       <li class="twitter"><a href="http://twitter.com/michigangraham"><span class="icon-twitter"></span></a></li>
@@ -30,28 +37,10 @@
 
 <div class="about">
   <div class="content">
-  <h3>A creative at heart, delivering apps that cause change.</h3>
-  <p>Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id tempor ipsum. Fusce at massa ac nunc porta fringilla sed eget neque. Quisque quis pretium nulla. Fusce eget bibendum neque, vel volutpat augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-  </div>
-</div>
-
-<div id="skills">
-  <div class="content">
-    <article>
-      <span class="icon design"></span>
-      <h3>UX Design and Development</h3>
-      <p>For years I have designed and redesigned apps all over the web. My goal is simple, sexy web applcations that make the experience memorable.</p>
-    </article>
-    <article>
-      <span class="icon direction"></span>
-      <h3>Creative Direction</h3>
-      <p>I build for the web; HTML(5), SCSS, Compass, JS and more. I automate deployments with the assistance of my buddy Hubot, and make development fun. </p>
-    </article>
-    <article>
-      <span class="icon curious"></span>
-      <h3>Creatively Curious</h3>
-      <p>I have an issue; I cannot stop learning. From deploying via currently diving further into Rails, JS, MongoDB and more.</p>
-    </article>
+  <h2>A creative at heart, delivering apps that cause change.</h2>
+  <p>Hello, I am Matt Graham. A web experience designer and frontend web developer living just outside of Detroit, MI. Hello, One who loves and understands the development. I often write my own HTML, SCSS, Jekyll, PHP, implement JS, all while setting up the development environment and deploying to production. I focus on what it takes to make simple web applications, successful experiences. I automate all that I can, deploy to Heroku with my friend Hubot and utitlize the power of GitHub in almost everything I do.</p>
+  <p>I've worked at <a href="http://github.com" target="_blank">GitHub</a>, <a href="https://github.com/blog/993-ordered-list-is-a-githubber" target="_blank">Ordered List</a>, DC+Design and other small design and development firms. I am passionate about designing simple, beautitul apps that change the way we live. I am currently working on contract projects with the right teams and projects. Please don't hesitate to reach out say hello <a href="http://twitter.com/michigangraham" target="_blank">@michigangraham</a>.
+  </p>
   </div>
 </div>
 
@@ -62,7 +51,8 @@
   </div>
   <div class="portfolio-item-content">
     <img src="assets/images/atom-logo.svg" class="logo" alt="">
-    <p>Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id tempor ipsum. Fusce at massa ac nunc porta fringilla sed eget neque. Quisque quis pretium nulla. Fusce eget bibendum neque, vel volutpat augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+      <p>Atom is an open source text editor built as a desktop application based on web technologies. It has all your native menus and dialogs, and full access to the file system. What makes it different than say Sublime then? The power of the opensource community.</p>
+      <p>At GitHub I was part of the team who took Atom from a neat idea to a completely open source application that the market is now running with. I helped design and develop base UI and syntax themes, UX experience, marketing materials, umoung other elements. <a href="http://atom.io" target="_blank">Get started at Atom.io</a></p>
   </div>
   </div>
 </div>
@@ -96,7 +86,8 @@
   </div>
   <div class="portfolio-item-content">
     <img src="assets/images/play-logo.png" class="logo" alt="">
-    <p>Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id tempor ipsum. Fusce at massa ac nunc porta fringilla sed eget neque. Quisque quis pretium nulla. Fusce eget bibendum neque, vel volutpat augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+    <p>Play was how we did music at GitHub. As taken from the readme, "Play is an employee-powered iTunes-based client-driven distributed music server for your office. Also it can prepare your taxes." I never got it to do my taxes, however being able to queue up music accross the world and stream along side your remote co-workers; that was done well. Play was a Rails app originally built off iTunes DJ and later moved to MPD</p>
+    <p>I worked on designing iOS and Android apps, web interface, wrote markup and styles for the web app and even did a <a href="https://speakerdeck.com/mattgraham/github-play" target="_blank">little speaking</a> on Play. Additional design elements can be found on <a href="https://dribbble.com/mattgraham/projects/212617-Play" target="_blank">dribbble</a>.</p>
   </div>
   </div>
 </div>
@@ -108,7 +99,9 @@
   </div>
   <div class="portfolio-item-content">
     <img src="assets/images/githubandroid-logo.svg" class="logo" alt="">
-    <p>Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent id tempor ipsum. Fusce at massa ac nunc porta fringilla sed eget neque. Quisque quis pretium nulla. Fusce eget bibendum neque, vel volutpat augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+    <p>Create, manage, and discuss issues and stay up to date with an integrated news feed for all your organizations, friends, and repositories. View your issues dashboard to stay connected with all the issues you've reported, been assigned, or participating in the discussion on. You can also view and filter a repository's issue list and bookmark it for quick access.</p>
+    <p>GitHub for android still to this day holds a 4.4/5 Star rating and over 450,000 downloads in the <a href="https://play.google.com/store/apps/details?id=com.github.mobile&hl=en" target="_blank">Google Play store</a>. I was the lone designer that worked alongside two developers to build and then opensource GitHub for Android.</p>
+    <p></p>
   </div>
   </div>
 </div>
