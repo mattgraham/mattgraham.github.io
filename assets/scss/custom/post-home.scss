@@ -216,10 +216,10 @@ a {
 
 			img {
 				width: 100%;
-				max-width: 400px;
 				margin: 0 auto;
 				border-radius: 2px;
 				margin-bottom: 0px;
+				display: block;
 			}
 
 			&:last-child {
@@ -229,7 +229,6 @@ a {
 	}
 
 	.view-all {
-		margin-top: 30px;
 		@include font-size(1.6);
 		display: inline-block;
 		width: 100%;
