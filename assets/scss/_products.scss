@@ -71,6 +71,11 @@
     background-image: linear-gradient(-133deg, #33284D 0%, #531E3A 100%);
     text-align: right;
 
+    .logo {
+      width: auto;
+      max-height: 90px;
+    }
+
     &:before {
       content: '';
       position: absolute;
@@ -151,6 +156,17 @@
         margin-bottom: 0;
         margin-left: 0;
         max-width: 100%;
+      }
+
+      @media #{$mobile-small} {
+        .album-art {
+          width: 90%;
+        }
+
+        .album-tracks {
+          display: inline-block;
+          width: 100%;
+        }
       }
     }
 

@@ -5,16 +5,6 @@
 
 $primary: #99ccff;
 
-a {
-	color: $primary;
-	text-decoration:none;
-	transition: color .2s ease-in;
-
-	&:hover {
-		color: lighten($primary, 15%);
-	}
-}
-
 body {
 }
 
@@ -36,6 +26,16 @@ body {
 	@include show-size;
 	text-align: center;
 	color: #fff;
+
+	a {
+		color: $primary;
+		text-decoration:none;
+		transition: color .2s ease-in;
+
+		&:hover {
+			color: lighten($primary, 15%);
+		}
+	}
 
 	h1 {
 		@include font-size(5.2);
@@ -110,6 +110,10 @@ body {
 	padding: 60px 0;
 	font-size: 0;
 
+	.content {
+		max-width: 1440px;
+	}
+
 	article {
 		height: auto;
 		width: 100%;
@@ -159,6 +163,7 @@ body {
 		width: 100%;
 		max-width: 1440px;
 		font-size: 0;
+		text-align: center;
 
 		li {
 			vertical-align: top;
@@ -167,18 +172,21 @@ body {
 			@include font-size (1.4);
 			text-align: center;
 			margin-right: 1%;
+			margin-bottom: 20px;
 
 			a {
 				@include line-height(4.0);
 			}
 
 			&:before {
-				display: inline-block;
+				display: block;
 				content: '';
 				width: 100%;
+				max-width: 400px;
 				height: 300px;
 				background: blue;
-				margin-bottom: 30px;
+				margin: 0 auto;
+				border-radius: 2px;
 			}
 
 			&:last-child {
@@ -199,11 +207,22 @@ body {
 	}
 
 	@media #{$mobile} {
-		max-width: 100%;
-
 		.content li {
-			margin-right: 0;
 			width: 100%;
+			margin-right: 0;
+
+			&:last-child {
+				margin-right: auto;
+			}
 		}
 	}
+
+/* 	@media #{\$mobile-small} {
+	max-width: 100%;
+
+	.content li {
+		margin-right: 0;
+		width: 100%;
+	}
 }
+ */}
