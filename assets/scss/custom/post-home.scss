@@ -98,6 +98,7 @@ a {
 
 	.content {
 		@include vertical-align;
+		padding: 20px 40px;
 
 		p {
 			max-width: 700px;
