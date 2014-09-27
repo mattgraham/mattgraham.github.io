@@ -25,17 +25,17 @@ customCSS: post-home.css
 <div id="skills">
   <div class="content">
     <article>
-      <span class="icon"></span>
+      <span class="icon design"></span>
       <h3>UX Design and Development</h3>
       <p>For years I have designed and redesigned apps all over the web. My goal is simple, sexy web applcations that make the experience memorable.</p>
     </article>
     <article>
-      <span class="icon"></span>
+      <span class="icon direction"></span>
       <h3>Creative Direction</h3>
       <p>I build for the web; HTML(5), SCSS, Compass, JS and more. I automate deployments with the assistance of my buddy Hubot, and make development fun. </p>
     </article>
     <article>
-      <span class="icon"></span>
+      <span class="icon curious"></span>
       <h3>Creatively Curious</h3>
       <p>I have an issue; I cannot stop learning. From deploying via currently diving further into Rails, JS, MongoDB and more.</p>
     </article>
@@ -102,11 +102,13 @@ customCSS: post-home.css
 
 <div id="articles">
   <div class="content">
+    <h1>Recent Authorings</h1>
   {% for post in site.posts limit:3 %}
       <li class="{% cycle 'even', 'odd' %}">
         <a href="{{ post.url }}">
+          <img src="{{ post.thumb }}" alt="">
           <span class="article-title">{{ post.title }}</span>
-          <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
+          <!-- <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span> -->
         </a>
       </li>
   {% endfor %}

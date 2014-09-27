@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /blog/archives/2012/06/14/octokindle/
+thumb: /assets/images/thumb-octokindle.jpg
 ---
 
 <div class="article-header">

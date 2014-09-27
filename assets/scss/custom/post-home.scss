@@ -12,6 +12,10 @@ body {
 	clear: both;
 }
 
+a {
+	text-decoration: none;
+}
+
 .content {
 	padding: 20px;
 	width: 100%;
@@ -122,11 +126,32 @@ body {
 		vertical-align: top;
 
 		.icon {
+			color: rgba(#000, .1);
 			display: inline-block;
-			height: 164px;
-			width: 164px;
 			border-radius: 50%;
 			background: #F3F5F8;
+			display: inline-block;
+			width: 140px;
+			height: 140px;
+			font-size: 70px;
+
+			&.design:before {
+				line-height: 140px;
+				content: '\e823';
+				font-family: 'fontello';
+			}
+
+			&.direction:before {
+				line-height: 140px;
+				content: '\e825';
+				font-family: 'fontello';
+			}
+
+			&.curious:before {
+				line-height: 150px;
+				content: '\e820';
+				font-family: 'fontello';
+			}
 		}
 
 		h3 {
@@ -165,6 +190,17 @@ body {
 		font-size: 0;
 		text-align: center;
 
+		a .article-title {
+			color: #333;
+			@include font-size(1.7);
+			font-weight: $weight-bold;
+			transition: color .1s ease-in;
+
+			&:hover {
+				color: rgba(#333, .6);
+			}
+		}
+
 		li {
 			vertical-align: top;
 			display: inline-block;
@@ -178,15 +214,12 @@ body {
 				@include line-height(4.0);
 			}
 
-			&:before {
-				display: block;
-				content: '';
+			img {
 				width: 100%;
 				max-width: 400px;
-				height: 300px;
-				background: blue;
 				margin: 0 auto;
 				border-radius: 2px;
+				margin-bottom: 0px;
 			}
 
 			&:last-child {
