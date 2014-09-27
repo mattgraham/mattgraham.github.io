@@ -1,7 +1,3 @@
-* {
-  position: relative;
-}
-
 .portfolio-item-inner {
   font-size: 0;
   padding: $spacing $spacing/2;
@@ -16,6 +12,10 @@
 
   @media #{$mobile} {
     width: 100%;
+
+    p {
+      margin: 0 auto;
+    }
   }
 }
 
@@ -23,7 +23,7 @@
   text-align: center;
   max-width: 700px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 30px 20px 20px;
 
   p {
     text-align: left;
@@ -81,7 +81,7 @@
       z-index: 0;
       background: url('http://ecx.images-amazon.com/images/I/510Smm7LcEL._SS500_.jpg') no-repeat center center;
       background-size: cover;
-      opacity: .15;
+      opacity: .2;
       -webkit-filter: blur(50px);
       -moz-filter: blur(50px);
       -o-filter: blur(50px);
@@ -179,20 +179,24 @@
       color: rgba(#fff, .6);
     }
   }
-  &#android {
-    background: #006444;
 
-    .portfolio-item-demo img {
-      margin-bottom: -15%;
-      margin-left: -15%;
-      max-width: 115%;
+  &#android {
+    background: url('/assets/images/cover-gauges.jpg') no-repeat right center #006444;
+    background-size: cover;
+
+    .portfolio-item-demo {
+      margin: 60px auto;
+
+      img {
+        margin-bottom: -15px;
+      }
+    }
 
       @media #{$mobile} {
         margin-bottom: 0;
         margin-left: 0;
         max-width: 100%;
       }
-    }
 
     .logo {
       max-width: 440px;

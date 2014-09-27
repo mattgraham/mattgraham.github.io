@@ -91,7 +91,7 @@ customCSS: post-home.css
 <div class="portfolio-item" id="android">
   <div class="portfolio-item-inner">
   <div class="portfolio-item-demo">
-    <img src="assets/images/atom.png" alt="">
+    <img src="assets/images/android-demo.png" alt="">
   </div>
   <div class="portfolio-item-content">
     <img src="assets/images/githubandroid-logo.svg" class="logo" alt="">
@@ -111,4 +111,6 @@ customCSS: post-home.css
       </li>
   {% endfor %}
   </div>
+  <span class="content view-all"><a href="/articles.html">view all articles</a></span>
+
 </div>

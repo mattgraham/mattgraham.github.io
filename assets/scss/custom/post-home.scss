@@ -137,6 +137,15 @@ body {
 	}
 }
 
+@media #{$mobile} {
+	#skills {
+		article {
+			width: 100%;
+			max-width: 100%;
+		}
+	}
+}
+
 @import "products";
 
 #articles {
@@ -152,11 +161,16 @@ body {
 		font-size: 0;
 
 		li {
+			vertical-align: top;
 			display: inline-block;
 			width: calc(98%/3);
-			font-size: 14px;
+			@include font-size (1.4);
 			text-align: center;
 			margin-right: 1%;
+
+			a {
+				@include line-height(4.0);
+			}
 
 			&:before {
 				display: inline-block;
@@ -170,6 +184,26 @@ body {
 			&:last-child {
 				margin-right: 0;
 			}
+		}
+	}
+
+	.view-all {
+		margin-top: 30px;
+		@include font-size(1.6);
+		display: inline-block;
+		width: 100%;
+		padding: 20px 40px;
+		border-top: 1px solid rgba(#000, .05);
+		border-bottom: 1px solid rgba(#000, .05);
+		opacity: 1;
+	}
+
+	@media #{$mobile} {
+		max-width: 100%;
+
+		.content li {
+			margin-right: 0;
+			width: 100%;
 		}
 	}
 }
