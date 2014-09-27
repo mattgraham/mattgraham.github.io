@@ -1,12 +1,19 @@
 @import "compass/css3";
 @import "normalize";
 @import "base";
+@import "mixins";
 @import "settings";
 @import "syntax";
-@import "octicons";
+@import "fontello";
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+html, body {
+  @include full-size;
 }
 
 $primary: #3369e8;
@@ -15,7 +22,8 @@ body {
   font-family: $font-sans;
   color:$text-color;
   font-size: 16px;
-  margin-top: 60px;
+  padding: 0;
+  margin: 0;
 }
 
 p {

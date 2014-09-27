@@ -2,6 +2,7 @@
 layout: post
 customCSS: post-github-android.css
 permalink: /blog/archives/2012/07/09/github-for-android/
+thumb: /assets/images/thumb-android.jpg
 ---
 
 <div class="article-header">

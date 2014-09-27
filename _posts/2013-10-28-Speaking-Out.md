@@ -1,6 +1,7 @@
 ---
 layout: post
 customCSS: post-frontend.css
+thumb: /assets/images/thumb-frontend.jpg
 ---
 
 <div class="article-header">
