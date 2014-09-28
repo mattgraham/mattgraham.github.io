@@ -10,125 +10,134 @@
   
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <script type="text/javascript" src="//use.typekit.net/wpw2zdl.js"></script>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="/assets/js/fittext.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
 
-<header>
-  <a class="title" href="/"><strong>madebygraham.com</strong></a>
-	<nav>
-  <ul>
-    <li class="github"><a href="https://github.com/mattgraham/"><span class="octicon octicon-octoface"></span>GitHub</a></li>
-    <li class="twitter"><a href="https://twitter.com/michigangraham"><span class="octicon octicon-mark-twitter"></span>Twitter</a></li>
-  </ul>
-</nav>
+	<div class="welcome">
+  <div class="content">
+      <h1 id="fittext1">Matt Graham</h1>
 
-</header>
+      <script type="text/javascript">
+        $("#fittext1").fitText(1.1, { minFontSize: '36px', maxFontSize: '125px' });
+      </script>
 
+    <h3>UX and Frontend Developement</h3>
+    <ul>
+      <li class="twitter"><a href="http://twitter.com/michigangraham"><span class="icon-twitter"></span></a></li>
+      <li class="github"><a href="http://github.com/mattgraham"><span class="icon-github"></span></a></li>
+      <li class="dribbble"><a href="http://dribbble.com/mattgraham"><span class="icon-dribbble"></span></a></li>
+    </ul>
+  </div>
+</div>
 
-	<p><article></p>
+<!-- end welcome -->
 
-<h1>Hello, I am Matt Graham</h1>
+<div class="about">
+  <div class="content">
+  <h2>A creative at heart, delivering apps that cause change.</h2>
+  <p>I'm a web experience designer and frontend web developer living just outside of Detroit, MI. A designer who loves and understands the development process. I often write my own HTML, SCSS, Jekyll, PHP, implement JS, all while setting up the development environment and deploying to production. I focus on what it takes to make simple web applications, successful experiences. I automate all that I can, deploy to Heroku with my friend Hubot and utitlize the power of GitHub in almost everything I do.</p>
+  <p>I've worked at <a href="http://github.com" target="_blank">GitHub</a>, <a href="https://github.com/blog/993-ordered-list-is-a-githubber" target="_blank">Ordered List</a>, DC+Design and other small design and development firms. I am passionate about designing simple, beautitul apps that change the way we live. I am currently working on contract projects with the right teams and projects. Please don't hesitate to reach out and say hello <a href="http://twitter.com/michigangraham" target="_blank">@michigangraham</a>.
+  </p>
+  </div>
+</div>
 
-<p>UX Designer and frontend developer living in Port Huron, MI. Formerly at GitHub, Orderedlist. My designs and thoughts have gone into <a href="http://atom.io">Atom.io</a>, <a href="http://speakerdeck.com" target="_blank">Speaker Deck</a>, <a href="https://play.google.com/store/apps/details?id=com.github.mobile&hl=en" target="_blank">GitHub for Android</a>, <a href="http://gaug.es" target="_blank">Gaug.es</a>, <a href="https://github.com/play/play/" target="_blank">Play</a> among others. Connect via twitter <a href="http://twitter.com/michigangraham" target="_blank">@michigangraham</a></p>
+<div class="portfolio-item" id="atom">
+  <div class="portfolio-item-inner">
+  <div class="portfolio-item-demo">
+    <img src="assets/images/atom.png" alt="">
+  </div>
+  <div class="portfolio-item-content">
+    <img src="assets/images/atom-logo.svg" class="logo" alt="">
+      <p>Atom is an open source text editor built as a desktop application based on web technologies. It has all your native menus and dialogs, and full access to the file system. What makes it different than say Sublime then? The power of the opensource community.</p>
+      <p>At GitHub I was part of the team who took Atom from a neat idea to a completely open source application that the market is now running with. I helped design and develop base UI and syntax themes, UX experience, marketing materials, umoung other elements. <a href="http://atom.io" target="_blank">Get started at Atom.io</a></p>
+  </div>
+  </div>
+</div>
 
-<ul class="postings">
+<div class="portfolio-item" id="play">
+  <div class="portfolio-item-inner">
+  <div class="portfolio-item-demo">
+
+      <img src="http://ecx.images-amazon.com/images/I/510Smm7LcEL._SS500_.jpg" class="album-art" />
+
+      <div class="album-tracks">
+        <h3>Onething 09 Live</h3>
+        <h4>Forerunner Music <span>(2010)</span></h4>
+        <ol>
+          <li>Lowest Place</li>
+          <li>You Made a Way</li>
+          <li>I Put On Christ</li>
+          <li>Psalm of Abraham</li>
+          <li>Where I Belong</li>
+          <li>My Beloved</li>
+          <li>People Get Ready</li>
+          <li>Forevermore</li>
+          <li>Real Love</li>
+          <li>Grace to Love You</li>
+          <li>Reason to Dance</li>
+          <li>Whom the Son Sets Free</li>
+          <li>No One Else</li>
+        </ol>
+      </div>
+
+  </div>
+  <div class="portfolio-item-content">
+    <img src="assets/images/play-logo.png" class="logo" alt="">
+    <p>Play was how we did music at GitHub. As taken from the readme, "Play is an employee-powered iTunes-based client-driven distributed music server for your office. Also it can prepare your taxes." I never got it to do my taxes, however being able to queue up music accross the world and stream along side your remote co-workers; that was done well. Play was a Rails app originally built off iTunes DJ and later moved to MPD</p>
+    <p>I worked on designing iOS and Android apps, web interface, wrote markup and styles for the web app and even did a <a href="https://speakerdeck.com/mattgraham/github-play" target="_blank">little speaking</a> on Play. Additional design elements can be found on <a href="https://dribbble.com/mattgraham/projects/212617-Play" target="_blank">dribbble</a>.</p>
+  </div>
+  </div>
+</div>
+
+<div class="portfolio-item" id="android">
+  <div class="portfolio-item-inner">
+  <div class="portfolio-item-demo">
+    <img src="assets/images/android-demo.png" alt="">
+  </div>
+  <div class="portfolio-item-content">
+    <img src="assets/images/githubandroid-logo.svg" class="logo" alt="">
+    <p>Create, manage, and discuss issues and stay up to date with an integrated news feed for all your organizations, friends, and repositories. View your issues dashboard to stay connected with all the issues you've reported, been assigned, or participating in the discussion on. You can also view and filter a repository's issue list and bookmark it for quick access.</p>
+    <p>GitHub for android still to this day holds a 4.4/5 Star rating and over 450,000 downloads in the <a href="https://play.google.com/store/apps/details?id=com.github.mobile&hl=en" target="_blank">Google Play store</a>. I was the lone designer that worked alongside two developers to build and then opensource GitHub for Android.</p>
+    <p></p>
+  </div>
+  </div>
+</div>
+
+<div id="articles">
+  <div class="content">
+    <h1>Recent Authorings</h1>
   
       <li class="even">
-        <a href="/2014/Why-you-should-start-using-Atom-now">
-          <span class="article-title">Why You Should Start Using Atom Now</span>
-          <span class="article-date">9/27/2014</span>
-        </a>
-      </li>
-  
-      <li class="odd">
         <a href="/2013/Speaking-Out">
+          <img src="/assets/images/thumb-frontend.jpg" alt="">
           <span class="article-title">Speaking Out</span>
-          <span class="article-date">10/28/2013</span>
+          <!-- <span class="article-date">10/28/2013</span> -->
         </a>
       </li>
   
-      <li class="even">
+      <li class="odd">
         <a href="/blog/archives/2012/07/09/github-for-android/">
+          <img src="/assets/images/thumb-android.jpg" alt="">
           <span class="article-title">Shipping Github For Android</span>
-          <span class="article-date">7/18/2012</span>
+          <!-- <span class="article-date">7/18/2012</span> -->
         </a>
       </li>
   
-      <li class="odd">
+      <li class="even">
         <a href="/blog/archives/2012/06/14/octokindle/">
+          <img src="/assets/images/thumb-octokindle.jpg" alt="">
           <span class="article-title">Octokindle</span>
-          <span class="article-date">6/14/2012</span>
+          <!-- <span class="article-date">6/14/2012</span> -->
         </a>
       </li>
   
-      <li class="even">
-        <a href="/mlb">
-          <span class="article-title">Major Leauge Baseball</span>
-          <span class="article-date">5/8/2012</span>
-        </a>
-      </li>
-  
-      <li class="odd">
-        <a href="/blog/archives/2012/04/05/creating-github-pages/">
-          <span class="article-title">Creating Github Pages</span>
-          <span class="article-date">4/5/2012</span>
-        </a>
-      </li>
-  
-      <li class="even">
-        <a href="/blog/archives/2012/03/09/harmonious/">
-          <span class="article-title">Harmonious</span>
-          <span class="article-date">3/9/2012</span>
-        </a>
-      </li>
-  
-      <li class="odd">
-        <a href="/blog/archives/2012/02/22/gauges-shipping-days/">
-          <span class="article-title">Gauges Shipping Days</span>
-          <span class="article-date">2/22/2012</span>
-        </a>
-      </li>
-  
-      <li class="even">
-        <a href="/blog/archives/2012/01/09/gauges-is-growing/">
-          <span class="article-title">Gauges Is Growing</span>
-          <span class="article-date">1/19/2012</span>
-        </a>
-      </li>
-  
-      <li class="odd">
-        <a href="/blog/archives/2011/12/19/gauges-iphone-app-v10/">
-          <span class="article-title">Gauges For Iphone</span>
-          <span class="article-date">12/19/2011</span>
-        </a>
-      </li>
-  
-      <li class="even">
-        <a href="/blog/archives/2011/12/05/git-remote-rename-orderedlist-github/">
-          <span class="article-title">Git Remote Rename Orderedlist Github</span>
-          <span class="article-date">12/5/2011</span>
-        </a>
-      </li>
-  
-      <li class="odd">
-        <a href="/blog/archives/2011/12/03/creating-company-culture/">
-          <span class="article-title">Creating Company Culture</span>
-          <span class="article-date">12/3/2011</span>
-        </a>
-      </li>
-  
-      <li class="even">
-        <a href="/blog/archives/2011/11/02/clean-sexy-css/">
-          <span class="article-title">Clean Sexy Css</span>
-          <span class="article-date">11/2/2011</span>
-        </a>
-      </li>
-  
-</ul>
+  </div>
+  <span class="content view-all"><a href="/articles.html">view all articles</a></span>
 
-<p></article></p>
-
+</div>
 
 <script type="text/javascript">
   var _gauges = _gauges || [];

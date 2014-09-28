@@ -1,2 +1,22 @@
-$font-sans: "Helvetica Neue", Helvetica, Arial, Sans;
+@import url(http://fonts.googleapis.com/css?family=Exo+2:200,700,600,400,300);
+
+$font-sans: "Exo 2","Helvetica Neue", Helvetica, Arial, Sans;
 $text-color:#353535;
+$font-size: 10px;
+$line-height: 10px;
+
+$text-body: 1.6;
+
+$weight-xlight: 200;
+$weight-light: 300;
+$weight-normal: 400;
+$weight-sbold: 600;
+$weight-bold: 700;
+
+$page-width: 980px;
+$spacing: 20px;
+
+$mobile: "only screen and (max-width : 1023px)";
+$mobile-small: "only screen and (max-width : 640px)";
+
+$play-pink: #D997F4;
