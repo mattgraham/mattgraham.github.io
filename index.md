@@ -38,7 +38,7 @@ customCSS: post-home.css
   <div class="portfolio-item-content">
     <img src="assets/images/atom-logo.svg" class="logo" alt="">
       <p>Atom is an open source text editor built as a desktop application based on web technologies. It has all your native menus and dialogs, and full access to the file system. What makes it different than say Sublime then? The power of the opensource community.</p>
-      <p>At GitHub I was part of the team who took Atom from a neat idea to a completely open source application that the market is now running with. I helped design and develop base UI and syntax themes, UX experience, marketing materials, umoung other elements. <a href="http://atom.io" target="_blank">Get started at Atom.io</a></p>
+      <p>At GitHub I was part of the team who took Atom from a neat idea to a completely open source application that the market is now running with. I helped design and develop base UI and syntax themes, UX experience, marketing materials, among other elements. <a href="http://atom.io" target="_blank">Get started at Atom.io</a></p>
   </div>
   </div>
 </div>
