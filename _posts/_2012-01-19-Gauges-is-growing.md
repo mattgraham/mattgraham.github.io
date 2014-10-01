@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /blog/archives/2012/01/09/gauges-is-growing/
+thumb: /assets/images/thumb-frontend.jpg
 ---
 
 <div class="article-header">

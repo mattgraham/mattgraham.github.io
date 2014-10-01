@@ -2,6 +2,7 @@
 layout: post
 customCSS: post-gauges.css
 permalink: /blog/archives/2012/02/22/gauges-shipping-days/
+thumb: /assets/images/thumb-gauges.jpg
 ---
 
 <div class="article-header">

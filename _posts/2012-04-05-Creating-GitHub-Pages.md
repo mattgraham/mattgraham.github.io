@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /blog/archives/2012/04/05/creating-github-pages/
+thumb: /assets/images/thumb-pages.jpg
 ---
 
 <div class="article-header">

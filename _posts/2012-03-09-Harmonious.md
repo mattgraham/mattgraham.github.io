@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /blog/archives/2012/03/09/harmonious/
+thumb: /assets/images/thumb-harmony.jpg
 ---
 
 <div class="article-header">

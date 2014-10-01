@@ -2,9 +2,11 @@
 layout: post
 customCSS: post-css-button.css
 permalink: /blog/archives/2011/11/02/clean-sexy-css/
+thumb: /assets/images/thumb-frontend.jpg
 ---
 
 <div class="article-header">
+	<span stlye="height: 100%; display: inline-block; vertical-align: middle">back</span>
 </div>
 
 <article>

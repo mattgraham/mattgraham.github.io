@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /blog/archives/2011/12/05/git-remote-rename-orderedlist-github/
+thumb: /assets/images/thumb-ol.jpg
 ---
 
 <div class="article-header">

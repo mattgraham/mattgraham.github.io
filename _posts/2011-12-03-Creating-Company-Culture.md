@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /blog/archives/2011/12/03/creating-company-culture/
+thumb: /assets/images/thumb-company-culture.jpg
 ---
 
 <div class="article-header">

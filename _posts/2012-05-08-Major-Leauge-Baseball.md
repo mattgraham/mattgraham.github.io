@@ -2,6 +2,7 @@
 layout: post
 customCSS: post-mlb.css
 permalink: mlb
+thumb: /assets/images/thumb-mlb.jpg
 ---
 
 <div class="article-header">
