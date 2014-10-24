@@ -57,6 +57,36 @@ a {
 	margin: 20px 0;
 }
 
+article {
+	max-width: 1060px;
+
+	h1 {
+		text-align: center;
+		font-size: 105px;
+		line-height: 1.1em;
+		margin-bottom: 20px;
+	}
+
+	h3 {
+		font-size: 32px;
+		font-weight: 100;
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 50px;
+		padding-top: 0;
+		color: #999;
+		letter-spacing: -0.04em;
+	}
+
+	p {
+		max-width: 100%;
+		font-size: 24px;
+		line-height: 36px;
+		color: #666;
+		font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+	}
+}
+
 @media screen and (max-width: 420px) {
 
 	.article-header {
