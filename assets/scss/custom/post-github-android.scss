@@ -42,6 +42,39 @@ a {
   margin: 20px 0;
 }
 
+article {
+  max-width: 1060px;
+  padding-top: 20px;
+
+  h1 {
+    font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 125px;
+    line-height: 1.1em;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 32px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-top: 0;
+    color: #999;
+    letter-spacing: -0.04em;
+  }
+
+  p {
+    font-size: 24px;
+    line-height: 38px;
+    color: #666;
+    font-weight: 300;
+    max-width: 100%;
+  }
+}
+
 @media screen and (max-width: 420px) {
 
   .article-header {
