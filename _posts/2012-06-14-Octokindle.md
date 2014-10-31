@@ -2,6 +2,7 @@
 layout: post
 permalink: /blog/archives/2012/06/14/octokindle/
 thumb: /assets/images/thumb-octokindle.jpg
+customCSS: post-octokindle.css
 ---
 
 <div class="article-header">
@@ -9,7 +10,14 @@ thumb: /assets/images/thumb-octokindle.jpg
 
 <article>
 
-<h1>Octokindle</h1>
+<h1 id="fittext_2">Octokindle</h1>
+<h3 id="fittext_3">Your kindle, your way.</h3>
+
+<script type="text/javascript">
+	$("#fittext_2").fitText(.7, { minFontSize: '42px', maxFontSize: '125px' });
+	$("#fittext_3").fitText(1, { minFontSize: '16px', maxFontSize: '32px' });
+</script>
+
 <p>I'm a big fan of customization. Hardware, software, etc. so when I found some of the details on hacking the kindle I jumped all over it. I also do what I can to be fair and not cheat the system so hack away, but don't steal (even if the bill isn't worth it). Enjoy the octokindle resources.</p>
 
 <img src="http://distilleryimage11.s3.amazonaws.com/39668d96b56c11e1abb01231382049c1_7.jpg" class="large">
