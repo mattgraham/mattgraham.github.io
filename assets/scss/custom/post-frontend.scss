@@ -67,13 +67,20 @@ article {
 	margin: 20px 0;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 600px) {
 
  .article-header {
- 		min-height: 140px;
+ 		min-height: 240px;
 
 		.video {
 			width: 90%;
 		}
+	}
+}
+
+@media screen and (max-width: 420px) {
+
+.article-header {
+		min-height: 140px;
 	}
 }
