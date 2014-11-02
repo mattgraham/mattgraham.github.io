@@ -13,11 +13,11 @@ thumb: /assets/images/thumb-mlb.jpg
 
 <article>
 <h1 id="fittext_2">MLB Ballpark Tour</h1>
-<h3 id="fittext_3">So many stadiums, so little time.</h3>
+<h3 id="fittext_3">(So many stadiums, so little time.)</h3>
 
 <script type="text/javascript">
-$("#fittext_2").fitText(.7, { minFontSize: '42px', maxFontSize: '110px' });
-$("#fittext_3").fitText(1, { minFontSize: '16px', maxFontSize: '32px' });
+$("#fittext_2").fitText(.9, { minFontSize: '36px', maxFontSize: '110px' });
+$("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 </script>
 
 <p>There are few things on earth like sitting in the stands with the aroma of the game, friends at your side, and hopefully the Detroit Tigers victory. I grew up knowing the Tiger Stadium bleachers well with my dad and brother and have sense set a goal to see as many Major League Ballparks as I can. The countdown is on to see them all.</p>
