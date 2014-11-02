@@ -13,27 +13,21 @@ thumb: /assets/images/thumb-mlb.jpg
 
 <article>
 <h1>Major League Ballpark Tour</h1>
-<p>I love the game of baseball.  Being able to sit in the stands with the aroma of the game, friends at your side, and hopefully the Detroit Tigers leading the way is a great event for me. I grew up with the goal to see as many Major League Ballparks as possible, and as I've started to travel more I've been able to continue the countdown to see them all.
-<p>I&#8217;ve put together this page for two reasons, the first so that I have a beautiful way to keep track of the list of parks that I&#8217;ve been to and the second, now you know which parks I still need to complete the list, thus, better educating you on which I'm headed to next. <br />
-
-<strong>2014 Target Fields:</strong><br/>
-<ul>
-	<li class="done">Kauffman Stadium, Kansas City, MO  <span class="octicon octicon-check" style="color: green; margin-left: 5px;"></span></li>
-	<li class="done">Rogers Centre, Toronto, ON <span class="octicon octicon-check" style="color: green; margin-left: 5px;"></span></li>
-	<li>Wrigley Field, Chicago, IL</li>
-	<li>Progressive Field, Cleveland, OH</li>
-</ul>
-
-<br />
+<p>There are few things on earth like sitting in the stands with the aroma of the game, friends at your side, and hopefully the Detroit Tigers victory.  I grew up knowing the Tiger Stadium bleachers well with my dad and brother and have sense set a goal to see as many Major League Ballparks as I can. The countdown is on to see them all.
 
 <h2>Current MLB Ballparks <span class="count">11 of 30 Complete</span></h2>
+
 <ul id="baseball">
 	<span class="division">
+
 		<span class="title">AL East</span>
-		<li class="on"><span class="image-box"><img src="/assets/images/mlb/orioles.png"></span>
+
+		<li class="on">
+			<span class="image-box"><img src="/assets/images/mlb/orioles.png"></span>
 			<h3>Oriole Park at Camden Yards</h3>
 			<p>Baltimore Orioles</p>
 		</li>
+
 		<li class="off"><span class="image-box"><img src="/assets/images/mlb/red_sox.png"></span>
 			<h3>Fenway Park</h3>
 			<p>Boston Red Sox</p>
@@ -171,7 +165,6 @@ thumb: /assets/images/thumb-mlb.jpg
 			<p>San Francisco Giants</p>
 		</li>
 	</span>
-
 </ul>
 
 <h2>Retired MLB Ballparks</h2>
