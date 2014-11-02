@@ -1,4 +1,4 @@
-<article>
+<article class="tweet">
 
 <a href="https://twitter.com/intent/tweet?screen_name=michigangraham" class="twitter-mention-button" data-size="large" data-show-count="true" data-lang="en">Tweet to @michigangraham</a>
 <br/>
