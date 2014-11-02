@@ -12,21 +12,20 @@ thumb: /assets/images/thumb-mlb.jpg
 </div>
 
 <article>
-<h1>Major League Ballpark Tour</h1>
-<p>I love the game of baseball.  Being able to sit in the stands with the aroma of the game, friends at your side, and hopefully the Detroit Tigers leading the way is a great event for me. I grew up with the goal to see as many Major League Ballparks as possible, and as I've started to travel more I've been able to continue the countdown to see them all.
-<p>I&#8217;ve put together this page for two reasons, the first so that I have a beautiful way to keep track of the list of parks that I&#8217;ve been to and the second, now you know which parks I still need to complete the list, thus, better educating you on which I'm headed to next. <br />
+<h1 id="fittext_2">MLB Ballpark Tour</h1>
+<h3 id="fittext_3">So many stadiums, so little time.</h3>
 
-<strong>2014 Target Fields:</strong><br/>
-<ul>
-	<li class="done">Kauffman Stadium, Kansas City, MO  <span class="octicon octicon-check" style="color: green; margin-left: 5px;"></span></li>
-	<li class="done">Rogers Centre, Toronto, ON <span class="octicon octicon-check" style="color: green; margin-left: 5px;"></span></li>
-	<li>Wrigley Field, Chicago, IL</li>
-	<li>Progressive Field, Cleveland, OH</li>
-</ul>
+<script type="text/javascript">
+$("#fittext_2").fitText(.7, { minFontSize: '42px', maxFontSize: '110px' });
+$("#fittext_3").fitText(1, { minFontSize: '16px', maxFontSize: '32px' });
+</script>
+
+<p>There are few things on earth like sitting in the stands with the aroma of the game, friends at your side, and hopefully the Detroit Tigers victory. I grew up knowing the Tiger Stadium bleachers well with my dad and brother and have sense set a goal to see as many Major League Ballparks as I can. The countdown is on to see them all.</p>
 
 <br />
 
 <h2>Current MLB Ballparks <span class="count">11 of 30 Complete</span></h2>
+
 <ul id="baseball">
 	<span class="division">
 		<span class="title">AL East</span>
@@ -171,7 +170,6 @@ thumb: /assets/images/thumb-mlb.jpg
 			<p>San Francisco Giants</p>
 		</li>
 	</span>
-
 </ul>
 
 <h2>Retired MLB Ballparks</h2>
