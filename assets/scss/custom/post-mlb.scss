@@ -114,6 +114,16 @@ article {
 	}
 }
 
+.mark:before {
+	content: '\f041';
+	display: inline-block;
+	color: #e74c3c;
+	width: 30px;
+	margin-left: 4px;
+	height: 30px;
+	font-family: 'octicons';
+}
+
 article {
 	max-width: 1280px;
 	padding-top: 10px;
@@ -191,13 +201,31 @@ article {
 		border: 1px solid #efefef;
 		border-radius: 2px;
 		transition: border .2s ease;
-		
+
 		&:nth-child(3n+1) {
 			margin-right: 0;
 		}
 
+		&.target:before {
+			display: inline-block;
+			position: absolute;
+			content: '\f041';
+			font-size: 24px;
+			color: #fff;
+			line-height: 46px;
+			font-family: 'octicons';
+			background: #e74c3c;
+			text-align: center;
+			width: 36px;
+			z-index: 999;
+			top: 0;
+			left: 20px;
+			border-bottom-left-radius: 2px;
+			border-bottom-right-radius: 2px;
+		}
+
 		h3 {
-			font-size: 18px;
+			font-size: 14px;
 			margin: 0;
 			padding: 0;
 		}
