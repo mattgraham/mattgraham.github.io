@@ -115,13 +115,13 @@ article {
 }
 
 .mark:before {
-	content: '\f041';
+	content: '\e812';
 	display: inline-block;
 	color: #e74c3c;
 	width: 30px;
 	margin-left: 4px;
 	height: 30px;
-	font-family: 'octicons';
+	font-family: 'fontello';
 }
 
 article {
@@ -209,11 +209,11 @@ article {
 		&.target:before {
 			display: inline-block;
 			position: absolute;
-			content: '\f041';
+			content: '\e812';
 			font-size: 24px;
 			color: #fff;
 			line-height: 46px;
-			font-family: 'octicons';
+			font-family: 'fontello';
 			background: #e74c3c;
 			text-align: center;
 			width: 36px;
