@@ -11,9 +11,17 @@ thumb: /assets/images/thumb-mlb.jpg
 <br />Rodgers Centre, Toronto, ON<br />Detroit Tigers (5) at Toronto Blue Jays (4), August  8, 2014</span>
 </div>
 
-<article>
-<h1>Major League Ballpark Tour</h1>
-<p>There are few things on earth like sitting in the stands with the aroma of the game, friends at your side, and hopefully the Detroit Tigers victory.  I grew up knowing the Tiger Stadium bleachers well with my dad and brother and have sense set a goal to see as many Major League Ballparks as I can. The countdown is on to see them all.
+<h1 id="fittext_2">MLB Ballpark Tour</h1>
+<h3 id="fittext_3">(So many stadiums, so little time.)</h3>
+
+<script type="text/javascript">
+$("#fittext_2").fitText(.9, { minFontSize: '36px', maxFontSize: '110px' });
+$("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
+</script>
+
+<p>There are few things on earth like sitting in the stands with the aroma of the game, friends at your side, and hopefully the Detroit Tigers victory. I grew up knowing the Tiger Stadium bleachers well with my dad and brother and have sense set a goal to see as many Major League Ballparks as I can. The countdown is on to see them all.</p>
+
+<br />
 
 <h2>Current MLB Ballparks <span class="count">11 of 30 Complete</span></h2>
 
