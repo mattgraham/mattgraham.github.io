@@ -14,8 +14,10 @@ a {
 }
 
 article {
+	width: 100%;
 	max-width: 1060px;
 	padding-top: 10px;
+	margin: 0 auto;
 
 	h1 {
 		font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
@@ -85,7 +87,6 @@ article {
 	.title {
 		display: block;
 		width: 100%;
-		max-width: 840px;
 		margin: 0 auto;
 		margin-bottom: 20px;
 
@@ -113,23 +114,8 @@ article {
 	}
 }
 
-ul {
-	font-size: 14px;
-	line-height: 20px;
-	padding: 0 0 0 20px;
-
-	li {
-		padding-left: 0px;
-	}
-
-	.done {
-		text-decoration: line-through;
-	}
-}
-
-
 article {
-	max-width: 1060px;
+	max-width: 1280px;
 	padding-top: 10px;
 
 	h1 {
@@ -159,7 +145,14 @@ article {
 }
 
 #baseball {
-	display: table-cell;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+
+	tr {
+		display: table-cell;
+	}
 
 	.title {
 		display: block;
@@ -172,48 +165,119 @@ article {
 	.division {
 		display: block;
 		overflow: hidden;
-		margin-bottom: 20px;
+
+		.title {
+			color: #fff;
+			padding: 10px 20px;
+			line-height: 26px;
+			border-radius: 2px;
+			font-size: 22px;
+			background: #333;
+			margin-bottom: 20px;
+		}
 	}
 
 	li {
+		display: inline-block;
 		box-sizing: border-box;
-		width: 25%;
-		height: 300px;
+		width: calc(33.3333% - 7.5px);
 		list-style-type: none;
 		margin: 0;
-		padding: 0 10px;
+		margin-bottom: 10px;
+		margin-right: 10px;
+		padding: 40px;
 		text-align: center;
 		float: left;
-
-		&:nth-child(4n) {
+		border: 1px solid #efefef;
+		border-radius: 2px;
+		transition: border .2s ease;
+		
+		&:nth-child(3n+1) {
+			margin-right: 0;
 		}
 
 		h3 {
-		}
-
-		p {
+			font-size: 18px;
 			margin: 0;
 			padding: 0;
 		}
 
+		p {
+			font-size: 11px;
+			line-height: 14px;
+			margin: 0;
+			padding: 0;
+			font-family: $font-sans;
+		}
+
 		.image-box {
 			display: inline-block;
-			height: 180px;
+			height: 100%;
+			width: 100%;
+			max-height: 150px;
+			max-width: 150px;
+			margin: 0 auto;
+			margin-bottom: 20px;
 		}
 
 		img {
-			max-height: 180px;
-			margin: 0 auto;
-			padding: 20px;
+			transition: opacity .2s ease;
 		}
 
 		&.off {
 			img {
-				opacity: .2;
+				opacity: .05;
+			}
+		}
+
+		&:hover {
+			border: 1px solid $primary;
+
+			img {
+				opacity: 1;
 			}
 		}
 	}
 }
+
+@media screen and (max-width: 860px) {
+	#baseball {
+		li {
+			width: calc(50% - 5px);
+			margin: 0;
+			margin-right: 10px;
+			margin-bottom: 10px;
+
+			&:nth-child(3n+1) {
+				margin-right: 10px;
+			}
+
+			&:nth-child(2n+1) {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 420px) {
+	#baseball {
+		li {
+			width: 100%;
+			margin: 0;
+			margin-right: 0px;
+			margin-bottom: 20px;
+
+			&:nth-child(3n+1) {
+				margin-right: 0px;
+			}
+
+			&:nth-child(2n+1) {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
 // #baseball {
 // 	display: inline-block;
 // 	width: 100%;

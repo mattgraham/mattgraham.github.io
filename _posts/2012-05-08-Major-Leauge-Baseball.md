@@ -11,6 +11,7 @@ thumb: /assets/images/thumb-mlb.jpg
 <br />Rodgers Centre, Toronto, ON<br />Detroit Tigers (5) at Toronto Blue Jays (4), August  8, 2014</span>
 </div>
 
+<article>
 <h1 id="fittext_2">MLB Ballpark Tour</h1>
 <h3 id="fittext_3">(So many stadiums, so little time.)</h3>
 
