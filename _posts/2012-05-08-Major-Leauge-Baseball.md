@@ -28,11 +28,15 @@ $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 
 <ul id="baseball">
 	<span class="division">
+
 		<span class="title">AL East</span>
-		<li class="on"><span class="image-box"><img src="/assets/images/mlb/orioles.png"></span>
+
+		<li class="on">
+			<span class="image-box"><img src="/assets/images/mlb/orioles.png"></span>
 			<h3>Oriole Park at Camden Yards</h3>
 			<p>Baltimore Orioles</p>
 		</li>
+
 		<li class="off"><span class="image-box"><img src="/assets/images/mlb/red_sox.png"></span>
 			<h3>Fenway Park</h3>
 			<p>Boston Red Sox</p>
