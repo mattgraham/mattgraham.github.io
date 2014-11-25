@@ -5,11 +5,10 @@ customCSS: post-home.css
 
 <div class="welcome">
   <div class="content">
-      <h1 id="fittext1">Matt Graham</h1>
-
-      <script type="text/javascript">
-        $("#fittext1").fitText(1.1, { minFontSize: '36px', maxFontSize: '125px' });
-      </script>
+    <h1 id="fittext1">Matt Graham</h1>
+    <script type="text/javascript">
+      $("#fittext1").fitText(1.1, { minFontSize: '36px', maxFontSize: '125px' });
+    </script>
 
     <h3>UX and Frontend Development</h3>
     <ul>
@@ -46,9 +45,7 @@ customCSS: post-home.css
 <div class="portfolio-item" id="play">
   <div class="portfolio-item-inner">
   <div class="portfolio-item-demo">
-
-      <img src="http://ecx.images-amazon.com/images/I/510Smm7LcEL._SS500_.jpg" class="album-art" />
-
+    <img src="http://ecx.images-amazon.com/images/I/510Smm7LcEL._SS500_.jpg" class="album-art" />
       <div class="album-tracks">
         <h3>Onething 09 Live</h3>
         <h4>Forerunner Music <span>(2010)</span></h4>
@@ -68,11 +65,10 @@ customCSS: post-home.css
           <li>No One Else</li>
         </ol>
       </div>
-
   </div>
   <div class="portfolio-item-content">
     <img src="assets/images/play-logo.png" class="logo" alt="">
-    <p>Play was how we did music at GitHub. As taken from the readme, "Play is an employee-powered iTunes-based client-driven distributed music server for your office. Also it can prepare your taxes." I never got it to do my taxes, however being able to queue up music accross the world and stream along side your remote co-workers; that was done well. Play was a Rails app originally built off iTunes DJ and later moved to MPD</p>
+    <p>Play was how we did music at GitHub. As taken from the readme, "Play is an employee-powered iTunes-based client-driven distributed music server for your office. Also it can prepare your taxes." I never got it to do my taxes, however being able to queue up music across the world and stream along side your remote co-workers; that was done well. Play was a Rails app originally built off iTunes DJ and later moved to MPD</p>
     <p>I worked on designing iOS and Android apps, web interface, wrote markup and styles for the web app and even did a <a href="https://speakerdeck.com/mattgraham/github-play" target="_blank">little speaking</a> on Play. Additional design elements can be found on <a href="https://dribbble.com/mattgraham/projects/212617-Play" target="_blank">dribbble</a>.</p>
   </div>
   </div>
@@ -106,5 +102,4 @@ customCSS: post-home.css
   {% endfor %}
   </div>
   <span class="content view-all"><a href="/articles.html">view all articles</a></span>
-
 </div>
