@@ -41,6 +41,11 @@ article {
     letter-spacing: -0.04em;
   }
 
+  img {
+    border-radius: 2px;
+    width: 100%;
+  }
+
   p {
     color: #666;
     font-size: 24px;
@@ -49,7 +54,7 @@ article {
     font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
   }
 
-  ol li {
+  ol li, ul li {
     margin: 10px 0;
     line-height: 1.4em;
   }
