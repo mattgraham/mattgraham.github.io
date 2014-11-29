@@ -2,6 +2,7 @@
 layout: post
 permalink: /blog/archives/2012/04/05/creating-github-pages/
 thumb: /assets/images/thumb-pages.jpg
+customCSS: post-pages.css
 ---
 
 <div class="article-header">
@@ -10,7 +11,7 @@ thumb: /assets/images/thumb-pages.jpg
 <article>
 	<h1>Creating GitHub&nbsp;Pages</h1>
 	<p>I am excited to re-mention that we&#8217;ve released the GitHub Page Generator and that we&#8217;ve created some amazing templates to go along with it, but to add to it we&#8217;re open sourcing some of these themes. We want you to have the ability to make changes, additions and even submit pull requests to these themes to better them for yourself and the community.</p>
-	<h3>Key features of each theme:</h3>
+	<h2>Key features of each theme:</h2>
 	<ul>
 		<li>SCSS</span>/Compass &amp; CSS3</li>
 		<li>Responsive design/development</li>
