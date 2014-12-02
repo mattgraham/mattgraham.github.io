@@ -22,7 +22,7 @@ thumb: /assets/images/thumb-android.jpg
   $("#fittext_3").fitText(1, { minFontSize: '16px', maxFontSize: '32px' });
 </script>
 
-<p>Today we've shipped GitHub for Android and I've learned much in the process. The app is free to download on <a href="https://play.google.com/store/apps/details?id=com.github.mobile">Google Play</a> and you can also browse the code from the newly open sourced <a href="https://github.com/github/android">repository</a>. I like to think of this as, Incredible beginings.</p>
+<p>Today we've shipped GitHub for Android and I've learned much in the process. The app is free to download on <a href="https://play.google.com/store/apps/details?id=com.github.mobile">Google Play</a> and you can also browse the code from the newly open sourced <a href="https://github.com/github/android">repository</a>. I like to think of this as, Incredible beginnings.</p>
 
 <img src="http://f.cl.ly/items/2e3d1z0v1z0b2M1N0220/featured-graphic.png" class="large">
 
