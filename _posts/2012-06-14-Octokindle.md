@@ -28,7 +28,7 @@ customCSS: post-octokindle.css
 <p>Feel free to submit pull requests with new octocat screensavers. I'll accept and reject them based on my personal biases, and taste in design.</p>
 
 <h2>Removing Advertisements</h2>
-<p>There are ways on the interweb to remove the advertisements from your kindle. Hoevere, my recomendation is, pay for them. Goto "Manage Your Devices" tab in your amazon account and unsubscribe from special offers. Its anoying I understand, but the right thing to do.</p>
+<p>There are ways on the interweb to remove the advertisements from your kindle. However, my recommendation is, pay for them. Goto "Manage Your Devices" tab in your amazon account and unsubscribe from special offers. Its annoying I understand, but the right thing to do.</p>
 
 <h2>Jailbreak</h2>
 <ol>
@@ -79,7 +79,7 @@ exit
 	<li>All image names must be: &#8216;<strong>bg_xsmall_ss##.png</strong>&#8217; (the ## are two digits starting at 00 and increasing sequentially, i.e. bg_xsmall_ss00.png, bg_xsmall_ss01.png, etc…).</li>
 </ul>
 <h2>Octocat Screensavers</h2>
-<p>The purpose of this repo is to fill your kindle with octocat screensavers. Check the &#8216;<a href="https://github.com/mattgraham/octokindle/tree/master/screensavers">/screensavers</a>&#8217; folder in the octokindle repo4 for mycollected Octocat images.</p>
+<p>The purpose of this repo is to fill your kindle with octocat screensavers. Check the &#8216;<a href="https://github.com/mattgraham/octokindle/tree/master/screensavers">/screensavers</a>&#8217; folder in the octokindle repo4 for my collected Octocat images.</p>
 <h2>Credits</h2>
 <p>Again thanks to <a href="https://github.com/cobyism">@cobyism</a> and <a href="https://github.com/dreww">@dreww</a> for putting some of these details together and many thanks to the following sites in which many of the instructions and files above were taken from:</p>
 <ul>

@@ -13,7 +13,7 @@ customCSS: post-harmony.css
 In recent months you've not heard much about Harmony (Our / Ordered List's first product to market), but as we continue to use and build upon it, I wanted to quickly share some of my favorite features that you may not know are already built into Harmony.
 
 ##SCSS / SASS / Compass built in
-Using Compass in Harmony is easy. Simply open up your stylesheet in the theme editor and change the processor to Scss or Sass.
+Using Compass in Harmony is easy. Simply open up your stylesheet in the theme editor and change the processor to SCSS or Sass.
 
 <img src="http://get.harmonyapp.com/assets/4e5baf95dabe9d48b4000eb6/blog_post/scss.png">
 
