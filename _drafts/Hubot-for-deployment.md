@@ -7,7 +7,7 @@ customCSS: post-hubot.css
 
 <article>
 
-<h1 id="fittext_4">Hubot for President</h1>
+<h1 id="fittext_4">Deploy like a boss, with Hubot</h1>
 <h3 id="fittext_5">The productive things, Hubot brings to the company.</h3>
 
 <script type="text/javascript">
