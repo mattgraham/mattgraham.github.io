@@ -7,4 +7,5 @@ Often times I believe I have nothing to write about until sharing some bits of i
 - [ ] Automatic deployments are mandatory
 - [ ] Streaming Audio for Anyone
 - [ ] Why you should be using Atom.io now
-- [ ] Hubot for ~~president~~ productivity 
+- [ ] Hubot for ~~president~~ Productivity
+- [ ] Fear Based Development (loosing a customer)
