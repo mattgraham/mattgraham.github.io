@@ -1,12 +1,9 @@
 ---
 layout: post
 customCSS: post-writing-more.css
+thumb: /assets/images/thumb-write-more.jpg
 ---
-<div class="article-header">
-</div>
 <article>
-
-<span class="icon-terminal"></span>
 <h1>Writing <span class="script">to better</span> the Story</h1>
 <div class="meta"><h2>March 10, 2015</h2></div>
 <div class="columns">
