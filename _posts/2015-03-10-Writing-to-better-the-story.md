@@ -11,18 +11,10 @@ thumb: /assets/images/thumb-write-more.jpg
 <p>I've decided to start writing out my thoughts not because I believe I'm the ultimate sorce or the most incredible voice to get this information from; but because many parts together create a better whole. That the different vantage points that we have paint the picture as whole better. I've also gathered that from my vantage point, the topic becomes even more clear when thought through enough to put it on paper.</p>
 </div>
 
-<h4 class="script">Some possible next topics:</h4>
-
-<div class="next hubot">
-  <span class="asset">
-    <div class="art">
-    </div>
-  </span>
-  <h4>Hubot for Productivity</h4>
-</div>
+<h4 class="script">Possible next topic:</h4>
 
 <div class="next atom">
-  <h4>Why you should try Atom.io Now</h4>
+  <h4>Why you should be using Atom.io Now</h4>
   <span class="asset">
     <div class="art">
       <span class="screen"></span>
