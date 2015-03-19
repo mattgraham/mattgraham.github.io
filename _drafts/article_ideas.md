@@ -9,4 +9,5 @@ Often times I believe I have nothing to write about until sharing some bits of i
 - [ ] Why you should be using Atom.io now
 - [ ] Hubot for ~~president~~ Productivity
 - [ ] Fear Based Development (loosing a customer)
-- [ ] Huggs & Kisses - Some families do, some dont... and won't. 
+- [ ] Huggs & Kisses - Some families do, some dont... and won't.
+- [ ] Into the Future (and we're still chasing the hoverboard).
