@@ -7,8 +7,8 @@ thumb: /assets/images/thumb-mlb.jpg
 
 <div class="article-header">
 <span class="details">
-<strong>LATEST STADIUM:</strong>
-<br />Rodgers Centre, Toronto, ON<br />Detroit Tigers (5) at Toronto Blue Jays (4), August  8, 2014</span>
+<strong>LATEST GAME:</strong>
+<br /Comerica Park, Detroit, MI<br />Minisota Twins (1) at Detroit Tigers (7), April  9, 2015</span>
 </div>
 
 <article>
