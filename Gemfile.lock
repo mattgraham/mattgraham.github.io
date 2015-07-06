@@ -127,3 +127,6 @@ DEPENDENCIES
   jekyll
   rack-jekyll
   sass
+
+BUNDLED WITH
+   1.10.3
