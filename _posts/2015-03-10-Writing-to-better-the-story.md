@@ -12,7 +12,9 @@ thumb: /assets/images/thumb-write-more.jpg
 <p>The postings may not be long or detailed, but my hope is consistant. Do reach out via twitter if you have any questions for me or have seen something I've done that you'd like more details on. Enjoy.</p>
 </div>
 
-<h4 class="script">Possible next topic:</h4>
+<br/>
+
+<!-- <h4 class="script">Possible next topic:</h4>
 
 <div class="next atom">
   <h4>Why you should be using Atom.io Now</h4>
@@ -21,6 +23,6 @@ thumb: /assets/images/thumb-write-more.jpg
       <span class="screen"></span>
     </div>
   </span>
-</div>
+</div> -->
 
 </article>
