@@ -83,7 +83,7 @@ $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 		<span class="title">AL West</span>
 		<li class="off"><span class="image-box"><img src="/assets/images/mlb/astros.png"></span>
 			<h3>Minute Maid Park</h3>
-			<p>Huston Astros</p>
+			<p>Houston Astros</p>
 		</li>
 		<li class="on"><span class="image-box"><img src="/assets/images/mlb/angels.png"></span>
 			<h3>Angel Stadium</h3>
