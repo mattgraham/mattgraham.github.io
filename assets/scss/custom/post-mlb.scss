@@ -190,7 +190,7 @@ article {
 	li {
 		display: inline-block;
 		box-sizing: border-box;
-		width: calc(33.3333% - 7.5px);
+		width: calc(20% - 10px);
 		list-style-type: none;
 		margin: 0;
 		margin-bottom: 10px;
@@ -202,7 +202,7 @@ article {
 		border-radius: 2px;
 		transition: border .2s ease;
 
-		&:nth-child(3n+1) {
+		&:nth-child(5n+1) {
 			margin-right: 0;
 		}
 
