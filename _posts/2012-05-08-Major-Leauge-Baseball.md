@@ -179,7 +179,6 @@ $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 <h2>Retired MLB Ballparks</h2>
 <ul id="baseball">
 	<span class="division">
-		<span class="title">American League Parks</span>
 		<li class="on"><span class="image-box"><img src="/assets/images/mlb/tigers.png"></span>
 			<h3>Tiger Stadium (1912-1999)</h3>
 			<p>Detroit Tigers</p>
@@ -188,9 +187,6 @@ $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 			<h3>Memorial Stadium (1922-1998)</h3>
 			<p>Baltimore Orioles</p>
 		</li>
-	</span>
-	<span class="division">
-		<span class="title">National League Parks</span>
 		<li class="on"><span class="image-box"><img src="/assets/images/mlb/reds.png"></span>
 			<h3>River Front Stadium (1970-2002)</h3>
 			<p>Cincinati Reds</p>
