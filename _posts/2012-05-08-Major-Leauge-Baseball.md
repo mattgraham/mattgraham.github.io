@@ -24,7 +24,7 @@ $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 
 <br />
 
-<h2>Current MLB Ballparks <span class="count">12 of 30 Complete</span></h2>
+<h2>15 MLB Ballparks Visited<span class="count"> (12 of 30 Current)</span></h2>
 
 <ul id="baseball">
 	<span class="division">
