@@ -33,7 +33,7 @@ $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 
 		<li class="on">
 			<span class="image-box"><img src="/assets/images/mlb/orioles.png"></span>
-			<h3>Oriole Park at Camden Yards</h3>
+			<h3>Camden Yards</h3>
 			<p>Baltimore Orioles</p>
 		</li>
 
