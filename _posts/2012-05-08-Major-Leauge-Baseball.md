@@ -8,7 +8,7 @@ thumb: /assets/images/thumb-mlb.jpg
 <div class="article-header">
 <span class="details">
 <strong>LATEST GAME:</strong>
-<br /Comerica Park, Detroit, MI<br />Minisota Twins (1) at Detroit Tigers (7), April  9, 2015</span>
+<br />Miller Park, Milwaukee<br />Miami Marlins (9) at Milwaukee Brewers (6), August 18, 2015</span>
 </div>
 
 <article>
