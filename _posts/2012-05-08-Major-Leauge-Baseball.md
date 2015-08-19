@@ -24,7 +24,7 @@ $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 
 <br />
 
-<h2>Current MLB Ballparks <span class="count">11 of 30 Complete</span></h2>
+<h2>15 MLB Ballparks Visited<span class="count"> (12 of 30 Current)</span></h2>
 
 <ul id="baseball">
 	<span class="division">
@@ -137,7 +137,7 @@ $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 			<h3>Great American Ball Park</h3>
 			<p>Cincinnati Reds</p>
 		</li>
-		<li class="off target"><span class="image-box"><img src="/assets/images/mlb/brewers.png"></span>
+		<li class="on"><span class="image-box"><img src="/assets/images/mlb/brewers.png"></span>
 			<h3>Miller Park</h3>
 			<p>Milwaukee Brewers</p>
 		</li>
