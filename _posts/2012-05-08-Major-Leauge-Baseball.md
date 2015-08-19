@@ -129,7 +129,7 @@ $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 
 	<span class="division">
 		<span class="title">NL Central</span>
-		<li class="off target"><span class="image-box"><img src="/assets/images/mlb/cubs.png"></span>
+		<li class="on"><span class="image-box"><img src="/assets/images/mlb/cubs.png"></span>
 			<h3>Wrigley Field</h3>
 			<p>Chicago Cubs</p>
 		</li>
