@@ -6,9 +6,9 @@ thumb: /assets/images/thumb-mlb.jpg
 ---
 
 <div class="article-header">
-<span class="details">
-<strong>LATEST GAME:</strong>
-<br />Miller Park, Milwaukee<br />Miami Marlins (9) at Milwaukee Brewers (6), August 18, 2015</span>
+	<a href="http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2015_08_19_detmlb_chnmlb_1#game=2015_08_19_detmlb_chnmlb_1,game_state=Wrapup" class="details" target="_blank">
+	<strong>LATEST GAME:</strong>
+	<br />Wrigley Field, Chicago, IL<br />Detroit Tigers (15) at Chicago Cubs (8), August 19, 2015</a>
 </div>
 
 <article>
@@ -24,7 +24,7 @@ $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 
 <br />
 
-<h2>15 MLB Ballparks Visited<span class="count"> (12 of 30 Current)</span></h2>
+<h2>16 MLB Ballparks Visited<span class="count"> (13 of 30 Current)</span></h2>
 
 <ul id="baseball">
 	<span class="division">
