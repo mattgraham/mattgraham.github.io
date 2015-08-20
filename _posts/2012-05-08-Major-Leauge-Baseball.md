@@ -196,7 +196,7 @@ $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 
 
 <ul id="baseball" class="teams">
-	<h2>Teams Seen Live (Since 2005)</h2>
+	<h2>Teams Seen Live <span class="count">23 of 30 (Since 2005)</span></h2>
 	<span class="division">
     <span class="title">AL East</span>
 		<li class="on"><span class="image-box"><img src="/assets/images/mlb/orioles.png"></span><h3>Baltimore Orioles</h3></li>
@@ -227,7 +227,7 @@ $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 	<span class="division">
 		<span class="title">NL East</span>
 		<li class="off"><span class="image-box"><img src="/assets/images/mlb/braves.png"></span><h3>Atlanta Braves</h3></li>
-		<li class="off"><span class="image-box"><img src="/assets/images/mlb/marlins.png"></span><h3>Miami Marlins</h3></li>
+		<li class="on"><span class="image-box"><img src="/assets/images/mlb/marlins.png"></span><h3>Miami Marlins</h3></li>
 		<li class="off"><span class="image-box"><img src="/assets/images/mlb/mets.png"></span><h3>New York Mets</h3></li>
 		<li class="off"><span class="image-box"><img src="/assets/images/mlb/phillies.png"></span><h3>Philadelphia Phillies</h3></li>
 		<li class="on"><span class="image-box"><img src="/assets/images/mlb/nationals.png"></span><h3>Washington Nationals</h3></li>
@@ -237,7 +237,7 @@ $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 		<span class="title">NL Central</span>
 		<li class="on"><span class="image-box"><img src="/assets/images/mlb/cubs.png"></span><h3>Chicago Cubs</h3></li>
 		<li class="on"><span class="image-box"><img src="/assets/images/mlb/reds.png"></span><h3>Cincinnati Reds</h3></li>
-		<li class="off"><span class="image-box"><img src="/assets/images/mlb/brewers.png"></span><h3>Milwaukee Brewers</h3></li>
+		<li class="on"><span class="image-box"><img src="/assets/images/mlb/brewers.png"></span><h3>Milwaukee Brewers</h3></li>
 		<li class="off"><span class="image-box"><img src="/assets/images/mlb/pirates.png"></span><h3>Pittsburgh Pirates</h3></li>
 		<li class="off"><span class="image-box"><img src="/assets/images/mlb/cardinals.png"></span><h3>St. Louis Cardinals</h3></li>
 	</span>
