@@ -20,7 +20,7 @@ $("#fittext_2").fitText(.9, { minFontSize: '36px', maxFontSize: '110px' });
 $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 </script>
 
-<p>There are few things on earth like sitting in the stands with the aroma of the game, friends at your side, and hopefully the Detroit Tigers victory. I grew up knowing the Tiger Stadium bleachers well with my dad and brother and have sense set a goal to see as many Major League Ballparks as I can. The countdown is on to see them all. My target fields for 2015 are marked with the <span class="mark"></span></p>
+<p>There are few things on earth like sitting in the stands with the aroma of the game, friends at your side, and hopefully the Detroit Tigers victory. I grew up knowing the Tiger Stadium bleachers well with my dad and brother and have sense set a goal to see as many Major League Ballparks as I can. The countdown is on to see them all. My target fields for 2016 are marked with the <span class="mark"></span></p>
 
 <br />
 
@@ -161,7 +161,7 @@ $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 			<h3>Coors Field</h3>
 			<p>Colorado Rockies</p>
 		</li>
-		<li class="off"><span class="image-box"><img src="/assets/images/mlb/dodgers.png"></span>
+		<li class="off target"><span class="image-box"><img src="/assets/images/mlb/dodgers.png"></span>
 			<h3>Dodger Stadium</h3>
 			<p>Los Angeles Dodgers</p>
 		</li>
