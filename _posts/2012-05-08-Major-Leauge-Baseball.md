@@ -1,3 +1,4 @@
+s
 ---
 layout: post
 customCSS: post-mlb.css
@@ -6,9 +7,9 @@ thumb: /assets/images/thumb-mlb.jpg
 ---
 
 <div class="article-header">
-	<a href="http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2015_08_19_detmlb_chnmlb_1#game=2015_08_19_detmlb_chnmlb_1,game_state=Wrapup" class="details" target="_blank">
-	<strong>LATEST GAME:</strong>
-	<br />Wrigley Field, Chicago, IL<br />Detroit Tigers (15) at Chicago Cubs (8), August 19, 2015</a>
+	<a href="http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2016_06_17_milmlb_lanmlb_1&partnerId=ed-10471836-905864443" class="details" target="_blank">
+	<strong>Latest Stadium:</strong>
+	<br />Dodger Stadium, Los Angeles, CA<br />Brewers (2) at Dodgers (3), June 17, 2016</a>
 </div>
 
 <article>
@@ -24,7 +25,7 @@ $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 
 <br />
 
-<h2>16 MLB Ballparks Visited<span class="count"> (13 of 30 Current)</span></h2>
+<h2>17 MLB Ballparks Visited<span class="count"> (14 of 30 Current)</span></h2>
 
 <ul id="baseball">
 	<span class="division">
@@ -161,7 +162,7 @@ $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 			<h3>Coors Field</h3>
 			<p>Colorado Rockies</p>
 		</li>
-		<li class="off target"><span class="image-box"><img src="/assets/images/mlb/dodgers.png"></span>
+		<li class="on"><span class="image-box"><img src="/assets/images/mlb/dodgers.png"></span>
 			<h3>Dodger Stadium</h3>
 			<p>Los Angeles Dodgers</p>
 		</li>
@@ -246,7 +247,7 @@ $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 		<span class="title">NL West</span>
 		<li class="on"><span class="image-box"><img src="/assets/images/mlb/diamondbacks.png"></span><h3>Arazona Diamondbacks</h3></li>
 		<li class="on"><span class="image-box"><img src="/assets/images/mlb/rockies.png"></span><h3>Colorado Rockies</h3></li>
-		<li class="off"><span class="image-box"><img src="/assets/images/mlb/dodgers.png"></span><h3>Los Angeles Dodgers</h3></li>
+		<li class="on"><span class="image-box"><img src="/assets/images/mlb/dodgers.png"></span><h3>Los Angeles Dodgers</h3></li>
 		<li class="off"><span class="image-box"><img src="/assets/images/mlb/padres.png"></span><h3>San Diego Padres</h3></li>
 		<li class="on"><span class="image-box"><img src="/assets/images/mlb/giants.png"></span><h3>San Francisco Giants</h3></li>
 	</span>
