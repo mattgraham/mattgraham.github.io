@@ -1,4 +1,3 @@
-s
 ---
 layout: post
 customCSS: post-mlb.css
