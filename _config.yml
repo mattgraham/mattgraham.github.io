@@ -8,4 +8,3 @@ markdown_ext:   markdown,mkd,mkdn,md
 # permalink: /writing/:categories/:year/:title
 
 markdown: redcarpet
-pygments: true # default python pygments have been replaced by pygments.rb
