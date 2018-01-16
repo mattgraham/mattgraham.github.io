@@ -10,7 +10,7 @@ customCSS: post-home.css
       $("#fittext1").fitText(1.1, { minFontSize: '36px', maxFontSize: '125px' });
     </script>
 
-    <h3>UX and Frontend Development</h3>
+    <h3>Product design and frontend development at Salesforce</h3>
     <ul>
       <li class="twitter"><a href="http://twitter.com/michigangraham"><span class="icon-twitter"></span></a></li>
       <li class="github"><a href="http://github.com/mattgraham"><span class="icon-github"></span></a></li>
@@ -22,9 +22,9 @@ customCSS: post-home.css
 
 <div class="about">
   <div class="content">
-  <h2>A creative at heart, delivering apps that cause change.</h2>
-  <p>I'm a web experience designer and frontend web developer living just outside of Detroit, MI. A designer who loves and understands the development process. I often write my own HTML, SCSS, Jekyll, PHP, implement JS, all while setting up the development environment and deploying to production. I focus on what it takes to make simple web applications, successful experiences. I automate all that I can, deploy to Heroku with my friend Hubot and utilize the power of GitHub in almost everything I do.</p>
-  <p>I've worked at <a href="http://github.com" target="_blank">GitHub</a>, <a href="https://github.com/blog/993-ordered-list-is-a-githubber" target="_blank">Ordered List</a>, DC+Design and other small design and development firms. I am passionate about designing simple, beautiful apps that change the way we live. I am currently working on contract projects with the right teams and projects. Please don't hesitate to reach out and say hello <a href="http://twitter.com/michigangraham" target="_blank">@michigangraham</a>.
+  <h1>A creative at heart, delivering apps that cause change.</h1>
+  <p>I'm a product designer and frontend developer living in Port Huron, MI. I focus on what it takes to make simple web applications, successful experiences, while automating all that I can.</p>
+  <p>I currently work as a senior product designer at <a href="http://salesforce.com" target="_blank">Salesforce</a> and focus on our <a href="http://heroku.com" target="_blank">Heroku Ecosystem</a> experiences. Previously at <a href="http://github.com" target="_blank">GitHub</a>, <a href="https://github.com/blog/993-ordered-list-is-a-githubber" target="_blank">Ordered List</a> and other small design and development firms. I love simple, beautiful apps that change the way we live and do things. Please don't hesitate to reach out and say hello <a href="http://twitter.com/michigangraham" target="_blank">@michigangraham</a>.
   </p>
   </div>
 </div>
