@@ -177,7 +177,7 @@ thumb: /assets/images/thumb_stclairriver.jpg
           <img src="/assets/images/jamesbeard.jpg" class="w100 mv3" alt="">
         </div>
         <div>The wreck lies along the southeast edge of Port Huron, MI. The 86-ton ferry (72'5" x 17'2" x 6'3"), built at Au Sable, Michigan in 1873 as the Wesley Hawkins was renamed in 1882 when she was rebuilt. For 40+ years, she worked as a ferry between Port Huron and Sarnia, but was abandoned in 1927. [Source: The Great Lakes Diving Guide by Cris Kohl]</div>
-        <div class="mv2"><a href="https://www.google.com/maps/place/42%C2%B057'40.2%22N+82%C2%B025'28.0%22W/@42.9613765,-82.4256553,18z/data=!4m5!3m4!1s0x0:0x0!8m2!3d42.9611667!4d-82.4244333" target="_blank">42.961167, -82.424433</a></div>
+        <div class="mv2"><a href="https://www.google.com/maps/place/42%C2%B057'40.2%22N+82%C2%B025'28.0%22W/@42.9610193,-82.4256982,446m/data=!3m1!1e3!4m5!3m4!1s0x0:0x0!8m2!3d42.9611667!4d-82.4244333" target="_blank">42.961167, -82.424433</a></div>
       </div>
     </li>
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
