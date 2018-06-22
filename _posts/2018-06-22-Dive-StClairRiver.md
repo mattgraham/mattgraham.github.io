@@ -2,7 +2,7 @@
 title: Diving the St. Clair River
 layout: post
 customCSS: post-divestclair.css
-thumb: /assets/images/074.png
+thumb: /assets/images/thumb_stclairriver.jpg
 ---
 <script type="text/javascript">
   $(document).ready
