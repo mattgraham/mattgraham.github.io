@@ -1,9 +1,11 @@
 {% include head.html %}
 
-  {{ content }}
+<div class="flex flex-column min-h-100">
+    <div class="flex-auto">
+      {{ content }}
+    </div>
 
-{% include tweet.md %}
-
-{% include pagination.html %}
-
-{% include footer.html %}
+    {% include tweet.md %}
+    {% include pagination.html %}
+    {% include footer.html %}
+</div>
