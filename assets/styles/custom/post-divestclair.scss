@@ -4,3 +4,13 @@
 ---
 
 @import "settings";
+
+.article-header {
+	height: 0;
+	min-height: 380px;
+	max-height: 800px;
+	margin-bottom:55px;
+	background: url("/assets/images/stclairriver.jpg") no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
