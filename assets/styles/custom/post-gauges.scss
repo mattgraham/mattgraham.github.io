@@ -1,0 +1,69 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "settings";
+
+$primary: #006444;
+
+a {
+	color: $primary;
+	text-decoration:none;
+	transition: color .2s ease-in;
+
+	&:hover {
+		color: lighten($primary, 15%);
+	}
+}
+
+.article-header {
+	height: 0;
+	min-height: 380px;
+	max-height: 800px;
+	margin-bottom:55px;
+	background: url("/assets/images/cover-gauges.jpg") no-repeat center center, $primary;
+	background-size: cover;
+	text-align: center;
+
+	.asset {
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		max-width: 800px;
+
+		.logo {
+			position: relative;
+		  bottom: -240px;
+		  float: left;
+		}
+
+		.art {
+		  bottom: -40px;
+		  float: right;
+		}
+	}
+}
+
+.large {
+	width: 100%;
+	border-radius: 3px;
+	margin: 20px 0;
+}
+
+@media screen and (max-width: 420px) {
+
+	.article-header {
+		margin-bottom: 75px;
+		.asset {
+			.logo {
+				top: 40px;
+				left: 40px;
+			}
+			.art {
+				bottom: -20px;
+			}
+		}
+	}
+
+}

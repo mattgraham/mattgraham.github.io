@@ -1,0 +1,82 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "settings";
+
+$primary: #006444;
+
+body {
+	background: #FFBB4D;
+	padding: 20px;
+}
+
+.box {
+	display: inline-block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	border: 15px solid #fff;
+}
+
+p:first-child {
+	display: none;
+}
+
+a {
+	color: #fff;
+	text-decoration:none;
+	transition: color .2s ease-in;
+
+	&:hover {
+		color: lighten($primary, 15%);
+	}
+}
+
+.article-header {
+	display: none;
+}
+
+article {
+	max-width: 1060px;
+
+	p:first-child {
+		display: inline-block;
+	}
+
+	h1 {
+		font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+		font-weight: bold;
+		color: #fff;
+		text-align: center;
+		letter-spacing: -0.05em;
+		line-height: 1.0em;
+		margin-bottom: 20px;
+	}
+
+	h3 {
+		font-size: 38px;
+		font-weight: 100;
+		text-align: center;
+		margin-top: -20px;
+		margin-bottom: 50px;
+		padding-top: 0;
+		color: #fff;
+		letter-spacing: -0.04em;
+	}
+
+	p {
+		font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+		max-width: 100%;
+		font-size: 26px;
+		line-height: 36px;
+		color: #fefefe;
+	}
+}
+
+@media screen and (max-width: 420px) {
+}

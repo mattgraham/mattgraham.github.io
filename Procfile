@@ -1,2 +1,1 @@
-jekyll: jekyll serve --watch --drafts
-compass: compass watch
+jekyll: bundle exec jekyll serve --watch --drafts
