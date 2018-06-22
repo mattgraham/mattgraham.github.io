@@ -52,3 +52,11 @@ highlighter:  rouge
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections:
+  - river-wrecks
+
+collections:
+  river-wrecks:
+    output: true
+    permalink: /river-wrecks/:path/
