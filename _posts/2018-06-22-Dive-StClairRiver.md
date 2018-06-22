@@ -45,21 +45,33 @@ thumb: /assets/images/thumb_stclairriver.jpg
 
   <ul class="list pa0 ma0 mw7 tl center">
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
-      <div class="w2 h2 mr3 br1 b--light-gray tc mr1 ba"></div>
+      <div class="mr3">
+        <svg class="br1 b--light-gray ba h2 w2 pa2 fill-white" alt="">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
+				</svg>
+      </div>
       <div class="flex-auto">
         <div class="f4 lh-title near-black">Fontana</div>
         <div class="ft">70</div>
       </div>
     </li>
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
-      <div class="w2 h2 mr3 br1 b--light-gray tc mr1 ba"></div>
+      <div class="mr3">
+        <svg class="br1 b--light-gray ba h2 w2 pa2 fill-white" alt="">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
+				</svg>
+      </div>
       <div class="flex-auto">
         <div class="f4 lh-title near-black">Charles H. Weeks</div>
         <div class="ft">68</div>
       </div>
     </li>
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
-      <div class="w2 h2 mr3 br1 b--light-gray tc mr1 ba"></div>
+      <div class="mr3">
+        <svg class="br1 b--light-gray ba h2 w2 pa2 fill-white" alt="">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
+				</svg>
+      </div>
       <div class="flex-auto">
         <div class="f4 lh-title near-black">John B. Martin</div>
         <div class="ft">65-80</div>
@@ -68,7 +80,7 @@ thumb: /assets/images/thumb_stclairriver.jpg
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
       <div class="mr3">
         <svg class="br1 b--light-gray ba h2 w2 pa2" alt="">
-					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#edit-reject-16"></use>
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#confirm-28"></use>
 				</svg>
       </div>
       <div class="flex-auto">
@@ -79,7 +91,7 @@ thumb: /assets/images/thumb_stclairriver.jpg
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
       <div class="mr3">
         <svg class="br1 b--light-gray ba h2 w2 pa2" alt="">
-					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#edit-reject-16"></use>
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#confirm-28"></use>
 				</svg>
       </div>
       <div class="flex-auto">
@@ -90,7 +102,7 @@ thumb: /assets/images/thumb_stclairriver.jpg
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
       <div class="mr3">
         <svg class="br1 b--light-gray ba h2 w2 pa2" alt="">
-					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#edit-reject-16"></use>
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#confirm-28"></use>
 				</svg>
       </div>
       <div class="">
@@ -106,7 +118,7 @@ thumb: /assets/images/thumb_stclairriver.jpg
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
       <div class="mr3">
         <svg class="br1 b--light-gray ba h2 w2 pa2" alt="">
-					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#edit-reject-16"></use>
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#confirm-28"></use>
 				</svg>
       </div>
       <div class="flex-auto">
@@ -118,7 +130,7 @@ thumb: /assets/images/thumb_stclairriver.jpg
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
       <div class="mr3">
         <svg class="br1 b--light-gray ba h2 w2 pa2" alt="">
-					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#edit-reject-16"></use>
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#confirm-28"></use>
 				</svg>
       </div>
       <div class="flex-auto">
@@ -133,7 +145,7 @@ thumb: /assets/images/thumb_stclairriver.jpg
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
       <div class="mr3">
         <svg class="br1 b--light-gray ba h2 w2 pa2" alt="">
-					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#edit-reject-16"></use>
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#confirm-28"></use>
 				</svg>
       </div>
       <div class="flex-auto">
@@ -142,67 +154,101 @@ thumb: /assets/images/thumb_stclairriver.jpg
       </div>
     </li>
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
-      <div class="w2 h2 mr3 br1 b--light-gray tc mr1 ba"></div>
+      <div class="mr3">
+        <svg class="br1 b--light-gray ba h2 w2 pa2 fill-white" alt="">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
+				</svg>
+      </div>
       <div class="flex-auto">
         <div class="f4 lh-title near-black">Saltillo</div>
         <div class="ft">35-45</div>
       </div>
     </li>
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray" id="jamesbeard">
-      <div class="w2 h2 mr3 br1 b--light-gray tc mr1 ba"></div>
+      <div class="mr3">
+        <svg class="br1 b--light-gray ba h2 w2 pa2 fill-white" alt="">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
+				</svg>
+      </div>
       <div class="flex-auto">
         <div class="f4 lh-title near-black">James Beard</div>
         <div class="ft">20-30</div>
-        <a href="https://www.google.com/maps/place/42%C2%B057'40.2%22N+82%C2%B025'28.0%22W/@42.9613765,-82.4256553,18z/data=!4m5!3m4!1s0x0:0x0!8m2!3d42.9611667!4d-82.4244333" target="
-          42.961167, -82.424433
-        "></a>
         <div>The wreck lies along the southeast edge of Port Huron, MI. The 86-ton ferry (72'5" x 17'2" x 6'3"), built at Au Sable, Michigan in 1873 as the Wesley Hawkins was renamed in 1882 when she was rebuilt. For 40+ years, she worked as a ferry between Port Huron and Sarnia, but was abandoned in 1927. [Source: The Great Lakes Diving Guide by Cris Kohl]</div>
+        <div class="mv2"><a href="https://www.google.com/maps/place/42%C2%B057'40.2%22N+82%C2%B025'28.0%22W/@42.9613765,-82.4256553,18z/data=!4m5!3m4!1s0x0:0x0!8m2!3d42.9611667!4d-82.4244333" target="_blank">42.961167, -82.424433</a></div>
       </div>
     </li>
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
-      <div class="w2 h2 mr3 br1 b--light-gray tc mr1 ba"></div>
+      <div class="mr3">
+        <svg class="br1 b--light-gray ba h2 w2 pa2 fill-white" alt="">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
+				</svg>
+      </div>
       <div class="flex-auto">
         <div class="f4 lh-title near-black">Mineral Rock</div>
         <div class="ft">25-30</div>
       </div>
     </li>
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
-      <div class="w2 h2 mr3 br1 b--light-gray tc mr1 ba"></div>
+      <div class="mr3">
+        <svg class="br1 b--light-gray ba h2 w2 pa2 fill-white" alt="">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
+				</svg>
+      </div>
       <div class="flex-auto">
         <div class="f4 lh-title near-black">Erin</div>
         <div class="ft">33-36</div>
       </div>
     </li>
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
-      <div class="w2 h2 mr3 br1 b--light-gray tc mr1 ba"></div>
+      <div class="mr3">
+        <svg class="br1 b--light-gray ba h2 w2 pa2 fill-white" alt="">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
+				</svg>
+      </div>
       <div class="flex-auto">
         <div class="f4 lh-title near-black">Nelson Mills</div>
         <div class="ft">33-40</div>
       </div>
     </li>
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
-      <div class="w2 h2 mr3 br1 b--light-gray tc mr1 ba"></div>
+      <div class="mr3">
+        <svg class="br1 b--light-gray ba h2 w2 pa2 fill-white" alt="">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
+				</svg>
+      </div>
       <div class="flex-auto">
         <div class="f4 lh-title near-black">Tokio</div>
         <div class="ft">15-28</div>
       </div>
     </li>
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
-      <div class="w2 h2 mr3 br1 b--light-gray tc mr1 ba"></div>
+      <div class="mr3">
+        <svg class="br1 b--light-gray ba h2 w2 pa2 fill-white" alt="">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
+				</svg>
+      </div>
       <div class="flex-auto">
         <div class="f4 lh-title near-black">John Francomb/Dashing Wave</div>
         <div class="ft">18</div>
       </div>
     </li>
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
-      <div class="w2 h2 mr3 br1 b--light-gray tc mr1 ba"></div>
+      <div class="mr3">
+        <svg class="br1 b--light-gray ba h2 w2 pa2 fill-white" alt="">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
+				</svg>
+      </div>
       <div class="flex-auto">
         <div class="f4 lh-title near-black">William Dickinson</div>
         <div class="ft">18-25</div>
       </div>
     </li>
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
-      <div class="w2 h2 mr3 br1 b--light-gray tc mr1 ba"></div>
+      <div class="mr3">
+        <svg class="br1 b--light-gray ba h2 w2 pa2 fill-white" alt="">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=""></use>
+				</svg>
+      </div>
       <div class="flex-auto">
         <div class="f4 lh-title near-black">Joseph Duvall</div>
         <div class="ft">30</div>
