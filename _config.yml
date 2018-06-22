@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title:   Your awesome title
-email:   your-email@example.com
+title:   MadebyGraham
+email:   mattgraham@madebygraham.com
 
 # description: >- # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for your new site here. You can edit this
@@ -39,9 +39,7 @@ assets:
 sass:
     sass_dir: assets/styles
 
-highlighter:  kramdown
-kramdown:
-  input: GFM
+highlighter:  rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
