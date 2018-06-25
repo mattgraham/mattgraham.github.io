@@ -189,6 +189,7 @@ thumb: /assets/images/thumb_stclairriver.jpg
       <div class="flex-auto">
         <div class="f4 lh-title near-black">Mineral Rock</div>
         <div class="ft">25-30</div>
+        <div class="mv2"><a href="https://www.google.com/maps/place/42°55'11.3%22N+82°27'37.2%22W/@42.9198206,-82.4625273,1007m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d42.9198167!4d-82.4603333" target="_blank">42.9198167°, -082.4603333°</a></div>
       </div>
     </li>
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
@@ -200,6 +201,7 @@ thumb: /assets/images/thumb_stclairriver.jpg
       <div class="flex-auto">
         <div class="f4 lh-title near-black">Erin</div>
         <div class="ft">33-36</div>
+        <div class="mv2"><a href="https://www.google.com/maps/place/42°48'23.9%22N+82°28'55.1%22W/@42.8066539,-82.4841773,1009m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d42.80665!4d-82.4819833" target="_blank">42.8066500°, -082.4819833°</a></div>
       </div>
     </li>
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
@@ -211,6 +213,7 @@ thumb: /assets/images/thumb_stclairriver.jpg
       <div class="flex-auto">
         <div class="f4 lh-title near-black">Nelson Mills</div>
         <div class="ft">33-40</div>
+        <div class="mv2"><a href="https://www.google.com/maps/place/42°47'43.8%22N+82°28'40.1%22W/@42.7955039,-82.4800107,1009m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d42.7955!4d-82.4778167" target="_blank">42.7955000°, -082.4778167°</a></div>
       </div>
     </li>
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
@@ -222,6 +225,7 @@ thumb: /assets/images/thumb_stclairriver.jpg
       <div class="flex-auto">
         <div class="f4 lh-title near-black">Tokio</div>
         <div class="ft">15-28</div>
+        <div class="mv2"><a href="https://www.google.com/maps/place/42°45'14.4%22N+82°28'30.4%22W/@42.7540039,-82.4773107,1010m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d42.754!4d-82.4751167" target="_blank">42.7540000°, -082.4751167°</a></div>
       </div>
     </li>
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
@@ -233,6 +237,7 @@ thumb: /assets/images/thumb_stclairriver.jpg
       <div class="flex-auto">
         <div class="f4 lh-title near-black">John Francomb/Dashing Wave</div>
         <div class="ft">18</div>
+        <div class="mv2"><a href="https://www.google.com/maps/place/42°42'09.6%22N+82°29'58.4%22W/@42.7026706,-82.501744,1011m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d42.7026667!4d-82.49955" target="_blank">42.7026667°, -082.4995500°</a></div>
       </div>
     </li>
     <li class="bb b--light-gray pv2 flex lh-copy dark-gray">
