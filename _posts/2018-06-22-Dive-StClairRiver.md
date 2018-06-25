@@ -110,7 +110,7 @@ thumb: /assets/images/thumb_stclairriver.jpg
         <div class="ft">50-72</div>
         <div class="">This wreck lies off the US. side just below the Bluewater Bridges. The large, three-masted schooner, M. E. Tremble (198' x 34’5" x 13'4”), was under tow of the steamer, B. W. Blanchard, on the night of September 7, 1890, when the downbound steamer, W. L. Wetmore (which is also in this book) crashed into her port side. The crew hastily launched the yawl boat and left the sinking ship, realizing too late that one of their number had been left behind and was struggling for survival in the doomed ship’s rigging. Unfortunately, he perished. Recovery of the coal cargo resulted in the accidental sinking of the salvage schooner, Ben Hur, when it was struck by a passing schooner-barge, the Superior, in tow of the Passaic, along with a small lighter which tended its cables, on November 8, 1890. [Source: The Great Lakes Diving Guide by Cris Kohl]</div>
         <div class="mv2 b">Video of our Tremble dive last year:</div>
-        <div class="mv3">
+        <div class="mv3 video-container">
           <iframe width="720" height="405" src="https://www.youtube.com/embed/7Fd2rQ_RTrE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
@@ -137,7 +137,7 @@ thumb: /assets/images/thumb_stclairriver.jpg
         <div class="f4 lh-title near-black">A. R. Colborn & Crane</div>
         <div class="ft">35-45</div>
         <div class="mv3 b">Video of dive last year:</div>
-        <div class="mv3">
+        <div class="mv3 video-container">
           <iframe width="720" height="405" src="https://www.youtube.com/embed/0D54G9sVoOc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
