@@ -173,6 +173,10 @@ thumb: /assets/images/thumb_stclairriver.jpg
       <div class="flex-auto">
         <div class="f4 lh-title near-black">Lansing Shoal Lightship No. 055 / James Beard Ferry</div>
         <div class="ft mb3">20-30</div>
+        <div class="mv2 b">Dive on June 26, 2018</div>
+        <div class="mv3 video-container">
+          <iframe width="720" height="405" src="https://www.youtube.com/embed/CyLJR_ECi20" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
         <div class="w-100 flex-ns">
           <div class="w-100">
             <img src="/assets/images/LansgingShoalLightship_Dec15_1907_cg.jpg" class="w-100 mb1" alt="">
