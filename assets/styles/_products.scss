@@ -46,6 +46,49 @@
     margin: 20px auto;
   }
 
+  &#heroku {
+    background-color: #4e61a8;
+    background-image: -webkit-gradient(linear, left center, right center, from(rgb(78, 97, 168)), to(rgb(109, 74, 146)));
+    background-image: -webkit-linear-gradient(left, rgb(78, 97, 168), rgb(109, 74, 146));
+    background-image: -moz-linear-gradient(left, rgb(78, 97, 168), rgb(109, 74, 146));
+    background-image: -o-linear-gradient(left, rgb(78, 97, 168), rgb(109, 74, 146));
+    background-image: -ms-linear-gradient(left, rgb(78, 97, 168), rgb(109, 74, 146));
+    background-image: linear-gradient(left, rgb(78, 97, 168), rgb(109, 74, 146));
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,StartColorStr='#4e61a8', EndColorStr='#6d4a92');
+    position: relative;
+
+    &:before {
+      content: '';
+      display: block;
+      width: 100%;
+      background-image: url(https://www-assets3.herokucdn.com/assets/elements/ecosystem-51bfd00540ebf0b1e52b4fd935222d5c46c7ad58fc05273ca96311788ac0777c.png);
+      background-repeat: no-repeat;
+      background-position: right center;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+
+    .portfolio-item-demo img {
+      margin-bottom: -15%;
+      margin-left: -15%;
+      max-width: 115%;
+
+      @media #{$mobile} {
+        margin-bottom: 0;
+        margin-left: 0;
+        max-width: 100%;
+      }
+    }
+
+    .portfolio-item-content p {
+      color: rgba(#000, .6);
+    }
+  }
+
   &#atom {
     background: #EFEAE1;
 
