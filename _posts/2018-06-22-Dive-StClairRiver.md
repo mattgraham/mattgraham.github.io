@@ -164,7 +164,7 @@ thumb: /assets/images/thumb_stclairriver.jpg
         <div class="ft">35-45</div>
       </div>
     </li>
-    <li class="bb b--light-gray pv2 flex lh-copy dark-gray" id="jamesbeard">
+    <li class="bb b--light-gray pv2 flex lh-copy dark-gray" id="lansing-beard">
       <div class="mr3">
         <svg class="br1 b--light-gray ba h2 w2 pa2 fill-white" alt="">
           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#confirm-28"></use>
