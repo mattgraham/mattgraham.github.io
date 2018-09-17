@@ -12,7 +12,7 @@ customCSS: post-home.css
 
     <h3>Product design and frontend development at Salesforce</h3>
     <ul>
-      <li class="twitter"><a href="http://twitter.com/michigangraham"><span class="icon-twitter"></span></a></li>
+      <li class="twitter"><a href="http://twitter.com/mattgraham"><span class="icon-twitter"></span></a></li>
       <li class="github"><a href="http://github.com/mattgraham"><span class="icon-github"></span></a></li>
       <li class="dribbble"><a href="http://dribbble.com/mattgraham"><span class="icon-dribbble"></span></a></li>
     </ul>
@@ -25,7 +25,7 @@ customCSS: post-home.css
   <div class="f1 mb4">Delivering apps that cause change.</div>
   <div class="w-100 mw9 center">
     <div class="mb3 f3 lh-copy mw8 center">I'm a product designer and frontend developer living in Port Huron, MI. I focus on what it takes to make simple web applications, successful experiences, while automating all that I can.</div>
-    <div class="mb3 f3 lh-copy mw8 center">I currently work as a senior product designer at <a href="http://salesforce.com" target="_blank">Salesforce</a> and focus on our <a href="http://heroku.com" target="_blank">Heroku Ecosystem</a> experiences. Previously at <a href="http://github.com" target="_blank">GitHub</a>, <a href="https://github.com/blog/993-ordered-list-is-a-githubber" target="_blank">Ordered List</a> and other small design and development firms. I love simple, beautiful apps that change the way we live and do things. Please don't hesitate to reach out and say hello <a href="http://twitter.com/michigangraham" target="_blank">@michigangraham</a>.
+    <div class="mb3 f3 lh-copy mw8 center">I currently work as a senior product designer at <a href="http://salesforce.com" target="_blank">Salesforce</a> and focus on our <a href="http://heroku.com" target="_blank">Heroku Ecosystem</a> experiences. Previously at <a href="http://github.com" target="_blank">GitHub</a>, <a href="https://github.com/blog/993-ordered-list-is-a-githubber" target="_blank">Ordered List</a> and other small design and development firms. I love simple, beautiful apps that change the way we live and do things. Please don't hesitate to reach out and say hello <a href="http://twitter.com/mattgraham" target="_blank">@mattgraham</a>.
     </div>
   </div>
   </div>

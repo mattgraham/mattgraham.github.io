@@ -31,7 +31,7 @@ $("#fittext_2").fitText(1.1, { minFontSize: '26px', maxFontSize: '100px' });
 <br/></p>
 <p><a href="http://github.com/mattgraham/Leap-Day" target="_blank"><h2>Leap Day Theme</h2><br/><img src="http://f.cl.ly/items/351s2X0w1V3E2Q3t0Z0C/json_builder.png"></a><br />
 <br/></p>
-<p>You are free to use these templates for your projects and if you inspired by them send a tweet and let me know, I&#8217;d love to see where they&#8217;ve been used.  <a href="http://twitter.com/#!/michigangraham">@michigangraham</a></p></div>
+<p>You are free to use these templates for your projects and if you inspired by them send a tweet and let me know, I&#8217;d love to see where they&#8217;ve been used.  <a href="http://twitter.com/#!/mattgraham">@mattgraham</a></p></div>
 </div>
 
 </article>

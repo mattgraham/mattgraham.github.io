@@ -22,7 +22,7 @@ customCSS: post-octokindle.css
 
 <img src="http://distilleryimage11.s3.amazonaws.com/39668d96b56c11e1abb01231382049c1_7.jpg" class="large">
 
-<p>Download everything you'll need at <a href="http://github.com/mattgraham/octokindle" target="_blank">mattgraham/octokindle</a> via GitHub. These modifications should work with the v5.1.0 firmware version of Kindle Touch. Make all changes at your own risk. (It was a very smooth install for myself) I am just the screensaver orginizer if you have any questions hit me up on twitter: <a href="http://twitter.com/michigangraham">@michigangraham</a></p>
+<p>Download everything you'll need at <a href="http://github.com/mattgraham/octokindle" target="_blank">mattgraham/octokindle</a> via GitHub. These modifications should work with the v5.1.0 firmware version of Kindle Touch. Make all changes at your own risk. (It was a very smooth install for myself) I am just the screensaver orginizer if you have any questions hit me up on twitter: <a href="http://twitter.com/mattgraham">@mattgraham</a></p>
 <p>Huge thanks to <a href="http://github.com/cobyism">@cobyism<a/> and <a href="http://github.com/dreww">@dreww</a> for getting things rolling on this, much of this content is because they got it started.</p>
 
 <p>Feel free to submit pull requests with new octocat screensavers. I'll accept and reject them based on my personal biases, and taste in design.</p>
