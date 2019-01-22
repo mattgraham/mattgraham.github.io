@@ -5,7 +5,7 @@ permalink: mlb
 thumb: /assets/images/thumb-mlb.jpg
 ---
 
-<div class="article-header">
+<div class="article-header" id="">
 	<a href="http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2016_06_17_milmlb_lanmlb_1&partnerId=ed-10471836-905864443" class="details" target="_blank">
 	<strong>Latest Stadium:</strong>
 	<br />Dodger Stadium, Los Angeles, CA<br />Brewers (2) at Dodgers (3), June 17, 2016</a>
