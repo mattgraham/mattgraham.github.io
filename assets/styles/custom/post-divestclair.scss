@@ -4,7 +4,17 @@
 ---
 
 @import "settings";
+@import url('https://fonts.googleapis.com/css?family=Sail');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
+.f1 {
+	font-family: 'Sail', sans-serif;
+	letter-spacing: -0.05em;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
 .article-header {
 	height: 0;
 	min-height: 380px;
