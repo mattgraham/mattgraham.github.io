@@ -5,13 +5,13 @@ customCSS: post-home.css
 
 <div class="welcome">
   <div class="content">
-    <h1 id="fittext1">Matt Graham</h1>
+    <h1 id="fittext1" class="mv2">Matt Graham</h1>
     <script type="text/javascript">
       $("#fittext1").fitText(1.1, { minFontSize: '36px', maxFontSize: '125px' });
     </script>
 
-    <h3>Product design and frontend development at Salesforce</h3>
-    <ul>
+    <div class="f4 mv3">Lead UX design and frontend development on Heroku properties at Salesforce</div>
+    <ul class="pa0 ma0 mv5">
       <li class="twitter"><a href="http://twitter.com/mattgraham"><span class="icon-twitter"></span></a></li>
       <li class="github"><a href="http://github.com/mattgraham"><span class="icon-github"></span></a></li>
       <li class="dribbble"><a href="http://dribbble.com/mattgraham"><span class="icon-dribbble"></span></a></li>
@@ -22,32 +22,76 @@ customCSS: post-home.css
 
 <div class="about">
   <div class="pa5 center">
-  <div class="f1 mb4">Delivering apps that cause change.</div>
+  <div class="f1 mv5 lh-title">Building applications that cause change.</div>
   <div class="w-100 mw9 center">
-    <div class="mb3 f3 lh-copy mw8 center">I'm a product designer and frontend developer living in Port Huron, MI. I focus on what it takes to make simple web applications, successful experiences, while automating all that I can.</div>
-    <div class="mb3 f3 lh-copy mw8 center">I currently work as a senior product designer at <a href="http://salesforce.com" target="_blank">Salesforce</a> and focus on our <a href="http://heroku.com" target="_blank">Heroku Ecosystem</a> experiences. Previously at <a href="http://github.com" target="_blank">GitHub</a>, <a href="https://github.com/blog/993-ordered-list-is-a-githubber" target="_blank">Ordered List</a> and other small design and development firms. I love simple, beautiful apps that change the way we live and do things. Please don't hesitate to reach out and say hello <a href="http://twitter.com/mattgraham" target="_blank">@mattgraham</a>.
+    <div class="mb3 f3 lh-copy mw8 center">Professionally, I'm a <strong>Lead UX Designer and frontend developer</strong> designing applications on the <a href='http://heroku.com' target='_blank'>Heroku</a> platform at <a href='http://salesforce.com' target='_blank'>Salesforce</a>, by way of remote life in Port Huron, MI. Previously I've worked at <a href="http://github.com" target="_blank">GitHub</a>, <a href="https://github.com/blog/993-ordered-list-is-a-githubber" target="_blank">Ordered List</a> and other small design and development firms. I love simple, beautiful apps that change the way we live and do things. I focus on what it takes to make simple web applications, successful experiences, while automating all that I can.</div>
+    <div class="mb3 f3 lh-copy mw8 center">Personally, I'm a <strong>Search and Recovery diver</strong> for the St. Clair County Sheriff Department, the <strong>Chairperson</strong> for the Dive Team Auxiliary board of directors, <strong>worship leader</strong> for Christians for a new tomorrow church, <strong>husband</strong> to Shannon and <strong>father</strong> to a 9lb yorkie who we've named Tux.</div>
+    <div class='mb3 f3 lh-copy mw8 center'>If you have questions, please don't hesitate to reach out and say hello via twitter at <a href="http://twitter.com/mattgraham" target="_blank">@mattgraham</a> or <a href="mailto:mattgraham@madebygraham.com" target="_blank">mattgraham@madebygraham.com</a>.
     </div>
   </div>
   </div>
 </div>
 
-<!-- <div class="portfolio-item" id="heroku">
-  <div class="flex w-100 mw9 center pa4">
-    <div class="flex flex-column items-center">
+<div class="portfolio-item pv5" id="heroku">
+  <div class="flex-ns w-100 mw9 center pa4">
+
+    <div class="w-100 mb3 w-50-ns pa2 flex flex-column items-center">
       <div class="flex-auto"></div>
-      <div class="white f4 lh-copy">
-        I've just celebrated my third year with Heroku / Salesforce organizations as a lead designer.
+      <div class="white f4 lh-copy measure">
+        <div class="flex items-center tc mb4">
+          <div class="flex-auto"></div>
+          <img src="/assets/images/heroku/logo-heroku.svg" alt="">
+          <div class="w2"></div>
+          <img src="/assets/images/heroku/logo-salesforce.svg" alt="">
+          <div class="flex-auto"></div>
+        </div>
+        I've completed my fourth year with Heroku / Salesforce now as a lead product designer. I've designed and seen launched the first ever Heroku Elements Marketplace (including the internal partner portal), worked in many areas of the Heroku Dashboard, contributed to the Purple Design System among other things.
       </div>
       <div class="flex-auto"></div>
     </div>
 
-    <div class="flex flex-column items-center">
-      <div class="flex-auto"></div>
-      <img src="assets/images/atom.png" alt="" class="w-100">
-      <div class="flex-auto"></div>
+    <div class="w-100 w-50-ns pa2">
+      <div class="grid">
+        <div class="bg-white pa4 br1 tc shadow-4">
+          <img class="h3 w3" src="/assets/images/heroku/herokuPostgres.png">
+          <div class="sans purple b mv2">Heroku Postgres</div>
+          <div class="sans dark-gray f6 lh-title mb1">Reliable and powerful database as a service based on PostgreSQL.</div>
+        </div>
+        <div class="bg-white pa4 br1 tc shadow-4">
+          <img class="h3 w3" src="/assets/images/heroku/herokuConnect.png">
+          <div class="sans purple b mv2">Heroku Connect</div>
+          <div class="sans dark-gray f6 lh-title mb1">Salesforce Data Synchronization Service on the Heroku platform.</div>
+        </div>
+        <div class="bg-white pa4 br1 tc shadow-4">
+          <img class="h3" src="/assets/images/heroku/herokuScheduler.png">
+          <div class="sans purple b mv2">Heroku Scheduler</div>
+          <div class="sans dark-gray f6 lh-title mb1">Run scheduled tasks every 10 minutes, every hour, or every day. </div>
+        </div>
+        <div class="bg-white pa4 br1 tc shadow-4 relative">
+          <div class="z-999 bg-purple o-90 absolute top-0 right-0 bottom-0 left-0 sans f6 b flex flex-column">
+            <div class="flex-auto"></div>
+            <ul class="pa0 ma0 white lh-copy">
+              <li class="b">6 Regions</li>
+              <li class="b">App Sharable</li>
+              <li class="b">Multiple Installs</li>
+              <li class="b"></li>
+              <li class="normal">Plans starting at</li>
+              <li class="b">$100 Mo.</li>
+            </ul>
+            <div class="flex-auto"></div>
+
+            <div class="pb3 ph3">
+              <div class="b pointer bg-white br1 pa2 center shadow-4 w-100 purple">View Details</div>
+            </div>
+          </div>
+          <img class="h3 w3" src="/assets/images/heroku/herokuKafka.png">
+          <div class="sans purple b mv2">Heroku Kafka</div>
+          <div class="sans dark-gray f6 lh-title mb1">Reliable and powerful Apache Kafka as a service on the Heroku platform.</div>
+        </div>
+      </div>
     </div>
   </div>
-</div> -->
+</div>
 
 <div class="portfolio-item" id="atom">
   <div class="portfolio-item-inner">
@@ -67,9 +111,9 @@ customCSS: post-home.css
   <div class="portfolio-item-demo">
     <img src="http://ecx.images-amazon.com/images/I/510Smm7LcEL._SS500_.jpg" class="album-art" />
       <div class="album-tracks">
-        <h3>Onething 09 Live</h3>
-        <h4>Forerunner Music <span>(2010)</span></h4>
-        <ol>
+        <h3>Onething Live</h3>
+        <h4 class="db sans mv2">Forerunner Music</h4>
+        <ol class="db sans mv4">
           <li>Lowest Place</li>
           <li>You Made a Way</li>
           <li>I Put On Christ</li>
@@ -109,17 +153,19 @@ customCSS: post-home.css
 </div>
 
 <div id="articles">
+  <div class="f2 serif mv4">Personal thoughts</div>
+
   <div class="content">
-    <h1>Recent Authorings</h1>
   {% for post in site.posts limit:3 %}
       <li class="{% cycle 'even', 'odd' %}">
         <a href="{{ post.url }}">
           <img src="{{ post.thumb }}" alt="">
-          <span class="article-title">{{ post.title }}</span>
-          <!-- <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span> -->
+          <div class="f3 mv3 near-black sans-serif">{{ post.title }}</div>
         </a>
       </li>
   {% endfor %}
   </div>
-  <span class="content view-all"><a href="/articles.html">view all articles</a></span>
+  <div class="w-100 mw9 center sans pa3 bt bb b--light-gray">
+    <a href="/articles.html">view all articles</a>
+  </div>
 </div>

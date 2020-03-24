@@ -71,7 +71,6 @@
       left: 0;
     }
 
-
     .portfolio-item-demo img {
       margin-bottom: -15%;
       margin-left: -15%;
@@ -285,4 +284,10 @@
       color: rgba(#fff, .6);
     }
   }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr) ) ;
+  grid-gap: 5px;
 }

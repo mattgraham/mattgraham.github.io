@@ -4,14 +4,10 @@
 ---
 
 @import "settings";
-// @import "compass/css3";
 @import "settings";
 @import "mixins";
 
 $primary: #99ccff;
-
-body {
-}
 
 .clear {
 	clear: both;
@@ -212,7 +208,6 @@ a {
 
 		a .article-title {
 			color: #333;
-			@include font-size(1.7);
 			font-weight: $weight-bold;
 			transition: color .1s ease-in;
 
