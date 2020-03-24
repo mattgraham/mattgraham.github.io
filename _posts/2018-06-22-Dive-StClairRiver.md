@@ -31,12 +31,10 @@ thumb: /assets/images/thumb_stclairriver.jpg
 </div>
 
 <article class="w-100 mw9 tc">
-  <div class='f1 mb3' id="fittext_2">Diving the St. Clair River</div>
-  <!-- <h3 id="fittext_3"> Then open sourcing the codebase</h3> -->
+  <div class='f2 mv3 lh-title' id="fittext_2">Diving the St. Clair River</div>
 
   <script type="text/javascript">
-    $("#fittext_2").fitText(.7, { minFontSize: '42px', maxFontSize: '100px' });
-    $("#fittext_3").fitText(1, { minFontSize: '16px', maxFontSize: '32px' });
+    $("#fittext_2").fitText(.7, { minFontSize: '32px', maxFontSize: '100px' });
   </script>
 
   <div class="f4 lh-copy center mb3 mw8">
