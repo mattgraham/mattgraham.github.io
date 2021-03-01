@@ -109,7 +109,7 @@ customCSS: post-home.css
 <div class="portfolio-item" id="play">
   <div class="portfolio-item-inner">
   <div class="portfolio-item-demo">
-    <img src="http://ecx.images-amazon.com/images/I/510Smm7LcEL._SS500_.jpg" class="album-art" />
+    <img src="assets/images/510Smm7LcEL._SS500_.jpg" class="album-art" />
       <div class="album-tracks">
         <h3>Onething Live</h3>
         <h4 class="db sans mv2">Forerunner Music</h4>
