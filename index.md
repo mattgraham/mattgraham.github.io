@@ -32,6 +32,79 @@ customCSS: post-home.css
   </div>
 </div>
 
+
+<div class="bg-dark-gray portfolio-item pt4 ph1 ph4-l" id="salesforce-cli">
+  <div class="flex flex-column flex-row-ns w-100 mw9 center">
+
+    <div class="w-100 w-50-ns pt2 flex flex-column items-center order-1 order-0-ns">
+      <div class="flex-auto"></div>
+
+      <div class="white f4 lh-copy bg-black br4 br--top w-100 code f5 pa4 overflow-scroll">
+        <div><span class="light-blue">$</span> sf</div>
+        <div>The Salesforce CLI</div>
+        <br/>
+
+        <div class="b">VERSION</div>
+        <div>@salesforce/cli/1.0.1 darwin-x64 node-v12.15.0</div>
+        <br/>
+        <div><span class="light-blue">$</span> sf env create</div>
+        <br/>
+
+        <div class="b mb1">What kind of environment do you want to create?</div>
+        
+        <table class="mb4">
+          <tr>
+            <td class="">➡ </td>
+            <td class="ph1">Scratch Org</td>
+          </tr>
+          <tr>
+            <td class=""></td>
+            <td class="ph1">Sandbox Org</td>
+          </tr>
+          <tr>
+            <td class=""></td>
+            <td class="ph1">Compute Org</td>
+          </tr>
+        </table>
+
+        <div class="b mb1">Choose a Dev Hub to use to create your Scratch Org</div>
+        
+        <table class="mb2">
+          <tr>
+            <td class="">➡ </td>
+            <td class="ph1">DevHub1 (mydevhublogin@org.salesforce.com)</td>
+          </tr>
+          <tr>
+            <td class=""></td>
+            <td class="ph1">Log in to another Dev Hub</td>
+          </tr>
+          <tr>
+            <td class=""></td>
+            <td class="ph1">Compute Org</td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+
+    <div class="w-100 w-50-ns pa4 tc flex flex-column order-0 order-1-ns">
+      <div class="flex-auto"></div>
+      
+      <div class="white f4 lh-copy measure">
+        <div class="flex items-center tc mb4">
+          <div class="flex-auto"></div>
+          <img src="/assets/images/heroku/logo-salesforce.svg" alt="">
+          <div class="flex-auto"></div>
+        </div>
+        One of the most difficult leaps in my design career has been designing for the future Salesforce Unified CLI. <strong>sf</strong> is a brand new cli (built on top of OCLIF) with the primary goal of unifing all the salesforce brands and future features together in a brand new CLI.
+      </div>
+
+      <div class="flex-auto"></div>
+    </div>
+  </div>
+</div>
+
+
 <div class="portfolio-item pv5" id="heroku">
   <div class="flex-ns w-100 mw9 center pa4">
 
