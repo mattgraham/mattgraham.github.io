@@ -33,13 +33,13 @@ customCSS: post-home.css
 </div>
 
 
-<div class="bg-dark-gray portfolio-item pt4 ph1 ph4-l" id="salesforce-cli">
+<div class="bg-near-black portfolio-item pt4 ph1 ph4-l" id="salesforce-cli">
   <div class="flex flex-column flex-row-ns w-100 mw9 center">
 
     <div class="w-100 w-50-ns pt2 flex flex-column items-center order-1 order-0-ns">
       <div class="flex-auto"></div>
 
-      <div class="white f4 lh-copy bg-black br4 br--top w-100 code f5 pa4 overflow-scroll">
+      <div class="white f4 lh-copy bg-black shadow-1 br4 br--top w-100 code f5 pa4 overflow-scroll">
         <div><span class="light-blue">$</span> sf</div>
         <div>The Salesforce CLI</div>
         <br/>
