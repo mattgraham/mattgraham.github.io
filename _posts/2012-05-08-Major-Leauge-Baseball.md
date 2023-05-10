@@ -20,7 +20,7 @@ $("#fittext_2").fitText(.9, { minFontSize: '36px', maxFontSize: '110px' });
 $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 </script>
 
-<p>There are few things on earth like sitting in the stands with the aroma of the game, friends at your side, and hopefully the Detroit Tigers victory. I grew up knowing the Tiger Stadium bleachers well with my dad and brother and have sense set a goal to see as many Major League Ballparks as I can. The countdown is on to see them all. My target fields for 2023 are marked with the <span class="mark"></span></p>
+<p>There are few things on earth like sitting in the stands with the aroma of the game, friends at your side, and hopefully the Detroit Tigers victory. I grew up next to my father and brother in the Tiger Stadium bleachers, and have since set a goal to see as many Major League Ballparks as I am able to. The countdown is on to see them all. My target fields for 2023 are marked with the <span class="mark"></span></p>
 
 <br />
 
