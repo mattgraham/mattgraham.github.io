@@ -20,7 +20,7 @@ $("#fittext_2").fitText(.9, { minFontSize: '36px', maxFontSize: '110px' });
 $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 </script>
 
-<p>There are few things on earth like sitting in the stands with the aroma of the game, friends at your side, and hopefully the Detroit Tigers victory. I grew up next to my father and brother in the Tiger Stadium bleachers, and have since set a goal to see as many Major League Ballparks as I am able to. The countdown is on to see them all. My target fields for 2023 are marked with the <span class="mark"></span></p>
+<p>There are few things on earth like sitting in the stands with the aroma of the game, friends at your side, and hopefully the Detroit Tigers victory. I grew up next to my father and brother in the Tiger Stadium bleachers, and have since set a goal to see as many Major League Ballparks as I am able to. The countdown is on to see them all.</p>
 
 <br />
 
@@ -37,7 +37,7 @@ $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 			<p>Baltimore Orioles</p>
 		</li>
 
-		<li class="off target"><span class="image-box"><img src="/assets/images/mlb/red_sox.png"></span>
+		<li class="off"><span class="image-box"><img src="/assets/images/mlb/red_sox.png"></span>
 			<h3>Fenway Park</h3>
 			<p>Boston Red Sox</p>
 		</li>
@@ -65,7 +65,7 @@ $("#fittext_3").fitText(1.6, { minFontSize: '16px', maxFontSize: '32px' });
 			<h3>U.S. Cellular Field</h3>
 			<p>Chicago White Sox</p>
 		</li>
-		<li class="off target"><span class="image-box"><img src="/assets/images/mlb/indians.png"></span>
+		<li class="off"><span class="image-box"><img src="/assets/images/mlb/indians.png"></span>
 			<h3>Progressive Field</h3>
 			<p>Cleveland Indians</p>
 		</li>
