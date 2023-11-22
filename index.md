@@ -10,7 +10,7 @@ customCSS: post-home.css
       $("#fittext1").fitText(1.1, { minFontSize: '36px', maxFontSize: '125px' });
     </script>
 
-    <div class="f4 mv3">Lead UX design and frontend development on Heroku properties at Salesforce</div>
+    <div class="f4 mv3">Lead UX design and frontend development at Salesforce</div>
     <ul class="pa0 ma0 mv5">
       <li class="twitter"><a href="http://twitter.com/mattgraham"><span class="icon-twitter"></span></a></li>
       <li class="github"><a href="http://github.com/mattgraham"><span class="icon-github"></span></a></li>
@@ -22,15 +22,84 @@ customCSS: post-home.css
 
 <div class="about">
   <div class="pa5 center">
-  <div class="f1 mv5 lh-title">Building applications that cause change.</div>
-  <div class="w-100 mw9 center">
-    <div class="mb3 f3 lh-copy mw8 center">Professionally, I'm a <strong>Lead UX Designer and frontend developer</strong> designing applications on the <a href='http://heroku.com' target='_blank'>Heroku</a> platform at <a href='http://salesforce.com' target='_blank'>Salesforce</a>, by way of remote life in Port Huron, MI. Previously I've worked at <a href="http://github.com" target="_blank">GitHub</a>, <a href="https://github.com/blog/993-ordered-list-is-a-githubber" target="_blank">Ordered List</a> and other small design and development firms. I love simple, beautiful apps that change the way we live and do things. I focus on what it takes to make simple web applications, successful experiences, while automating all that I can.</div>
-    <div class="mb3 f3 lh-copy mw8 center">Personally, I'm a <strong>Search and Recovery diver</strong> for the St. Clair County Sheriff Department, the <strong>Chairperson</strong> for the Dive Team Auxiliary board of directors, <strong>worship leader</strong> for Christians for a new tomorrow church, <strong>husband</strong> to Shannon and <strong>father</strong> to our beautiful daughter Ella and our 9lb yorkie who we've named Tux.</div>
-    <div class='mb3 f3 lh-copy mw8 center'>If you have questions, please don't hesitate to reach out and say hello via twitter at <a href="http://twitter.com/mattgraham" target="_blank">@mattgraham</a> or <a href="mailto:mattgraham@madebygraham.com" target="_blank">mattgraham@madebygraham.com</a>.
+  <div class="f1 mv5 lh-title serif">Building applications that cause change.</div>
+  <div class="w-100 mw9 center sans-serif">
+    <div class="mv3 f3 lh-copy mw8 center">Professionally, I'm a <strong>Lead UX Designer and frontend developer</strong> designing applications on the <a href='http://heroku.com' target='_blank'>Heroku</a> platform at <a href='http://salesforce.com' target='_blank'>Salesforce</a>, by way of remote life in Port Huron, MI. Previously I've worked at <a href="http://github.com" target="_blank">GitHub</a>, <a href="https://github.com/blog/993-ordered-list-is-a-githubber" target="_blank">Ordered List</a> and other small design and development firms. I love simple, beautiful apps that change the way we live and do things. I focus on what it takes to make simple web applications, successful experiences, while automating all that I can.</div>
+    <div class="mv3 f3 lh-copy mw8 center">Personally, I'm a <strong>Search and Recovery diver</strong> for the St. Clair County Sheriff Department, <strong>Chairperson</strong> for the Dive Team Auxiliary, <strong>husband</strong> to Shannon and <strong>father</strong> to our beautiful daughter.</div>
+    <div class='mv3 f3 lh-copy mw8 center'>If you have questions, please don't hesitate to reach out and say hello via twitter at <a href="http://twitter.com/mattgraham" target="_blank">@mattgraham</a>.
     </div>
   </div>
   </div>
 </div>
+
+
+<div class="bg-near-black portfolio-item pt4 ph1 ph4-l" id="salesforce-cli">
+  <div class="flex flex-column flex-row-ns w-100 mw9 center">
+
+    <div class="w-100 w-50-ns pt2 flex flex-column items-center order-1 order-0-ns">
+      <div class="flex-auto"></div>
+
+      <div class="white f4 lh-copy bg-black shadow-1 br4 br--top w-100 code f5 pa4 overflow-scroll">
+        <div><span class="light-blue">$</span> sf</div>
+        <div>The Salesforce CLI</div>
+        <br/>
+
+        <div class="b">VERSION</div>
+        <div>@salesforce/cli/1.0.1 darwin-x64 node-v12.15.0</div>
+        <br/>
+        <div><span class="light-blue">$</span> sf org create -n MyOrg</div>
+        <br/>
+
+        <div class="b mb1">What kind of environment do you want to create?</div>
+        
+        <table class="mb4">
+          <tr>
+            <td class="">➡ </td>
+            <td class="ph1">Scratch Org</td>
+          </tr>
+          <tr>
+            <td class=""></td>
+            <td class="ph1">Sandbox Org</td>
+          </tr>
+        </table>
+
+        <div class="b mb1">Choose a Dev Hub to use to create your Scratch Org</div>
+        
+        <table class="mb2">
+          <tr>
+            <td class="">➡ </td>
+            <td class="ph1">DevHub1 (mydevhublogin@org.salesforce.com)</td>
+          </tr>
+          <tr>
+            <td class=""></td>
+            <td class="ph1">Log in to another Dev Hub</td>
+          </tr>
+          <tr>
+            <td class=""></td>
+            <td class="ph1">Compute Org</td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+
+    <div class="w-100 w-50-ns pa4 tc flex flex-column order-0 order-1-ns">
+      <div class="flex-auto"></div>
+      
+      <div class="white lh-copy">
+        <div class="flex items-center tc mb4">
+          <div class="flex-auto"></div>
+          <img src="/assets/images/heroku/logo-salesforce.svg" alt="">
+          <div class="flex-auto"></div>
+        </div>
+        <div class="white mb4">One of the most difficult leaps in my design career has been designing for the future Salesforce Unified CLI. <strong>sf</strong> is a new cli (built on top of OCLIF, which I was also able to help with designning years ago) with the primary goal of unifing all the salesforce brands and future features in a brand new CLI.</div>
+      </div>
+
+      <div class="flex-auto"></div>
+    </div>
+  </div>
+</div>
+
 
 <div class="portfolio-item pv5" id="heroku">
   <div class="flex-ns w-100 mw9 center pa4">
@@ -101,7 +170,7 @@ customCSS: post-home.css
   <div class="portfolio-item-content">
     <img src="assets/images/atom-logo.svg" class="logo mb5" alt="">
       <div class="mb4 f4 lh-copy">Atom is an open source text editor built as a desktop application based on web technologies. It has all your native menus and dialogs, and full access to the file system. What makes it different than say Sublime then? The power of the opensource community.</div>
-      <div class="mb4 f4 lh-copy">At GitHub I was part of the team who took Atom from a neat idea to a completely open source application that the market is now running with. I helped design and develop base UI and syntax themes, UX experience, marketing materials, among other elements. <a href="http://atom.io" target="_blank">Atom.io</a></div>
+      <div class="mb4 f4 lh-copy">At GitHub I was part of the team who took Atom from a neat idea to a completely open source application that the market is now running with. I helped design and develop base UI and syntax themes, UX experience, marketing materials, among other elements.</div>
   </div>
   </div>
 </div>

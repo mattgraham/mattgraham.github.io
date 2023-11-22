@@ -24,8 +24,6 @@ thumb: /assets/images/thumb-android.jpg
 
 <p>Today we've shipped GitHub for Android and I've learned much in the process. The app is free to download on <a href="https://play.google.com/store/apps/details?id=com.github.mobile">Google Play</a> and you can also browse the code from the newly open sourced <a href="https://github.com/github/android">repository</a>. I like to think of this as, Incredible beginnings.</p>
 
-<img src="http://f.cl.ly/items/2e3d1z0v1z0b2M1N0220/featured-graphic.png" class="large">
-
 <p>This first release of the app includes support for working with Issues and Gists, integrated news feed, quick dashboard access for all your issues and discussions for your issues. We've also added the ability to bookmark any repo's issue list with filters for labels, milestones, and assignees. If you missed it above, we've open sourced the app. We know we're a little crazy but we love giving things away to the development word.</p>
 
 <h2>On a more personal note</h2>
