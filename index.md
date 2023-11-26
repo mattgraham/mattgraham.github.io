@@ -25,7 +25,7 @@ customCSS: post-home.css
   <div class="f1 mv5 lh-title serif">Building applications that cause change.</div>
   <div class="w-100 mw9 center sans-serif">
     <div class="mv3 f3 lh-copy mw8 center">Professionally, I'm a <strong>Lead UX Designer and frontend developer</strong> designing applications on the <a href='http://heroku.com' target='_blank'>Heroku</a> platform at <a href='http://salesforce.com' target='_blank'>Salesforce</a>, by way of remote life in Port Huron, MI. Previously I've worked at <a href="http://github.com" target="_blank">GitHub</a>, <a href="https://github.com/blog/993-ordered-list-is-a-githubber" target="_blank">Ordered List</a> and other small design and development firms. I love simple, beautiful apps that change the way we live and do things. I focus on what it takes to make simple web applications, successful experiences, while automating all that I can.</div>
-    <div class="mv3 f3 lh-copy mw8 center">Personally, I'm a <strong>Search and Recovery diver</strong> for the St. Clair County Sheriff Department, <strong>Chairperson</strong> for the Dive Team Auxiliary, <strong>husband</strong> to Shannon and <strong>father</strong> to our beautiful daughter.</div>
+    <div class="mv3 f3 lh-copy mw8 center">Personally, I'm a <strong>Search and Recovery diver</strong> for the St. Clair County Sheriff Department, <strong>Chairperson</strong> for the Dive Team Auxiliary, <strong>worship leader</strong> at our church, <strong>husband</strong> to Shannon and <strong>father</strong> to our beautiful daughters Ella and Madisyn.</div>
     <div class='mv3 f3 lh-copy mw8 center'>If you have questions, please don't hesitate to reach out and say hello via twitter at <a href="http://twitter.com/mattgraham" target="_blank">@mattgraham</a>.
     </div>
   </div>
@@ -114,7 +114,7 @@ customCSS: post-home.css
           <img src="/assets/images/heroku/logo-salesforce.svg" alt="">
           <div class="flex-auto"></div>
         </div>
-        I've completed my fourth year with Heroku / Salesforce now as a lead product designer. I've designed and seen launched the first ever Heroku Elements Marketplace (including the internal partner portal), worked in many areas of the Heroku Dashboard, contributed to the Purple Design System among other things.
+        8+ years at Heroku / Salesforce now as a lead ux designer. I've lead design on projects like, Elements Marketplace (including the internal partner portal), multiple areas of the Heroku Dashboard, contributed to the Purple Design System(s) among other things.
       </div>
       <div class="flex-auto"></div>
     </div>
