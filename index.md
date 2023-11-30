@@ -221,7 +221,7 @@ customCSS: post-home.css
 
 <div class="bg-zinc-900 p-24 text-center">
   <div class="text-3xl text-white font-serif mb-12">Personal thoughts</div>
-  <div class="grid grid-cols-3 gap-6 text-center mx-auto w-3/4">
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 text-center mx-auto w-3/4">
     {% for post in site.posts limit:3 %}
       <a href="{{ post.url }}" class="text-white no-underline">
         <img src="{{ post.thumb }}" alt="" class="rounded">
