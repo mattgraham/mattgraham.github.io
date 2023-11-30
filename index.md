@@ -36,7 +36,7 @@ customCSS: post-home.css
 
 <div class="bg-black/90" id="salesforce-cli">
   <div class="w-full max-w-screen-2xl mx-auto grid lg:grid-cols-2 gap-4">
-    <div class="text-white font-mono bg-black p-12 lg:mt-12 order-1 lg:order-0">
+    <div class="text-white font-mono bg-black p-12 lg:mt-12 order-1 lg:order-0 overflow-scroll">
       <div><span class="text-blue-500">$</span> sf</div>
       <div>The Salesforce CLI</div>
       <br/>
