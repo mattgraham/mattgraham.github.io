@@ -1,9 +1,4 @@
----
-layout: home
-customCSS: post-home.css
----
-
-<div class="welcome text-center">
+I"\8<div class="welcome text-center">
     <div class="mb-3 text-5xl md:text-7xl lg:text-8xl uppercase tracking-widest font-light">Matt Graham</div>
     <div class="text-red-500 font-serif text-xl md:text-2xl tracking-wide my-3">Lead UX design and frontend development at Salesforce</div>
     <ul class="flex items-center my-6">
@@ -28,7 +23,7 @@ customCSS: post-home.css
 <div id="about" class="p-4 mb-12">  
   <div class="max-w-screen-lg	mx-auto py-12">
     <div class="text-5xl my-12 font-serif	 text-center">Building applications that cause change.</div>
-    <div class="text-2xl leading-9 mb-6 text-gray-700">Professionally, I'm a <strong>Lead UX Designer and frontend developer</strong> designing applications on the <a href='http://heroku.com' target='_blank'>Heroku</a> platform at <a href='http://salesforce.com' target='_blank'>Salesforce</a>, by way of remote life in Port Huron, MI. Previously I've worked at <a href="http://github.com" target="_blank">GitHub</a>, <a href="https://github.com/blog/993-ordered-list-is-a-githubber" target="_blank">Ordered List</a> and other small design and development firms. I love simple, beautiful apps that change the way we live and do things. I focus on what it takes to make simple web applications, successful experiences, while automating all that I can.</div>
+    <div class="text-2xl leading-9 mb-6 text-gray-700">Professionally, I'm a <strong>Lead UX Designer and frontend developer</strong> designing applications on the <a href="http://heroku.com" target="_blank">Heroku</a> platform at <a href="http://salesforce.com" target="_blank">Salesforce</a>, by way of remote life in Port Huron, MI. Previously I've worked at <a href="http://github.com" target="_blank">GitHub</a>, <a href="https://github.com/blog/993-ordered-list-is-a-githubber" target="_blank">Ordered List</a> and other small design and development firms. I love simple, beautiful apps that change the way we live and do things. I focus on what it takes to make simple web applications, successful experiences, while automating all that I can.</div>
     <div class="text-2xl leading-9 mb-6 text-gray-700">Personally, I'm a <strong>Search and Recovery diver</strong> for the St. Clair County Sheriff Department, <strong>Chairperson</strong> for the Dive Team Auxiliary, <strong>worship leader</strong> at our church, <strong>husband</strong> to Shannon and <strong>father</strong> to our beautiful daughters Ella and Madisyn.</div>
     <div class="text-2xl leading-9 mb-6 text-gray-700">If you have questions, please don't hesitate to reach out and say hello via twitter at <a href="http://twitter.com/mattgraham" target="_blank">@mattgraham</a>.</div>
   </div>
@@ -39,12 +34,12 @@ customCSS: post-home.css
     <div class="text-white font-mono bg-black p-12 lg:mt-12 order-1 lg:order-0">
       <div><span class="text-blue-500">$</span> sf</div>
       <div>The Salesforce CLI</div>
-      <br/>
+      <br />
       <div class="font-bold mb-2">VERSION</div>
       <div>@salesforce/cli/1.0.1 darwin-x64 node-v12.15.0</div>
-      <br/>
+      <br />
       <div><span class="text-blue-500">$</span> sf org create -n MyOrg</div>
-      <br/>
+      <br />
       <div class="font-bold mb-2">What kind of environment do you want to create?</div>
       <table class="mb-4">
         <tr>
@@ -74,7 +69,7 @@ customCSS: post-home.css
     </div>
     <div class="w-50 p-8 flex flex-col text-center order-0 lg:order-1">
       <div class="flex-auto"></div>
-      <img src="/assets/images/heroku/logo-salesforce.svg" alt="" class="h-24 mb-4">
+      <img src="/assets/images/heroku/logo-salesforce.svg" alt="" class="h-24 mb-4" />
       <div class="text-white/80 max-w-prose text-lg">One of the most difficult leaps in my design career has been designing for the future Salesforce Unified CLI. <strong>sf</strong> is a new cli (built on top of OCLIF, which I was also able to help with designning years ago) with the primary goal of unifing all the salesforce brands and future features in a brand new CLI.</div>
       <div class="flex-auto"></div>
     </div>
@@ -86,9 +81,9 @@ customCSS: post-home.css
     <div class="w-50 p-8 flex flex-col text-center">
       <div class="flex-auto"></div>
         <div class="flex items-center mx-auto mb-6">
-          <img src="/assets/images/heroku/logo-heroku.svg" class="h-12" alt="">
+          <img src="/assets/images/heroku/logo-heroku.svg" class="h-12" alt="" />
           <div class="w-4"></div>
-          <img src="/assets/images/heroku/logo-salesforce.svg" class="h-12" alt="">
+          <img src="/assets/images/heroku/logo-salesforce.svg" class="h-12" alt="" />
         </div>
       <div class="text-white/80 mb-4 max-w-prose text-lg mx-auto">
         I've completed my eighth year with Heroku / Salesforce now as a lead product designer. I've designed and seen launched the first ever Heroku Elements Marketplace (including the internal partner portal), worked in many areas of the Heroku Dashboard, contributed to the Purple Design System among other things.
@@ -97,22 +92,22 @@ customCSS: post-home.css
     </div>
     <div class="w-50 grid lg:grid-cols-2 gap-4 py-12 px-4">
       <div class="max-w-lg mx-auto bg-white/90 rounded shadow-xl p-4 text-center">
-        <img class="h-16 w-16 mx-auto my-3" src="/assets/images/heroku/herokuPostgres.png">
+        <img class="h-16 w-16 mx-auto my-3" src="/assets/images/heroku/herokuPostgres.png" />
         <div class="font-bold text-violet-900 my-1">Heroku Postgres</div>
         <div class="text-gray-600 text-sm">Reliable and powerful database as a service based on PostgreSQL.</div>
       </div>
       <div class="max-w-lg mx-auto bg-white/90 rounded shadow-xl p-4 text-center">
-        <img class="h-16 w-16 mx-auto my-3" src="/assets/images/heroku/herokuConnect.png">
+        <img class="h-16 w-16 mx-auto my-3" src="/assets/images/heroku/herokuConnect.png" />
         <div class="font-bold text-violet-900 my-1">Heroku Connect</div>
         <div class="text-gray-600 text-sm">Salesforce Data Synchronization Service on the Heroku platform.</div>
       </div>
       <div class="max-w-lg mx-auto bg-white/90 rounded shadow-xl p-4 text-center">
-        <img class="h-16 w-16 mx-auto my-3" src="/assets/images/heroku/herokuScheduler.png">
+        <img class="h-16 w-16 mx-auto my-3" src="/assets/images/heroku/herokuScheduler.png" />
         <div class="font-bold text-violet-900 my-1">Heroku Scheduler</div>
         <div class="text-gray-600 text-sm">Run scheduled tasks every 10 minutes, every hour, or every day. </div>
       </div>
       <div class="max-w-lg mx-auto bg-white/90 rounded shadow-xl p-4 text-center relative">
-        <img class="h-16 w-16 mx-auto my-3" src="/assets/images/heroku/herokuKafka.png">
+        <img class="h-16 w-16 mx-auto my-3" src="/assets/images/heroku/herokuKafka.png" />
         <div class="font-bold text-violet-900 my-1">Heroku Kafka</div>
         <div class="text-gray-600 text-sm">Reliable and powerful Apache Kafka as a service on the Heroku platform.</div>
         <div class="bg-violet-900/90 absolute top-0 right-0 left-0 bottom-0 flex flex-col p-4 text-sm rounded">
@@ -121,7 +116,7 @@ customCSS: post-home.css
             <div class="font-bold">6 Regions</div>
             <div class="font-bold">App Sharable</div>
             <div class="font-bold">Multiple Installs</div>
-            <br/>
+            <br />
             <div class="">Plans starting at: <span class="font-bold">$100 Mo.</span></div>
           </div>
           <div class="flex-auto"></div>
@@ -137,11 +132,11 @@ customCSS: post-home.css
 <div class="bg-gradient-to-r from-[#EFEAE1] to-[#EFEAE1] overflow-hidden p-12">
   <div class="w-full max-w-screen-2xl mx-auto grid lg:grid-cols-2 gap-4">
     <div>
-      <img src="assets/images/atom.png" alt="" class="w-50 -mb-24">
+      <img src="assets/images/atom.png" alt="" class="w-50 -mb-24" />
     </div>
     <div class="flex flex-col text-lg">
       <div class="flex-auto"></div>
-      <img src="assets/images/atom-logo.svg" class="mb-12 h-16" alt="">
+      <img src="assets/images/atom-logo.svg" class="mb-12 h-16" alt="" />
       <div class="mb-4">
         Atom is an open source text editor built as a desktop application based on web technologies. It has all your native menus and dialogs, and full access to the file system. What makes it different than say Sublime then? The power of the opensource community.
       </div>
@@ -158,7 +153,7 @@ customCSS: post-home.css
     <div class="flex flex-col text-left text-white py-12 md:pr-12 text-lg">
       <div class="flex-auto"></div>
       <div>
-        <img src="assets/images/play-logo.png" class="mx-auto h-20 mb-12 mx-auto" alt="">
+        <img src="assets/images/play-logo.png" class="mx-auto h-20 mb-12 mx-auto" alt="" />
         <div class="mb-4 max-w-prose mx-auto">
           Play was how we did music at GitHub. As taken from the readme, "Play is an employee-powered iTunes-based client-driven distributed music server for your office. Also it can prepare your taxes." I never got it to do my taxes, however being able to queue up music across the world and stream along side your remote co-workers; that was done well. Play was a Rails app originally built off iTunes DJ and later moved to MPD
         </div>
@@ -175,7 +170,7 @@ customCSS: post-home.css
         <div class="flex-auto"></div>
       </div>
       <div class="md:pl-8 flex flex-col">
-        <div class='flex-auto'></div>
+        <div class="flex-auto"></div>
         <div class="text-3xl text-white font-serif mb-1">Onething Live</div>
         <h4 class="text-fuchsia-500 mb-3">Forerunner Music</h4>
         <ol class="list-decimal list-inside	p-0 m-0">
@@ -193,26 +188,25 @@ customCSS: post-home.css
           <li class="p-0 m-0 text-white hover:text-fuchsia-500">Whom the Son Sets Free</li>
           <li class="p-0 m-0 text-white hover:text-fuchsia-500">No One Else</li>
         </ol>
-        <div class='flex-auto'></div>
+        <div class="flex-auto"></div>
       </div>
     </div>
   </div>
 </div>
 
-
 <div class="play bg-gradient-radial from-[#531E3A] to-[#33284D] overflow-hidden px-12 py-24 github-android">
   <div class="w-full max-w-screen-2xl mx-auto grid lg:grid-cols-2 gap-4">
     <div class="portfolio-item-demo">
-        <img src="assets/images/android-demo.png" alt="" class="mx-auto">
+        <img src="assets/images/android-demo.png" alt="" class="mx-auto" />
     </div>
     <div class="order-0 lg:order-1 flex flex-col text-left text-white py-12 text-lg">
       <div class="flex-auto"></div>
-      <img src="assets/images/githubandroid-logo.svg" class="h-16 mx-auto mb-6" alt="">
+      <img src="assets/images/githubandroid-logo.svg" class="h-16 mx-auto mb-6" alt="" />
       <div class="mb-4 max-w-prose mx-auto">
         Create, manage, and discuss issues and stay up to date with an integrated news feed for all your organizations, friends, and repositories. View your issues dashboard to stay connected with all the issues you've reported, been assigned, or participating in the discussion on. You can also view and filter a repository's issue list and bookmark it for quick access.
       </div>
       <div class="mb-4 max-w-prose mx-auto">
-        I was the solo designer that worked alongside two incredible developers to build and opensource GitHub for Android.
+        GitHub for android still to this day holds a 4.4/5 Star rating and over 450,000 downloads in the <a href="https://play.google.com/store/apps/details?id=com.github.mobile&amp;hl=en" target="_blank">Google Play store</a>. I was the lone designer that worked alongside two developers to build and then opensource GitHub for Android.
       </div>
       <div class="flex-auto"></div>
     </div>
@@ -220,18 +214,29 @@ customCSS: post-home.css
 </div>
 
 <div class="bg-zinc-900 py-24 px-6 text-center">
-  <div class="mx-auto w-full max-w-screen-2xl flex items-center mb-12">
-    <div class="text-3xl text-white font-serif">Blog Articles</div>
+  <div class="mx-auto w-full max-w-screen-2xl flex items-center">
+    <div class="text-3xl text-white font-serif">Articles</div>
     <div class="flex-auto"></div>
-    <a href="/articles.html" class="rounded border-blue-500 border px-2 py-1 no-underline">View All</a>
+    <a href="/articles.html" class="text-blue-300 p-1 rounded uppercase text-sm underline tracking-wide">All articles</a>
   </div>
 
   <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 text-center mx-auto w-full max-w-screen-2xl">
-    {% for post in site.posts limit:3 %}
-      <a href="{{ post.url }}" class="text-white no-underline">
-        <img src="{{ post.thumb }}" alt="" class="rounded">
-        <div class="my-3 text-xl">{{ post.title }}</div>
+    
+      <a href="/2020/11/06/LastSeen.html" class="text-white no-underline">
+        <img src="/assets/images/thumb-lastseen.jpg" alt="" class="rounded" />
+        <div class="my-3 text-xl">Last Seen</div>
       </a>
-    {% endfor %}
+    
+      <a href="/2018/06/22/Dive-StClairRiver.html" class="text-white no-underline">
+        <img src="/assets/images/thumb_stclairriver.jpg" alt="" class="rounded" />
+        <div class="my-3 text-xl">Diving the St. Clair River</div>
+      </a>
+    
+      <a href="/2014/03/10/Diving-Georgia.html" class="text-white no-underline">
+        <img src="/assets/images/thumb-diving-georgia.jpg" alt="" class="rounded" />
+        <div class="my-3 text-xl">Diving Georgia Aquarium</div>
+      </a>
+    
   </div>
 </div>
+:ET

@@ -1,4 +1,4 @@
-I"25<div class="welcome text-center">
+I"%8<div class="welcome text-center">
     <div class="mb-3 text-5xl md:text-7xl lg:text-8xl uppercase tracking-widest font-light">Matt Graham</div>
     <div class="text-red-500 font-serif text-xl md:text-2xl tracking-wide my-3">Lead UX design and frontend development at Salesforce</div>
     <ul class="flex items-center my-6">
@@ -213,9 +213,24 @@
   </div>
 </div>
 
-<div class="bg-zinc-900 p-24 text-center">
+<div class="bg-zinc-900 py-24 px-6 text-center">
   <div class="text-3xl text-white font-serif mb-12">Personal thoughts</div>
-  <div class="grid grid-cols-3 gap-6 text-center mx-auto w-3/4">
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 text-center mx-auto w-full max-w-screen-2xl">
+    
+      <a href="/2020/11/06/LastSeen.html" class="text-white no-underline">
+        <img src="/assets/images/thumb-lastseen.jpg" alt="" class="rounded" />
+        <div class="my-3 text-xl">Last Seen</div>
+      </a>
+    
+      <a href="/2018/06/22/Dive-StClairRiver.html" class="text-white no-underline">
+        <img src="/assets/images/thumb_stclairriver.jpg" alt="" class="rounded" />
+        <div class="my-3 text-xl">Diving the St. Clair River</div>
+      </a>
+    
+      <a href="/2014/03/10/Diving-Georgia.html" class="text-white no-underline">
+        <img src="/assets/images/thumb-diving-georgia.jpg" alt="" class="rounded" />
+        <div class="my-3 text-xl">Diving Georgia Aquarium</div>
+      </a>
     
   </div>
     <div class="my-12">
