@@ -695,9 +695,6 @@ video {
 .overflow-hidden {
   overflow: hidden;
 }
-.overflow-scroll {
-  overflow: scroll;
-}
 .truncate {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1212,6 +1209,10 @@ a:hover {
 
   .lg\:order-1 {
     order: 1;
+  }
+
+  .lg\:-mb-24 {
+    margin-bottom: -6rem;
   }
 
   .lg\:-mb-48 {
