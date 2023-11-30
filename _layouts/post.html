@@ -1,11 +1,35 @@
 {% include head.html %}
+{% include post-nav.html %}
+<div class="hero bg-gray-900 text-white/90 py-12 lg:py-24 mb-12">
+  {% if page.custom_hero != 1 %}
+    <div class="my-4">
+      {% if page.title %}
+        <div class="text-5xl md:text-8xl leading-snug text-center font-serif">{{ page.title }}</div>
+      {% endif %}
+      {% if page.sub_title %}
+        <div class="text-3xl md:text-4xl text-center my-4 font-light">{{ page.sub_title }}</div>
+      {% endif %}
+    </div>
+  {% endif %}
 
-<div class="flex flex-column min-h-100">
-    <div class="flex-auto">
+  <div class="w-full max-w-5xl mx-auto p-4 text-center md:text-left">
+    {% if page.featured_image %}
+      <img src="{{ page.featured_image }}" class="rounded mx-auto w-full max-w-5xl mt-24 -mb-24 lg:-mb-48">
+    {% endif %}
+  </div>
+</div>
+
+<div class="w-full max-w-6xl mx-auto p-4">
+    {% if page.featured_image %}
+      <div class="my-24"></div>
+    {% endif %}
+
+    <div class="mx-auto">
       {{ content }}
     </div>
 
     {% include tweet.md %}
-    {% include pagination.html %}
-    {% include footer.html %}
 </div>
+
+{% include pagination.html %}
+{% include footer.html %}

@@ -1,209 +1,65 @@
 ---
-# this ensures Jekyll reads the file to be transformed into CSS later
-# only Main files contain this front matter, not partials.
 ---
 
-@import "normalize";
-@import "base";
-@import "mixins";
-@import "settings";
-@import "syntax";
-@import "fontello";
-@import "authorings";
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html, body {
-  @include full-size;
-}
-
-$primary: #3369e8;
-
-body {
-  font-family: $font-serif;
-  color:$text-color;
-  font-size: 17px;
-  line-height: 1.47em;
-  padding: 0;
-  margin: 0;
-}
+@import "assets/styles/settings";
 
 p {
-  font-family: $font-serif;
-  color: #333;
+  @apply text-xl mb-6 leading-8;
+
+}
+
+nav a {
+    @apply text-white/80 hover:text-blue-600 transition-all duration-300 ease-in-out no-underline;
 }
 
 a {
-  color: $primary;
-  transition: color .2s ease-in;
+  @apply text-blue-500 hover:text-blue-600 transition-all duration-300 ease-in-out underline;
+}
 
-  &:hover {
-    color: lighten($primary, 20%);
+.need {
+  @apply transition-all duration-300 ease-in-out;
+  @apply text-black/40 hover:text-black;
+
+  &:hover img {
+    @apply opacity-100;
+  }
+
+  > img {
+    @apply transition-all duration-300 ease-in-out;
+    @apply opacity-40;
+
   }
 }
 
-.tweet {
-  text-align: center;
-  margin-bottom: 20px;
+.github-android {
+  background: url(/assets/images/cover-gauges.jpg) no-repeat right center #006444;
+  background-size: cover;
 }
 
-h1 {
-  font-family: $font-sans;
-  font-size: 40px;
-  line-height: 1.2em;
-  font-weight: 300;
-  letter-spacing: -0.02em;
+.icon-x {
+  @apply bg-white/30 hover:bg-blue-400 transition-all duration-300 ease-in-out;
+  -webkit-mask: url('/assets/images/icon-x.svg') no-repeat center;
+  mask: url('/assets/images/icon-x.svg') no-repeat center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
 }
 
-.f1, .f2 {
-  font-family: $font-sans;
+.icon-github {
+  @apply bg-white/30 hover:bg-yellow-400 transition-all duration-300 ease-in-out;
+  -webkit-mask: url('/assets/images/icon-github.svg') no-repeat center;
+  mask: url('/assets/images/icon-github.svg') no-repeat center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
 }
 
-header {
-  font-size: 1em;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  box-shadow:0 4px 0 rgba(#000,.3);
-  background:#212121;
-  // @include background(linear-gradient(#212121,#222));
-  border:1px solid #111;
-  padding:0 25px;
-  overflow:hidden;
-  z-index:1;
-
-  .title {
-    color:#fff;
-    text-decoration:none;
-    font-weight:normal;
-    float:left;
-    padding:20px 0px;
-
-    &:hover {
-      color: lighten($primary, 20%);
-    }
-  }
-
-  nav {
-    overflow:hidden;
-
-    ul {
-      float:right;
-      margin:0;
-      padding:0 0 0 1px;
-      list-style:none;
-      border-left:1px solid #333;
-      border-right:1px solid #333;
-    }
-
-    li {
-      font-size: 0em;
-      float:left;
-      border-left:1px solid #111;
-      border-right:1px solid #111;
-      margin-left:-1px;
-      transition: background .2s ease-in;
-      transition: font-size .2s ease-in;
-
-      &:hover {
-        background: #111;
-        font-size: .9em;
-
-        .octicon {
-          margin-right: 5px;
-        }
-      }
-    }
-
-    a {
-      display:block;
-      padding:20px;
-      text-decoration:none;
-      color:#999;
-      border-left:1px solid #333;
-      border-right:1px solid #333;
-      transition: color .2s ease-in;
-
-      &:hover {
-        color:#fff;
-      }
-    }
-  }
-}
-
-img {
-  display: inline-block;
-  max-width: 100%;
-}
-
-article {
-  width: 100%;
-  padding: 0 30px;
-  margin: 0 auto;
-  margin-bottom: 40px;
-}
-
-.article-header {
-  background: #efefef;
-  height: 0;
-  min-height: 80px;
-  max-height: 800px;
-  margin-bottom:55px;
-}
-
-.page-navigation {
-  font-size: .9em;
-  display: inline-block;
-  width: 100%;
-  padding: 30px;
-
-  .right {
-    float: right;
-    max-width: 45%;
-    text-align: right;
-  }
-  .left {
-    float: left;
-    max-width: 45%;
-    text-align: left;
-  }
-}
-
-@media screen and (max-width: 420px) {
-
-  header {
-    nav a, nav ul {
-      border: none;
-    }
-
-    nav ul li {
-      border: none;
-      box-shadow: none;
-      margin-right: -20px;
-
-      &.github {
-        display: none;
-      }
-    }
-  }
-
-  .page-navigation {
-    .right, .left {
-      display: inline-block;
-      float: none;
-      width: 100%;
-      max-width: 100%;
-      text-align: center;
-      padding: 5px 0;
-    }
-  }
-
-  article {
-    padding: 0 15px;
-  }
+.icon-dribbble {
+  @apply bg-white/30 hover:bg-pink-400 transition-all duration-300 ease-in-out;
+  -webkit-mask: url('/assets/images/icon-dribbble.svg') no-repeat center;
+  mask: url('/assets/images/icon-dribbble.svg') no-repeat center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
 }

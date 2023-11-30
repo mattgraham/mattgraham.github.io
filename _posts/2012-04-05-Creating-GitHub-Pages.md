@@ -1,37 +1,36 @@
 ---
+title: Creating Github Pages
 layout: post
 permalink: /blog/archives/2012/04/05/creating-github-pages/
 thumb: /assets/images/thumb-pages.jpg
 customCSS: post-pages.css
 ---
 
-<div class="article-header">
-</div>
-
-<article>
-<h1 id="fittext_2">Creating GitHub&nbsp;Pages</h1>
-
-<script type="text/javascript">
-$("#fittext_2").fitText(1.1, { minFontSize: '26px', maxFontSize: '100px' });
-</script>
-
 <p>I am excited to re-mention that we&#8217;ve released the GitHub Page Generator and that we&#8217;ve created some amazing templates to go along with it, but to add to it we&#8217;re open sourcing some of these themes. We want you to have the ability to make changes, additions and even submit pull requests to these themes to better them for yourself and the community.</p>
+<div class="text-2xl font-serif my-4">Key features of each theme</div>
 
-<h2>Key features of each theme:</h2>
-<ul>
-	<li>SCSS</span>/Compass &amp; CSS3</li>
+<ul class="list-decimal	list-outside m-6">
+	<li>SCSS/Compass &amp; CSS3</li>
 	<li>Responsive design/development</li>
 	<li>Lightweight</li>
 	<li>Dynamic Navigation on Leap Day (Based on your H1 and H2 tags)</li>
 </ul>
 
-<p>Below are the links to the repo&#8217;s for your &#8220;forkability.&#8221;</p>
 <p>
-<a href="http://github.com/mattgraham/Midnight" target="_blank"><h2>Midnight Theme</h2><br/><img src="http://f.cl.ly/items/2N1w2z2K0h422o33271p/change-inside-surroundings.png"></a><br />
-<br/></p>
-<p><a href="http://github.com/mattgraham/Leap-Day" target="_blank"><h2>Leap Day Theme</h2><br/><img src="http://f.cl.ly/items/351s2X0w1V3E2Q3t0Z0C/json_builder.png"></a><br />
-<br/></p>
-<p>You are free to use these templates for your projects and if you inspired by them send a tweet and let me know, I&#8217;d love to see where they&#8217;ve been used.  <a href="http://twitter.com/#!/mattgraham">@mattgraham</a></p></div>
-</div>
-
-</article>
+	Below are the links to the repo&#8217;s for yourforkability.
+</p>
+<p>
+	<a href="http://github.com/mattgraham/Midnight" target="_blank">
+		<h2>Midnight Theme</h2>
+		<img src="/assets/images/preview_midnight.png">
+	</a>
+</p>
+<p>
+	<a href="http://github.com/mattgraham/Leap-Day" target="_blank">
+		<h2>Leap Day Theme</h2>
+		<img src="/assets/images/preview_leapday.png">
+	</a>
+</p>
+<p>
+	If youre so inspired send a note and let me know, I&#8217;d love to see where they&#8217;ve been used.  <a href="http://twitter.com/#!/mattgraham">@mattgraham</a>
+</p>

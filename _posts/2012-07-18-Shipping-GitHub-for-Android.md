@@ -1,26 +1,14 @@
 ---
-layout: post
+layout: post_custom
+title: Shipping Github For Android
+sub_title: Then open sourcing the codebase
 customCSS: post-github-android.css
 permalink: /blog/archives/2012/07/09/github-for-android/
 thumb: /assets/images/thumb-android.jpg
+featured_image: /assets/images/droidtocat.png
 ---
 
-<div class="article-header">
-  <span class="asset">
-    <img src="/assets/images/droidtocat.png" class="art">
-  </span>
-</div>
-
-<article>
-
-
-<h1 id="fittext_2">Shipping GitHub for Android</h1>
-<h3 id="fittext_3"> Then open sourcing the codebase</h3>
-
-<script type="text/javascript">
-  $("#fittext_2").fitText(.7, { minFontSize: '42px', maxFontSize: '125px' });
-  $("#fittext_3").fitText(1, { minFontSize: '16px', maxFontSize: '32px' });
-</script>
+{% include post-title.html %}
 
 <p>Today we've shipped GitHub for Android and I've learned much in the process. The app is free to download on <a href="https://play.google.com/store/apps/details?id=com.github.mobile">Google Play</a> and you can also browse the code from the newly open sourced <a href="https://github.com/github/android">repository</a>. I like to think of this as, Incredible beginnings.</p>
 
@@ -31,5 +19,3 @@ thumb: /assets/images/thumb-android.jpg
 <p>I am an Apple fanboy and use the iPhone; however, it was my first goal to make the Android app as sexy and native to the OS as possible. I spent lots of time using, downloading, and reading what makes the OS appealing to their user base. I have several droid phones and we've used the tablets to create the best first release we could have without wasting time shipping it. We know that the app is in its initial release, but we think we did a good job. We're looking forward to adding pull requests, diffs, and much more, but wanted to get a solid app to the market so you could enjoy.</p>
 
 <p>I had a blast working along side the lead developer <a href="http://twitter.com/#!/kevinsawicki">Kevin Sawicki</a> and <a href=":http://twitter.com/#!/tonyjanimatic">Tony Jaramillo</a> who designed the amazing new Androidtocat.</p>
-
-</article>

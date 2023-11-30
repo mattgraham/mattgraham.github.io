@@ -1,16 +1,18 @@
 
-<div class="page-navigation">
-  <div class="left">
-  {% if page.previous.url %}
-    <a href="{{page.previous.url}}" title="Previous Post:
-{{page.previous.title}}">&laquo; {{page.previous.title}}</a>
-  {% endif %}
-  </div>
+<nav class="bg-gray-950 text-white p-6 shadow-xl flex flex-col md:flex-row items-center">
+    {% if page.previous.url %}
+      <div class="flex items-center">
+        <div class="font-bold mr-1">Previous Post: </div>
+        <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"> {{page.previous.title}}</a>
+      </div>
+    {% endif %}
 
-  <div class="right">
-  {% if page.next.url %}
-    <a href="{{page.next.url}}" title="next Post:
-{{page.next.title}}">{{page.next.title}} &raquo; </a>
-  {% endif %}
-  </div>
-</div>
+    <div class="flex-auto"></div>
+
+    {% if page.next.url %}
+      <div class="flex items-center">
+        <div class="font-bold mr-1">Next Post: </div>
+        <a href="{{page.next.url}}" title="next Post: {{page.next.title}}"> {{page.next.title}}</a>
+      </div>
+    {% endif %}
+</nav>
