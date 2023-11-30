@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "post-ol.css",
+	"sources": [
+		"post-ol.scss"
+	],
+	"sourcesContent": [
+		".hero {\n    @apply hidden;\n}\n\n$primary: #349cc1;\n\nbody {\n  background: url('/assets/images/ol-back.jpg') #111;\n  background-size: cover;\n  background-repeat: no-repeat;\n}\n\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,KAAK,CAAC,EACF,MAAM,CAAN,MAAM,GACT;;AAID,AAAA,IAAI,CAAC,EACH,UAAU,EAAE,iCAAiC,CAAC,IAAI,EAClD,eAAe,EAAE,KAAK,EACtB,iBAAiB,EAAE,SAAS,GAC7B"
+}

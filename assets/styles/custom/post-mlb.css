@@ -1,0 +1,3 @@
+.hero { height: 0; min-height: 500px; max-height: 800px; margin-bottom: 35px; background: url("/assets/images/mlb/parks/dodger_stadium.jpg") no-repeat center center; background-size: cover; text-align: center; position: relative; }
+
+.details { text-align: left; font-size: 13px; line-height: 1.47em; position: absolute; border-radius: 2px; top: 80px; left: 0px; padding: 20px 20px 20px 20px; background: rgba(0, 0, 0, 0.6); color: #fff; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9); z-index: 1; }

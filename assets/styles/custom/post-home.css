@@ -1,0 +1,13 @@
+.welcome {
+	background: url('/assets/images/cover-image.jpg') no-repeat right top, #0f020b;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-size: cover;
+    text-align: center;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "post-lastseen.css",
+	"sources": [
+		"post-lastseen.scss"
+	],
+	"sourcesContent": [
+		".hero {\n\tbackground: url(\"/assets/images/lastseen_2.jpg\") no-repeat center center;\n\tbackground-size: cover;\n\t@apply md:min-h-[480px];\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,KAAK,CAAC,EACL,UAAU,EAAE,oCAAoC,CAAC,SAAS,CAAC,MAAM,CAAC,MAAM,EACxE,eAAe,EAAE,KAAK,EACtB,MAAM,CAAN,gBAAM,GACN"
+}
