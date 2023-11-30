@@ -4,7 +4,7 @@ customCSS: post-home.css
 ---
 
 <div class="welcome text-center">
-    <div class="mb-3 text-5xl md:text-7xl lg:text-8xl uppercase tracking-widest font-light">Matt Graham</div>
+    <div class="mb-3 text-5xl md:text-7xl lg:text-8xl uppercase lg:tracking-widest font-light">Matt Graham</div>
     <div class="text-red-500 font-serif text-xl md:text-2xl tracking-wide my-3">Lead UX design and frontend development at Salesforce</div>
     <ul class="flex items-center my-6">
       <li class="mx-4">
