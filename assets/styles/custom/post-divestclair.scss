@@ -1,16 +1,7 @@
 ---
-# this ensures Jekyll reads the file to be transformed into CSS later
-# only Main files contain this front matter, not partials.
 ---
 
-@import "settings";
-
-.f2 {
-	font-family: $playfair;
-	font-weight: 700;	
-}
-
-.article-header {
+.hero {
 	height: 0;
 	min-height: 380px;
 	max-height: 800px;

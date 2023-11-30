@@ -1,0 +1,9 @@
+---
+---
+
+.welcome {
+	background: url('/assets/images/cover-image.jpg') no-repeat right top, #0f020b;
+    height: 75vh;
+    @apply flex flex-col justify-center items-center;
+    @apply text-white text-center overflow-hidden bg-cover;
+}

@@ -1,0 +1,25 @@
+{% include head.html %}
+{% include post-nav.html %}
+
+<div class="hero bg-gray-900 text-white/90 py-12 lg:py-24">
+  <div class="w-full max-w-5xl mx-auto p-4 text-center md:text-left">
+    {% if page.featured_image %}
+      <img src="{{ page.featured_image }}" class="featured">
+    {% endif %}
+  </div>
+</div>
+
+<div class="w-full max-w-6xl mx-auto p-4 mb-12">
+    {% if page.featured_image %}
+      <div class="my-24"></div>
+    {% endif %}
+  
+    <div class="mx-auto">
+      {{ content }}
+    </div>
+
+    {% include tweet.md %}
+</div>
+
+{% include pagination.html %}
+{% include footer.html %}
