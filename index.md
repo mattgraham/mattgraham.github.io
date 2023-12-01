@@ -4,7 +4,7 @@ customCSS: post-home.css
 ---
 
 <div class="welcome text-center">
-    <div class="mb-3 text-5xl md:text-7xl lg:text-8xl uppercase tracking-widest font-light">Matt Graham</div>
+    <div class="mb-3 text-5xl md:text-7xl lg:text-8xl uppercase lg:tracking-widest font-light">Matt Graham</div>
     <div class="text-red-500 font-serif text-xl md:text-2xl tracking-wide my-3">Lead UX design and frontend development at Salesforce</div>
     <ul class="flex items-center my-6">
       <li class="mx-4">
@@ -35,8 +35,8 @@ customCSS: post-home.css
 </div>
 
 <div class="bg-black/90" id="salesforce-cli">
-  <div class="w-full max-w-screen-2xl mx-auto grid lg:grid-cols-2 gap-4">
-    <div class="text-white font-mono bg-black p-12 lg:mt-12 order-1 lg:order-0">
+  <div class="w-full max-w-screen-2xl mx-auto grid lg:grid-cols-2 lg:gap-4">
+    <div class="text-white font-mono text-sm bg-black p-12 lg:mt-12 order-1 lg:order-0 overflow-hidden">
       <div><span class="text-blue-500">$</span> sf</div>
       <div>The Salesforce CLI</div>
       <br/>
@@ -137,7 +137,7 @@ customCSS: post-home.css
 <div class="bg-gradient-to-r from-[#EFEAE1] to-[#EFEAE1] overflow-hidden p-12">
   <div class="w-full max-w-screen-2xl mx-auto grid lg:grid-cols-2 gap-4">
     <div>
-      <img src="assets/images/atom.png" alt="" class="w-50 -mb-24">
+      <img src="assets/images/atom.png" alt="" class="w-50 lg:-mb-24 mb-12">
     </div>
     <div class="flex flex-col text-lg">
       <div class="flex-auto"></div>
@@ -198,7 +198,6 @@ customCSS: post-home.css
     </div>
   </div>
 </div>
-
 
 <div class="play bg-gradient-radial from-[#531E3A] to-[#33284D] overflow-hidden px-12 py-24 github-android">
   <div class="w-full max-w-screen-2xl mx-auto grid lg:grid-cols-2 gap-4">
