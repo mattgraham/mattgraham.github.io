@@ -5,32 +5,38 @@ customCSS: post-home.css
 
 <div class="welcome text-center">
     <div class="mb-3 text-5xl md:text-7xl lg:text-8xl uppercase lg:tracking-widest font-light">Matt Graham</div>
-    <div class="text-red-500 font-serif text-xl md:text-2xl tracking-wide my-3">Lead UX design and frontend development at Salesforce</div>
+    <div class="text-red-500 font-serif text-xl md:text-2xl tracking-wide m-3">Lead UX design and frontend development at Salesforce</div>
     <ul class="flex items-center my-6">
       <li class="mx-4">
         <a href="http://twitter.com/mattgraham" target="_blank">
-          <div class="icon-x h-6 md:h-12 w-6 md:w-12"></div>
+          <div class="icon-x h-12 md:h-12 w-12 md:w-12"></div>
         </a>
       </li>
       <li class="mx-4">
         <a href="http://github.com/mattgraham" target="_blank">
-          <div class="icon-github h-6 md:h-12 w-6 md:w-12"></div>
+          <div class="icon-github h-12 md:h-12 w-12 md:w-12"></div>
         </a>
       </li>
       <li class="mx-4">
         <a href="http://dribbble.com/mattgraham" target="_blank">
-          <div class="icon-dribbble h-6 md:h-12 w-6 md:w-12"></div>
+          <div class="icon-dribbble h-12 md:h-12 w-12 md:w-12"></div>
         </a>
       </li>
     </ul>
 </div>
 
 <div id="about" class="p-4 mb-12">  
-  <div class="max-w-screen-lg	mx-auto py-12">
-    <div class="text-5xl my-12 font-serif	 text-center">Building applications that cause change.</div>
-    <div class="text-2xl leading-9 mb-6 text-gray-700">Professionally, I'm a <strong>Lead UX Designer and frontend developer</strong> designing applications on the <a href='http://heroku.com' target='_blank'>Heroku</a> platform at <a href='http://salesforce.com' target='_blank'>Salesforce</a>, by way of remote life in Port Huron, MI. Previously I've worked at <a href="http://github.com" target="_blank">GitHub</a>, <a href="https://github.com/blog/993-ordered-list-is-a-githubber" target="_blank">Ordered List</a> and other small design and development firms. I love simple, beautiful apps that change the way we live and do things. I focus on what it takes to make simple web applications, successful experiences, while automating all that I can.</div>
-    <div class="text-2xl leading-9 mb-6 text-gray-700">Personally, I'm a <strong>Search and Recovery diver</strong> for the St. Clair County Sheriff Department, <strong>Chairperson</strong> for the Dive Team Auxiliary, <strong>worship leader</strong> at our church, <strong>husband</strong> to Shannon and <strong>father</strong> to our beautiful daughters Ella and Madisyn.</div>
-    <div class="text-2xl leading-9 mb-6 text-gray-700">If you have questions, please don't hesitate to reach out and say hello via twitter at <a href="http://twitter.com/mattgraham" target="_blank">@mattgraham</a>.</div>
+  <div class="max-w-screen-lg	mx-auto py-8">
+    <div class="text-5xl my-12 font-serif	 text-center">Building experiences that cause change.</div>
+    <div class="text-2xl leading-9 mb-6 max-w-prose mx-auto">
+      As the journey of life is told, I pray  its obvious that I forged a path intertwined with faith, hope and love, full of family, and community. In 2005, I sealed my fate with my college crush, Shannon, as we embraced the vows of marriage. Years later our family grew with the laughter, warmth and the energy of our two precious daughters, Ella and Madisyn. Outside the walls of our home, my life is full of passions – from strumming melodies as a Guitar-playing Worship Leader to assuming the role of Chairperson for the <a href="https://diveteamauxiliary.org" target="_blank">Dive Team Auxiliary</a>. Diving into the depths of both literal and metaphorical waters, I proudly contribute as a member of the St. Clair County Search and Recovery dive team. Infused with creativity, my measure of success is love, devotion, and a steadfast commitment to making a meaningful impact in the world around me.
+    </div>
+    <div class="text-2xl leading-9 mb-6 max-w-prose mx-auto">
+      In my professional journey, I have spent decades designing and build developer tools, driven by a passion to empower the masses. Currently as a Lead UX designer and front-end developer at <a href="https://salesforce.com" target="_blank">Salesforce</a> by way of the <a href="https://heroku.com" target="_blank">Heroku</a> Platform. My imprint can be traced across the world, including the design and development of tools such as the new Salesforce CLI (sf), UX on CodeBuilder, the Heroku Dashboard, and the first ever Elements Marketplace, among other impactful contributions. Prior to my tenure at Salesforce, I owned the title of "Creative Badass" during my four-year stint at <a href="https://github.com" target="_blank">GitHub</a>, where we catalyzed change for millions of developers worldwide. Notably, I played a part of the incredible five person team at OrderedList, which eventually marked GitHub's inaugural acquisition, solidifying a legacy as a catalyst for positive transformation in the realm of developer tools. I'm passionate about simple, beautiful apps that change the way we live and do things. I focus on what it takes to make simple web applications, successful experiences, while automating all that I can.
+    </div>
+    <div class="text-2xl leading-9 mb-6 max-w-prose mx-auto">
+      However, I'm not a wordsmith, so ChatGPT got these impressive intros started for me.
+    </div>
   </div>
 </div>
 
