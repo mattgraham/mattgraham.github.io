@@ -47,8 +47,8 @@ customCSS: post-home.css
     </div>
   </div>
 </div>
-<div class="bg-rose-700/90 py-12 text-white" id="">
-  <div class="text-5xl my-12 text-white font-serif text-center">UX <span class="italic">in</span> <code class="tracking-tight">ENV['Production']</code></div>
+<div class="bg-rose-700/90 py-12 px-4 text-white" id="">
+  <div class="text-4xl md:text-5xl my-12 text-white font-serif text-center">UX <span class="italic">in</span> <code class="tracking-tight">ENV['Production']</code></div>
   <div class="text-xl text-white/70 leading-8 mb-6 max-w-prose mx-auto">
     <span class="font-bold">I am a UX professional that brings design to production.</span> I'm professionally proficiant in most of the current design tools such as Figma, Sketch, Adobe Creative Suite (including print), however, I'm passionate about taking UX from discovery into development. I'm extremely proud to have written code in developer applications used around the world, including but not limited to, Heroku Purple3 CSS Framework, Heroku Dashboard, Heroku Marketing sites, Elements Marketplace, Salesforce (sf) CLI, CodeBuilder, Atom Editor, GitHub, GitHub for Android, SpeakerDeck, HarmonyApp, Gauges, and more.
   </div>
