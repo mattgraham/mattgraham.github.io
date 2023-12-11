@@ -690,6 +690,9 @@ video {
 .gap-6 {
   gap: 1.5rem;
 }
+.gap-8 {
+  gap: 2rem;
+}
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
@@ -954,8 +957,8 @@ video {
 .uppercase {
   text-transform: uppercase;
 }
-.leading-9 {
-  line-height: 2.25rem;
+.leading-8 {
+  line-height: 2rem;
 }
 .leading-snug {
   line-height: 1.375;
@@ -993,6 +996,10 @@ video {
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+.text-slate-700 {
+  --tw-text-opacity: 1;
+  color: rgb(51 65 85 / var(--tw-text-opacity));
 }
 .text-violet-900 {
   --tw-text-opacity: 1;
