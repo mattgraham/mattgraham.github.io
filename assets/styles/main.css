@@ -753,6 +753,9 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(3 7 18 / var(--tw-bg-opacity));
 }
+.bg-rose-700\/90 {
+  background-color: rgb(190 18 60 / 0.9);
+}
 .bg-violet-900\/90 {
   background-color: rgb(76 29 149 / 0.9);
 }
@@ -957,11 +960,17 @@ video {
 .uppercase {
   text-transform: uppercase;
 }
+.italic {
+  font-style: italic;
+}
 .leading-8 {
   line-height: 2rem;
 }
 .leading-snug {
   line-height: 1.375;
+}
+.tracking-tight {
+  letter-spacing: -0.025em;
 }
 .tracking-wide {
   letter-spacing: 0.025em;
@@ -1008,6 +1017,9 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-white\/70 {
+  color: rgb(255 255 255 / 0.7);
 }
 .text-white\/80 {
   color: rgb(255 255 255 / 0.8);
