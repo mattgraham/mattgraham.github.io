@@ -154,6 +154,29 @@ customCSS: post-home.css
   </div>
 </div>
 
+<div class="bg-gradient-to-r from-black to-slate-950 py-12 text-white" id="rescuediver">
+  <div class="w-full max-w-screen-2xl mx-auto grid lg:grid-cols-2 gap-4">
+    <div class="flex flex-column items-center">
+      <div class="flex-auto"></div>
+      <div class="text-center">
+        <div class="flex items-center m-6">
+          <div class="flex-auto"></div>
+          <img src="assets/images/rescue_diver_logo.svg" class="h-12 mr-4">
+          <div class="tracking-tight bg-gradient-to-br from-red-400 via-red-700 to-rose-500 bg-clip-text text-transparent bg-clip-text text-transparent text-3xl md:text-4xl lg:text-6xl font-bold">Rescue Diver</div>
+          <div class="flex-auto"></div>
+        </div>
+        <div class="text-lg text-white mx-4">
+          Explore the world of Search and Recovery team management through the lens of a dedicated group of dive team members who experience it firsthand every day. Rescue Diver, a project born out of passion, had its inception in 2016 for a specific search and rescue team. Since then, it has been undergoing redevelopment in Rails with the goal of being launched as a Software as a Service (SaaS) in the near future.
+        </div>
+      </div>
+      <div class="flex-auto"></div>
+    </div>
+    <div class="">
+      <img src="assets/images/callout-reporting@2x.png" class="max-w-lg bg-white p-8 m-4 rounded shadow mx-auto">
+    </div>
+  </div>
+</div>
+
 <div class="bg-gradient-to-r from-[#EFEAE1] to-[#EFEAE1] overflow-hidden p-12">
   <div class="w-full max-w-screen-2xl mx-auto grid lg:grid-cols-2 gap-4">
     <div>
