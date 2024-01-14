@@ -14,15 +14,4 @@ thumb: /assets/images/thumb-write-more.jpg
 
 <br/>
 
-<!-- <h4 class="script">Possible next topic:</h4>
-
-<div class="next atom">
-  <h4>Why you should be using Atom.io Now</h4>
-  <span class="asset">
-    <div class="art">
-      <span class="screen"></span>
-    </div>
-  </span>
-</div> -->
-
 </article>
