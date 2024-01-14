@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Diving Georgia Aquarium
-# customCSS: post-diving-georgia.css
 thumb: /assets/images/thumb-diving-georgia.jpg
 ---
-
-<!-- <div class="article-header"></div> -->
 
 <p class="rounded overflow-hidden">
   <script src="https://fast.wistia.com/embed/medias/eyrxj6lfze.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:57.5% 0 28px 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_eyrxj6lfze videoFoam=true" style="height:100%;position:relative;width:100%">&nbsp;</div></div></div>
