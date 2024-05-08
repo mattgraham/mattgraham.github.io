@@ -35,6 +35,18 @@ a {
   }
 }
 
+.need:where(.target-field) {
+  @apply border-red-400;
+
+  &:before {
+    content: "2024 Target";
+    position: absolute;
+    top: 0;
+    right: 0;
+    @apply text-red-600 text-xs bg-red-600 text-white px-2 py-1 rounded-bl;
+  }
+}
+
 .github-android {
   background: url(/assets/images/cover-gauges.jpg) no-repeat right center #006444;
   background-size: cover;
