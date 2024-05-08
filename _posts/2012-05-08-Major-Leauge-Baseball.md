@@ -20,7 +20,7 @@ thumb: /assets/images/thumb-mlb.jpg
 <div class="p-8">
 	<div class="text-2xl font-bold mb-12">17 MLB Ballparks Visited<span class="count"> (14 of 30 Current)</span></div>
 
-	<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-12">
+	<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-12 text-sm">
 		<div class="bg-gradient-to-b from-rose-900 to-rose-800 rounded bg-gray-900 text-white border border-gray-200 shadow text-center p-4 flex flex-col font-bold text-2xl">
 			<div class="flex-auto"></div>
 			<div>AL East</div>
@@ -29,27 +29,27 @@ thumb: /assets/images/thumb-mlb.jpg
 		<div class="rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/orioles.png" class="mx-auto h-24 my-4">
 			<div>Baltimore Orioles</div>
-			<div class="text-lg font-bold">Camden Yards</div>
+			<div class="text-sm font-bold">Camden Yards</div>
 		</div>
 		<div class="need rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/red_sox.png" class="mx-auto h-24 my-4">
 			<div>Boston Red Sox</div>
-			<div class="text-lg font-bold">Fenway Park</div>
+			<div class="text-sm font-bold">Fenway Park</div>
 		</div>
 		<div class="need rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/yankees.png" class="mx-auto h-24 my-4">
 			<div>New York Yankees</div>
-			<div class="text-lg font-bold">Yankee Stadium</div>
+			<div class="text-sm font-bold">Yankee Stadium</div>
 		</div>
 		<div class="rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/rays.png" class="mx-auto h-24 my-4">
 			<div>Tampa Bay Rays</div>
-			<div class="text-lg font-bold">Tropicana Field</div>
+			<div class="text-sm font-bold">Tropicana Field</div>
 		</div>
 		<div class="rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/blue_jays.png" class="mx-auto h-24 my-4">
 			<div>Toronto Blue Jays</div>
-			<div class="text-lg font-bold">Rogers Centre</div>
+			<div class="text-sm font-bold">Rogers Centre</div>
 		</div>
 		<div class="bg-gradient-to-b from-rose-800 to-rose-700 rounded bg-gray-900 text-white border border-gray-200 shadow text-center p-4 flex flex-col font-bold text-2xl">
 			<div class="flex-auto"></div>
@@ -59,27 +59,27 @@ thumb: /assets/images/thumb-mlb.jpg
 		<div class="rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/tigers.png" class="mx-auto h-24 my-4">
 			<div>Detroit Tigers</div>
-			<div class="text-lg font-bold">Comerica Park</div>
+			<div class="text-sm font-bold">Comerica Park</div>
 		</div>
 		<div class="rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/whitesox.png" class="mx-auto h-24 my-4">
 			<div>Chicago White Sox</div>
-			<div class="text-lg font-bold">U.S. Cellular Field</div>
+			<div class="text-sm font-bold">U.S. Cellular Field</div>
 		</div>
 		<div class="need rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/indians.png" class="mx-auto h-24 my-4">
 			<div>Cleveland Indians</div>
-			<div class="text-lg font-bold">Progressive Field</div>
+			<div class="text-sm font-bold">Progressive Field</div>
 		</div>
 		<div class="rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/royals.png" class="mx-auto h-24 my-4">
 			<div>Kansas City Royals</div>
-			<div class="text-lg font-bold">Kauffman Stadium</div>
+			<div class="text-sm font-bold">Kauffman Stadium</div>
 		</div>
 		<div class="need rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/twins.png" class="mx-auto h-24 my-4">
 			<div>Minnesota Twins</div>
-			<div class="text-lg font-bold">Target Field</div>
+			<div class="text-sm font-bold">Target Field</div>
 		</div>
 		<div class="bg-gradient-to-b from-rose-700 to-rose-600 rounded bg-gray-900 text-white border border-gray-200 shadow text-center p-4 flex flex-col font-bold text-2xl">
 			<div class="flex-auto"></div>
@@ -89,27 +89,27 @@ thumb: /assets/images/thumb-mlb.jpg
 		<div class="need rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/astros.png" class="mx-auto h-24 my-4">
 			<div>Houston Astros</div>
-			<div class="text-lg font-bold">Minute Maid Park</div>
+			<div class="text-sm font-bold">Minute Maid Park</div>
 		</div>
 		<div class="rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/angels.png" class="mx-auto h-24 my-4">
 			<div>Los Angeles Angels</div>
-			<div class="text-lg font-bold">Angel Stadium</div>
+			<div class="text-sm font-bold">Angel Stadium</div>
 		</div>
 		<div class="rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/athletics.png" class="mx-auto h-24 my-4">
 			<div>Oakland Athletics</div>
-			<div class="text-lg font-bold">O.co Coliseum</div>
+			<div class="text-sm font-bold">O.co Coliseum</div>
 		</div>
 		<div class="rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/mariners.png" class="mx-auto h-24 my-4">
 			<div>Seattle Mariners</div>
-			<div class="text-lg font-bold">Safeco Field</div>
+			<div class="text-sm font-bold">Safeco Field</div>
 		</div>
 		<div class="need rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/rangers.png" class="mx-auto h-24 my-4">
 			<div>Texas Rangers</div>
-			<div class="text-lg font-bold">Rangers Ballpark</div>
+			<div class="text-sm font-bold">Rangers Ballpark</div>
 		</div>
 		<div class="bg-gradient-to-b from-blue-900 to-blue-800 rounded bg-gray-900 text-white border border-gray-200 shadow text-center p-4 flex flex-col font-bold text-2xl">
 			<div class="flex-auto"></div>
@@ -119,27 +119,27 @@ thumb: /assets/images/thumb-mlb.jpg
 		<div class="need rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/braves.png" class="mx-auto h-24 my-4">
 			<div>Atlanta Braves</div>
-			<div class="text-lg font-bold">Turner Field</div>
+			<div class="text-sm font-bold">Turner Field</div>
 		</div>
 		<div class="need rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/marlins.png" class="mx-auto h-24 my-4">
 			<div>Miami Marlins</div>
-			<div class="text-lg font-bold">Marlins Park</div>
+			<div class="text-sm font-bold">Marlins Park</div>
 		</div>
 		<div class="need rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/mets.png" class="mx-auto h-24 my-4">
 			<div>New York Mets</div>
-			<div class="text-lg font-bold">Citi Field</div>
+			<div class="text-sm font-bold">Citi Field</div>
 		</div>
 		<div class="need rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/phillies.png" class="mx-auto h-24 my-4">
 			<div>Philadelphia Phillies</div>
-			<div class="text-lg font-bold">Citizens Bank Park</div>
+			<div class="text-sm font-bold">Citizens Bank Park</div>
 		</div>
 		<div class="need rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/nationals.png" class="mx-auto h-24 my-4">
 			<div>Washington Nationals</div>
-			<div class="text-lg font-bold">Nationals Park</div>
+			<div class="text-sm font-bold">Nationals Park</div>
 		</div>
 		<div class="bg-gradient-to-b from-blue-800 to-blue-700 rounded bg-gray-900 text-white border border-gray-200 shadow text-center p-4 flex flex-col font-bold text-2xl">
 			<div class="flex-auto"></div>
@@ -149,27 +149,27 @@ thumb: /assets/images/thumb-mlb.jpg
 		<div class="rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/cubs.png" class="mx-auto h-24 my-4">
 			<div>Chicago Cubs</div>
-			<div class="text-lg font-bold">Wrigley Field</div>
+			<div class="text-sm font-bold">Wrigley Field</div>
 		</div>
 		<div class="rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/reds.png" class="mx-auto h-24 my-4">
 			<div>Cincinnati Reds</div>
-			<div class="text-lg font-bold">Great American Ball Park</div>
+			<div class="text-sm font-bold">Great American Ball Park</div>
 		</div>
 		<div class="rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/brewers.png" class="mx-auto h-24 my-4">
 			<div>Milwaukee Brewers</div>
-			<div class="text-lg font-bold">Miller Park</div>
+			<div class="text-sm font-bold">Miller Park</div>
 		</div>
 		<div class="need rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/pirates.png" class="mx-auto h-24 my-4">
 			<div>Pittsburgh Pirates</div>
-			<div class="text-lg font-bold">PNC Park</div>
+			<div class="text-sm font-bold">PNC Park</div>
 		</div>
 		<div class="need rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/cardinals.png" class="mx-auto h-24 my-4">
 			<div>St. Louis Cardinals</div>
-			<div class="text-lg font-bold">Busch Stadium</div>
+			<div class="text-sm font-bold">Busch Stadium</div>
 		</div>
 		<div class="bg-gradient-to-b from-blue-700 to-blue-600 rounded bg-gray-900 text-white border border-gray-200 shadow text-center p-4 flex flex-col font-bold text-2xl">
 			<div class="flex-auto"></div>
@@ -179,22 +179,22 @@ thumb: /assets/images/thumb-mlb.jpg
 		<div class="need rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/rockies.png" class="mx-auto h-24 my-4">
 			<div>Colorado Rockies</div>
-			<div class="text-lg font-bold">Coors Field</div>
+			<div class="text-sm font-bold">Coors Field</div>
 		</div>
 		<div class="rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/dodgers.png" class="mx-auto h-24 my-4">
 			<div>Los Angeles Dodgers</div>
-			<div class="text-lg font-bold">Dodger Stadium</div>
+			<div class="text-sm font-bold">Dodger Stadium</div>
 		</div>
 		<div class="need rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/padres.png" class="mx-auto h-24 my-4">
 			<div>San Diego Padres</div>
-			<div class="text-lg font-bold">PETCO Park</div>
+			<div class="text-sm font-bold">PETCO Park</div>
 		</div>
 		<div class="rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/giants.png" class="mx-auto h-24 my-4">
 			<div>San Francisco Giants</div>
-			<div class="text-lg font-bold">AT&amp;T Park</div>
+			<div class="text-sm font-bold">AT&amp;T Park</div>
 		</div>
 		<div></div>
 	</div>
@@ -210,19 +210,19 @@ thumb: /assets/images/thumb-mlb.jpg
 		<div class="rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/tigers.png" class="mx-auto h-24 my-4">
 			<div>Detroit Tigers</div>
-			<div class="text-lg font-bold">Tiger Stadium</div>
+			<div class="text-sm font-bold">Tiger Stadium</div>
 			<div class="text-sm">(1912-1999)</div>
 		</div>
 		<div class="rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/orioles.png" class="mx-auto h-24 my-4">
 			<div>Baltimore Orioles</div>
-			<div class="text-lg font-bold">Memorial Stadium</div>
+			<div class="text-sm font-bold">Memorial Stadium</div>
 			<div class="text-sm">(1922-1998)</div>
 		</div>
 		<div class="rounded bg-white border border-gray-200 shadow text-center p-4">
 			<img src="/assets/images/mlb/reds.png" class="mx-auto h-24 my-4">
 			<div>Cincinati Reds</div>
-			<div class="text-lg font-bold">River Front Stadium</div>
+			<div class="text-sm font-bold">River Front Stadium</div>
 			<div class="text-sm">(1970-2002)</div>
 		</div>
 	</div>
