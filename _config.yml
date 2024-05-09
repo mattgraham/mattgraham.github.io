@@ -15,6 +15,7 @@ assets:
 
 plugins:
   - jekyll-postcss-v2
+  - jekyll-get-json
 
 highlighter:  rouge
 markdown:    kramdown
@@ -22,3 +23,7 @@ markdown:    kramdown
 postcss:
   script: node_modules/.bin/postcss
   config: postcss.config.js
+
+jekyll_get_json:
+  - data: michigan_football
+    json: 'https://events.umich.edu/list/json?filter=tags:Athletics%20-%20Football,locations:503,&range=2024-05-09&v=2'
