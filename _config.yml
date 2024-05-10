@@ -6,6 +6,7 @@ email:   mattgraham@madebygraham.com
 twitter_username: mattgraham
 github_username:  mattgraham
 repository:   mattgraham/mattgraham.github.io
+timezone: 'America/Detroit'
 
 assets:
     sources:
