@@ -81,3 +81,8 @@ a {
   background-size: cover;
 
 }
+
+.team + .team::before {
+  content: 'at ';
+  @apply px-3;
+}

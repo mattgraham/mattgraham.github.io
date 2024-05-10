@@ -1,7 +1,7 @@
 # Gemfile
 
 source "https://rubygems.org"
-gem 'webrick'
+gem 'webrick', '~> 1.7', '>= 1.7.0'
 gem "jekyll", "~> 4.2.2"
 
 group :jekyll_plugins do
