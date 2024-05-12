@@ -86,3 +86,15 @@ a {
   content: 'at ';
   @apply px-3;
 }
+
+.game-card {
+  @apply hover:shadow-lg hover:z-10 transition-all duration-500 ease-in-out;
+  
+  &.home {
+    @apply bg-blue-950 hover:bg-blue-950/90 text-white hover:text-white/90;
+  } 
+
+  &.away {
+    @apply bg-white text-blue-950 hover:bg-slate-50 hover:text-blue-900;
+  } 
+}
