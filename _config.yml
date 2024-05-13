@@ -28,3 +28,5 @@ postcss:
 jekyll_get_json:
   - data: michigan_football
     json: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/michigan/schedule'
+  - data: ncaa_football
+    json: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard'
