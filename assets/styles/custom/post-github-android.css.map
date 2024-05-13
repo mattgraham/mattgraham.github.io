@@ -1,12 +1,1 @@
-{
-	"version": 3,
-	"file": "post-github-android.css",
-	"sources": [
-		"post-github-android.scss"
-	],
-	"sourcesContent": [
-		"$primary: #006444;\n\n.hero {\n  height: 0;\n  min-height: 380px;\n  max-height: 800px;\n  background: url(\"/assets/images/cover-gauges.jpg\") no-repeat center center, $primary;\n  background-size: cover;\n  text-align: center;\n  position: relative;\n}\n\n.featured {\n  @apply h-96 w-auto mx-auto;\n  @apply absolute -bottom-20 left-0 right-0 md:right-auto md:left-[10%];\n}"
-	],
-	"names": [],
-	"mappings": "AAEA,AAAA,KAAK,CAAC,EACJ,MAAM,EAAE,CAAC,EACT,UAAU,EAAE,KAAK,EACjB,UAAU,EAAE,KAAK,EACjB,UAAU,EAAE,sCAAsC,CAAC,SAAS,CAAC,MAAM,CAAC,MAAM,EANlE,OAAO,EAOf,eAAe,EAAE,KAAK,EACtB,UAAU,EAAE,MAAM,EAClB,QAAQ,EAAE,QAAQ,GACnB;;AAED,AAAA,SAAS,CAAC,EACR,MAAM,CAAN,mBAAM,EACN,MAAM,CAAN,8DAAM,GACP"
-}
+{"version":3,"sourceRoot":"","sources":["post-github-android.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;;AAGF;EACE;EACA","sourcesContent":["$primary: #006444;\n\n.hero {\n  height: 0;\n  min-height: 380px;\n  max-height: 800px;\n  background: url(\"/assets/images/cover-gauges.jpg\") no-repeat center center, $primary;\n  background-size: cover;\n  text-align: center;\n  position: relative;\n}\n\n.featured {\n  @apply h-96 w-auto mx-auto;\n  @apply absolute -bottom-20 left-0 right-0 md:right-auto md:left-[10%];\n}"],"file":"post-github-android.css"}

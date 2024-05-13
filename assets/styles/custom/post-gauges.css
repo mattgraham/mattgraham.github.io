@@ -1,7 +1,28 @@
-.hero { height: 0; min-height: 380px; max-height: 800px; background: url("/assets/images/cover-gauges.jpg") no-repeat center center, #006444; background-size: cover; text-align: center; position: relative; }
+.hero {
+  height: 0;
+  min-height: 380px;
+  max-height: 800px;
+  background: url("/assets/images/cover-gauges.jpg") no-repeat center center, #006444;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
 
-.featured { margin-left: auto; margin-right: auto; height: 24rem; width: auto; position: absolute; bottom: -5rem; left: 0px; right: 0px; }
+.featured {
+  margin-left: auto;
+  margin-right: auto;
+  height: 24rem;
+  width: auto;
+  position: absolute;
+  bottom: -5rem;
+  left: 0px;
+  right: 0px;
+}
 
 @media (min-width: 768px) {
 
- .featured { left: auto; right: 25%; } }
+  .featured {
+    left: auto;
+    right: 25%;
+  }
+}

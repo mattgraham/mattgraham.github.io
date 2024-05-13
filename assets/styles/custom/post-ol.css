@@ -1,3 +1,9 @@
-.hero { display: none; }
+.hero {
+  display: none;
+}
 
-body { background: url("/assets/images/ol-back.jpg") #111; background-size: cover; background-repeat: no-repeat; }
+body {
+  background: url("/assets/images/ol-back.jpg") #111;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

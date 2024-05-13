@@ -1,12 +1,1 @@
-{
-	"version": 3,
-	"file": "post-frontend.css",
-	"sources": [
-		"post-frontend.scss"
-	],
-	"sourcesContent": [
-		".hero {\n\tbackground: url(\"/assets/images/frontend-cover.jpg\") no-repeat center center;\n\tbackground-size: cover;\n\t@apply md:min-h-[480px];\n}\n\n.iframe {\n\t@apply -mt-[100px] md:-mt-[440px] mb-24;\n\tbox-shadow: 0 -2px 0 0px rgba(#000, .1), 0 1px 2px rgba(#000, .3), 0 1px 0 rgba(#000, .5), 0 20px 100px rgba(#000, .8);\n}"
-	],
-	"names": [],
-	"mappings": "AAAA,AAAA,KAAK,CAAC,EACL,UAAU,EAAE,wCAAwC,CAAC,SAAS,CAAC,MAAM,CAAC,MAAM,EAC5E,eAAe,EAAE,KAAK,EACtB,MAAM,CAAN,gBAAM,GACN;;AAED,AAAA,OAAO,CAAC,EACP,MAAM,CAAN,gCAAM,EACN,UAAU,EAAE,CAAC,CAAE,IAAG,CAAC,CAAC,CAAC,GAAG,CAAM,kBAAI,EAAO,CAAC,CAAC,GAAG,CAAC,GAAG,CAAM,kBAAI,EAAO,CAAC,CAAC,GAAG,CAAC,CAAC,CAAM,kBAAI,EAAO,CAAC,CAAC,IAAI,CAAC,KAAK,CAAM,kBAAI,GACjH"
-}
+{"version":3,"sourceRoot":"","sources":["post-frontend.scss"],"names":[],"mappings":"AAAA;EACC;EACA;EACA;;;AAGD;EACC;EACA","sourcesContent":[".hero {\n\tbackground: url(\"/assets/images/frontend-cover.jpg\") no-repeat center center;\n\tbackground-size: cover;\n\t@apply md:min-h-[480px];\n}\n\n.iframe {\n\t@apply -mt-[100px] md:-mt-[440px] mb-24;\n\tbox-shadow: 0 -2px 0 0px rgba(#000, .1), 0 1px 2px rgba(#000, .3), 0 1px 0 rgba(#000, .5), 0 20px 100px rgba(#000, .8);\n}"],"file":"post-frontend.css"}

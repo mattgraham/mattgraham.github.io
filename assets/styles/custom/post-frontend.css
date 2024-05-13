@@ -1,7 +1,21 @@
-.hero { background: url("/assets/images/frontend-cover.jpg") no-repeat center center; background-size: cover; }@media (min-width: 768px) {.hero { min-height: 480px; } }
+.hero {
+  background: url("/assets/images/frontend-cover.jpg") no-repeat center center;
+  background-size: cover;
+}@media (min-width: 768px) {.hero {
+    min-height: 480px;
+  }
+}
 
-.iframe { margin-top: -100px; margin-bottom: 6rem; }
+.iframe {
+  margin-top: -100px;
+  margin-bottom: 6rem;
+}
 
-@media (min-width: 768px) {.iframe { margin-top: -440px; } }
+@media (min-width: 768px) {.iframe {
+    margin-top: -440px;
+  }
+}
 
-.iframe { box-shadow: 0 -2px 0 0px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(0, 0, 0, 0.5), 0 20px 100px rgba(0, 0, 0, 0.8); }
+.iframe {
+  box-shadow: 0 -2px 0 0px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(0, 0, 0, 0.5), 0 20px 100px rgba(0, 0, 0, 0.8);
+}

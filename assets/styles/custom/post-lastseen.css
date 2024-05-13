@@ -1,1 +1,7 @@
-.hero { background: url("/assets/images/lastseen_2.jpg") no-repeat center center; background-size: cover; }@media (min-width: 768px) {.hero { min-height: 480px; } }
+.hero {
+  background: url("/assets/images/lastseen_2.jpg") no-repeat center center;
+  background-size: cover;
+}@media (min-width: 768px) {.hero {
+    min-height: 480px;
+  }
+}
