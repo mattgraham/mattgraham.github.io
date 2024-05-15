@@ -10,10 +10,10 @@ permalink: ncaa
 
 <p class="prose mx-auto text-center">We have season tickets for Michigan Football, this page is just a what to expect and where our tickets are going for the season.</p>
 
-<div class="grid grid-cols-4 gap-5 mb-12">
+<div class="grid grid-cols-4 gap-2 mb-12">
     {% for item in site.data.ncaa_football.events %}
     
-    <a href="{{item.links[0].href}}" target="_blank" class="flex flex-col no-underline border p-3 rounded-lg text-center hover:shadow">
+    <a href="{{item.links[0].href}}" target="_blank" class="text-slate-900 hover:text-blue-700 flex flex-col no-underline border hover:border-blue-700 transition-all ease-in-out duration-300 p-2 rounded-lg text-center hover:shadow">
 
         <div class="flex flex-col items-center lg:gap-2">
             <div class="text-left flex lg:flex-row items-center col-span-2">
@@ -24,17 +24,17 @@ permalink: ncaa
 
             <div class="flex-auto col-span-6 flex flex-col text-xs">
                 <div class="flex-auto"></div>
-                <div class="hidden lg:flex mx-auto font-bold font-base">
+                <div class="hidden lg:flex mx-auto font-bold font-base mb-2">
                     {{item.name}}
                 </div>
                 
                 {% if item.competitions.first.status.displayClock != '0:00' %}
-                <div class="gap-2">
+                <div class=" gap-2">
                     <span>{{ item.competitions.first.status.displayClock }}</span>
                     <span>{{ item.competitions.first.status.period }} Qtr0</span>
                 </div>
                 {% else %}
-                <div>
+                <div class="">
                     {{item.date | date: "%b %d"}} -  
                     {% if item.timeValid == true %} 
                         {{item.date | date: '%I:%M %Z' }}
@@ -43,7 +43,7 @@ permalink: ncaa
                     {% endif %}
                 </div>
                 {% endif %}
-                <div class="text-xs">{{item.competitions.first.venue.address.city}}{% if item.competitions.first.venue.address.state %}, {{item.competitions.first.venue.address.state}}{% endif %}</div>
+                <div class=" text-xs">{{item.competitions.first.venue.address.city}}{% if item.competitions.first.venue.address.state %}, {{item.competitions.first.venue.address.state}}{% endif %}</div>
                 <div class="flex-auto"></div>
             </div>
             
