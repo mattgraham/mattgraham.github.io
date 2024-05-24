@@ -11,6 +11,7 @@ permalink: ncaa
 <p class="prose mx-auto text-center">We have season tickets for Michigan Football, this page is just a what to expect and where our tickets are going for the season.</p>
 
 <div class="grid grid-cols-4 gap-2 mb-12">
+
     {% for item in site.data.ncaa_football.events %}
     
     <a href="{{item.links[0].href}}" target="_blank" class="text-slate-900 hover:text-blue-700 flex flex-col no-underline border hover:border-blue-700 transition-all ease-in-out duration-300 p-2 rounded-lg text-center hover:shadow">
