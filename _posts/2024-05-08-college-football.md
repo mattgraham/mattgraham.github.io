@@ -37,8 +37,8 @@ permalink: ncaa
                 {% else %}
                 <div class="">
                     {{item.date | date: "%b %d"}} -  
-                    {% if item.timeValid == true %} 
-                        {{item.date | date: '%I:%M %Z' }}
+                    {% if item.timeValid == true %}
+                        {{item.date | date_to_rfc822 | date: '%I:%M %Z' }}
                     {% else %}
                         TBD
                     {% endif %}
