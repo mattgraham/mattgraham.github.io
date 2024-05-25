@@ -26,6 +26,8 @@ postcss:
   config: postcss.config.js
 
 jekyll_get_json:
+  - data: team
+    json: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/130'
   - data: michigan_football
     json: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/michigan/schedule'
   - data: ncaa_football
