@@ -95,20 +95,4 @@ a {
   &.away {
     @apply bg-white text-blue-950 hover:bg-slate-50 hover:text-blue-900;
   } 
-
-  &:nth-child(2):before {
-    content: '$';
-    @apply inline-block text-white font-bold border-4 border-white text-xs rounded-full w-10 h-10 flex items-center justify-center p-1 mx-auto -mt-8 mb-1;
-    @apply bg-green-600;
-  }
-  &:nth-child(1):before,&:nth-child(4):before, &:nth-child(8):before,&:nth-child(9):before {
-    content: 'MG';
-    @apply inline-block text-blue-950 font-bold border-4 border-white bg-blue-950/90 text-xs rounded-full w-10 h-10 flex items-center justify-center p-1 mx-auto -mt-8 mb-1;
-    @apply bg-yellow-400;
-  }
-  &:nth-child(11):before {
-    content: 'ST';
-    @apply inline-block text-blue-950 font-bold border-4 border-white bg-blue-950/90 text-xs rounded-full w-10 h-10 flex items-center justify-center p-1 mx-auto -mt-8 mb-1;
-    @apply bg-yellow-400;
-  }
 }
