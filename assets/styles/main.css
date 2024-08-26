@@ -513,11 +513,17 @@ video {
 .relative {
   position: relative;
 }
+.-bottom-4 {
+  bottom: -1rem;
+}
 .bottom-0 {
   bottom: 0px;
 }
 .left-0 {
   left: 0px;
+}
+.left-1\/2 {
+  left: 50%;
 }
 .right-0 {
   right: 0px;
@@ -698,6 +704,13 @@ video {
 .grow {
   flex-grow: 1;
 }
+.-translate-x-1\/2 {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
 .list-inside {
   list-style-position: inside;
 }
@@ -718,6 +731,9 @@ video {
 }
 .items-center {
   align-items: center;
+}
+.justify-center {
+  justify-content: center;
 }
 .gap-2 {
   gap: 0.5rem;
@@ -762,6 +778,9 @@ video {
 .border {
   border-width: 1px;
 }
+.border-4 {
+  border-width: 4px;
+}
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
@@ -782,12 +801,20 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 .bg-black\/90 {
   background-color: rgb(0 0 0 / 0.9);
+}
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 .bg-gray-800 {
   --tw-bg-opacity: 1;
@@ -800,6 +827,10 @@ video {
 .bg-gray-950 {
   --tw-bg-opacity: 1;
   background-color: rgb(3 7 18 / var(--tw-bg-opacity));
+}
+.bg-green-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
 }
 .bg-rose-700\/90 {
   background-color: rgb(190 18 60 / 0.9);
@@ -929,6 +960,9 @@ video {
 .p-0 {
   padding: 0px;
 }
+.p-1 {
+  padding: 0.25rem;
+}
 .p-12 {
   padding: 3rem;
 }
@@ -1041,6 +1075,9 @@ video {
 }
 .font-normal {
   font-weight: 400;
+}
+.font-semibold {
+  font-weight: 600;
 }
 .font-thin {
   font-weight: 100;
@@ -1756,83 +1793,6 @@ a:hover {
   background-color: rgb(248 250 252 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(30 58 138 / var(--tw-text-opacity));
-}
-.game-card:nth-child(2):before {
-  content: "$";
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -2rem;
-  margin-bottom: 0.25rem;
-  display: inline-block;
-  display: flex;
-  height: 2.5rem;
-  width: 2.5rem;
-  align-items: center;
-  justify-content: center;
-  border-radius: 9999px;
-  border-width: 4px;
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-  padding: 0.25rem;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  font-weight: 700;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
-}
-.game-card:nth-child(1):before, .game-card:nth-child(4):before, .game-card:nth-child(8):before, .game-card:nth-child(9):before {
-  content: "MG";
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -2rem;
-  margin-bottom: 0.25rem;
-  display: inline-block;
-  display: flex;
-  height: 2.5rem;
-  width: 2.5rem;
-  align-items: center;
-  justify-content: center;
-  border-radius: 9999px;
-  border-width: 4px;
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-  background-color: rgb(23 37 84 / 0.9);
-  padding: 0.25rem;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  font-weight: 700;
-  --tw-text-opacity: 1;
-  color: rgb(23 37 84 / var(--tw-text-opacity));
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
-}
-.game-card:nth-child(11):before {
-  content: "ST";
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -2rem;
-  margin-bottom: 0.25rem;
-  display: inline-block;
-  display: flex;
-  height: 2.5rem;
-  width: 2.5rem;
-  align-items: center;
-  justify-content: center;
-  border-radius: 9999px;
-  border-width: 4px;
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-  background-color: rgb(23 37 84 / 0.9);
-  padding: 0.25rem;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  font-weight: 700;
-  --tw-text-opacity: 1;
-  color: rgb(23 37 84 / var(--tw-text-opacity));
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
 .hover\:border-blue-700:hover {
