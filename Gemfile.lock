@@ -167,10 +167,10 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  jekyll (~> 4.3.3)
+  jekyll (~> 4.3.4)
   jekyll-get-json (~> 1.0)
   jekyll-postcss-v2
-  webrick (~> 1.7, >= 1.7.0)
+  webrick (~> 1.8, >= 1.8.2)
 
 BUNDLED WITH
    2.5.3
