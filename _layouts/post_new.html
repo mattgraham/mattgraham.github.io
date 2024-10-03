@@ -1,0 +1,92 @@
+{% include head.html %}
+{% include post-nav.html %}
+
+<div class="w-full max-w-6xl mx-auto p-4 text-center">
+    {% if page.tags %}
+        {% for tag in page.tags.first %} 
+          <div class="my-12 font-bold text-xs uppercase">{{ tag }}</div>
+        {% endfor %}
+    {% endif %}
+
+    {% if page.title %}
+        <h1 class="font-serif text-6xl uppercase my-2 proportional-nums">{{ page.title }}</h1>
+    {% endif %}
+    {% if page.sub_title %}
+        <h1 class="text-xl my-2 text-slate-700">{{ page.sub_title }}</h1>
+    {% endif %}
+
+    {% if page.date %}
+        <p class="text-sm text-gray-600 mt-2">{{ page.date | date: "%B %d, %Y" }}</p>
+    {% endif %}
+
+    {% if page.author %}
+        <p class="text-sm text-gray-600 mt-2">By {{ page.author }}</p>
+    {% endif %}
+
+    {% if page.cover %}
+      <div class="my-8">
+        <img src="{{ page.cover }}" class="w-full" alt="{{ page.title }}">
+        {% if page.cover-text %}
+            <p class="text-xs text-gray-600 mt-3">{{ page.cover-text }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+
+
+    <div class="w-full max-w-3xl mx-auto text-left my-8">
+      {{ content }}
+    </div>
+    
+    <hr class="flex-auto border-t border-gray-200 my-8">
+
+    <div class="w-full flex items-center mb-8">
+      
+      {% if page.tags %}
+        <div class="flex items-center gap-2">
+        {% for tag in page.tags %}
+          <a href="" class="no-underline text-xs uppercase text-gray-600 hover:text-gray-800 border rounded-full font-bold px-2 py-1">{{ tag }}</a>
+        {% endfor %}
+        </div>
+      {% endif %}
+      <div class="flex-auto"></div>
+      <div class="flex items-center gap-4">
+        <button onclick="copyURLToClipboard()" class="px-2 py-1 text-sm border rounded">Copy URL</button>
+        <ul class="flex items-center gap-4">
+          <li class="">
+            <a href="http://twitter.com/mattgraham" target="_blank">
+              <div class="icon-x-footer h-6 md:h-6 w-6 md:w-6"></div>
+            </a>
+          </li>
+          <li class="">
+            <a href="http://github.com/mattgraham" target="_blank">
+              <div class="icon-github-footer h-6 md:h-6 w-6 md:w-6"></div>
+            </a>
+          </li>
+          <li class="">
+            <a href="http://dribbble.com/mattgraham" target="_blank">
+              <div class="icon-dribbble-footer h-6 md:h-6 w-6 md:w-6"></div>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+</div>
+
+{% include pagination.html %}
+{% include footer.html %}
+
+<script>
+  function copyURLToClipboard() {
+    navigator.clipboard.writeText(window.location.href)
+      .then(() => {
+        // Optional: Display a success message
+        alert("URL copied to clipboard!");
+      })
+      .catch(err => {
+        // Optional: Handle errors
+        console.error("Failed to copy: ", err);
+      });
+  }
+</script>

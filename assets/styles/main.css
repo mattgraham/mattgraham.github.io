@@ -1,13 +1,15 @@
 ---
 ---
-
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
 
 p {
   @apply text-xl mb-6 leading-8;
+}
 
+hr {
+  @apply my-8 border-t border-gray-200;
 }
 
 nav a {
@@ -74,6 +76,31 @@ a {
   mask-size: contain;
 }
 
+
+.icon-x-footer {
+  @apply bg-black/30 hover:bg-blue-400 transition-all duration-300 ease-in-out;
+  -webkit-mask: url('/assets/images/icon-x.svg') no-repeat center;
+  mask: url('/assets/images/icon-x.svg') no-repeat center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+.icon-github-footer {
+  @apply bg-black/30 hover:bg-yellow-400 transition-all duration-300 ease-in-out;
+  -webkit-mask: url('/assets/images/icon-github.svg') no-repeat center;
+  mask: url('/assets/images/icon-github.svg') no-repeat center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+.icon-dribbble-footer {
+  @apply bg-black/30 hover:bg-pink-400 transition-all duration-300 ease-in-out;
+  -webkit-mask: url('/assets/images/icon-dribbble.svg') no-repeat center;
+  mask: url('/assets/images/icon-dribbble.svg') no-repeat center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
 #rescuediver {
   background: url(/assets/images/cover-rescuediver.jpg) no-repeat right center;
   background-size: cover;
@@ -95,4 +122,27 @@ a {
   &.away {
     @apply bg-white text-blue-950 hover:bg-slate-50 hover:text-blue-900;
   } 
+}
+
+.font-serif {
+  font-family: 'Merriweather', serif;
+}
+
+.ContributionCalendar-day {
+  @apply h-3 w-3;
+}
+.ContributionCalendar-day[data-level="1"] {
+  @apply bg-green-300 border border-white;
+}
+.ContributionCalendar-day[data-level="2"] {
+  @apply bg-green-500 border border-white;
+}
+.ContributionCalendar-day[data-level="3"] {
+  @apply bg-green-700 border border-white;
+}
+.ContributionCalendar-day[data-level="4"] {
+  @apply bg-green-400 border border-white;
+}
+.ContributionCalendar-label {
+  @apply text-xs text-gray-700 font-bold border border-white;
 }
