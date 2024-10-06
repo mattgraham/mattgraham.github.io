@@ -4,7 +4,7 @@ title: 365+ Days of (Rails) Development
 sub_title: How a year of daily commits transformed my development
 cover: /assets/images/365days-cover.jpg
 cover-text: Ella at the office pretending to be dad 2022
-thumb: /assets/images/thumb-lastseen.jpg
+thumb: /assets/images/thumb-365days.jpg
 tags: development
 published: true
 ---
