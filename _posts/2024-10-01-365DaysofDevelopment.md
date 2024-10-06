@@ -1,6 +1,6 @@
 ---
 layout: post_new
-title: 365+ Days of Development
+title: 365+ Days of (Rails) Development
 sub_title: How a year of daily commits transformed my development
 cover: /assets/images/365days-cover.jpg
 cover-text: Ella at the office pretending to be dad 2022
@@ -55,6 +55,8 @@ I will say each day came with a cost. There were times when I was choosing to he
 
 **A year later: what’s next?**
 
-Now that the year is complete, I will tell you that this coding-challenge was an incredible journey of growth. I'm in no way an expert at rails, or any development language for that matter, however, I'm even more confident that with time I can learn any of them. Moving forward, I'm not sure if I'll push code each and every day, but not because I don't have software to ship, but because I have additional lessons to learn. Not all of them in the digital world. I will tell you that I'm getting closer to shipping a Rescue Diver App to additional first responder teams, and this excites (and terifys me).
+Now that the year is complete, I will tell you that this coding-challenge was an incredible season of growth. I'm in no way an expert at rails, or any development language for that matter, however, I'm even more confident that with time I can learn any of them. Moving forward, I'm not sure if I'll push code each and every day, but not because I don't have software to ship, but because I have additional lessons to learn. Not all of them in the digital world. 
+
+I will tell you that I'm getting closer to shipping a new app for Search and Recovery Dive teams (like ours), and this excites (and terifys me). I have also purchased rookieonrails.com and hope to document some of my successes and failures as I continue to design and develop. 
 
 Regardless of what you're doing, here’s to showing up, one day at a time.
