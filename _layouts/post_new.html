@@ -9,7 +9,7 @@
     {% endif %}
 
     {% if page.title %}
-        <h1 class="font-serif text-6xl uppercase my-2 proportional-nums">{{ page.title }}</h1>
+        <h1 class="font-serif text-3xl md:text-6xl uppercase my-2 proportional-nums">{{ page.title }}</h1>
     {% endif %}
     {% if page.sub_title %}
         <h1 class="text-xl my-2 text-slate-700">{{ page.sub_title }}</h1>
@@ -44,7 +44,7 @@
       {% if page.tags %}
         <div class="flex items-center gap-2">
         {% for tag in page.tags %}
-          <a href="" class="no-underline text-xs uppercase text-gray-600 hover:text-gray-800 border rounded-full font-bold px-2 py-1">{{ tag }}</a>
+          <div class="no-underline text-xs uppercase text-gray-600 hover:text-gray-800 border rounded-full font-bold px-2 py-1">{{ tag }}</div>
         {% endfor %}
         </div>
       {% endif %}

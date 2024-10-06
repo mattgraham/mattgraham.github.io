@@ -1,17 +1,19 @@
 ---
 layout: post_new
-title: 365 Days of Code
+title: 365+ Days of Development
 sub_title: How a year of daily commits transformed my development
 cover: /assets/images/365days-cover.jpg
 cover-text: Ella at the office pretending to be dad 2022
 thumb: /assets/images/thumb-lastseen.jpg
-tags: development family
-published: false
+tags: development
+published: true
 ---
         
 Just over a year ago and half way through an incredible paternity leave I had decided that I was going to commit (pun intended) to pushing code daily. Whether it was a few lines, a small bug fix, or diving into a major feature, I was to make time to open my editor and ship something. Here’s what I learned.
 
 ___
+
+<img src="https://streak-stats.demolab.com?user=mattgraham" alt="GitHub Streak" class="w-full" />
 
 **First, my development history**
 
