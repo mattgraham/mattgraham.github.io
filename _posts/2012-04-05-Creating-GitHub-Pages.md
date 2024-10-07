@@ -1,6 +1,6 @@
 ---
 title: Creating Github Pages
-layout: post
+layout: post_new
 permalink: /blog/archives/2012/04/05/creating-github-pages/
 thumb: /assets/images/thumb-pages.jpg
 customCSS: post-pages.css

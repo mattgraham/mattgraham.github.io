@@ -5,7 +5,7 @@
 @tailwind components;
 
 p {
-  @apply text-xl mb-6 leading-8;
+  @apply mb-6 leading-7;
 }
 
 hr {
