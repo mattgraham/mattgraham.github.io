@@ -13,9 +13,9 @@
   </head>
 <body>
 
-<nav class="bg-gray-950 text-white p-4 shadow-xl flex items-center">
+<nav class="bg-gray-950 text-white p-4 shadow-xl flex items-center fixed top-0 left-0 right-0">
   <div>
-    <a href="/" class="text-xl tracking-widest uppercase font-light">
+    <a href="/" class="text-xl font-light">
       <span class="hidden md:flex">Matt Graham</span>
       <span class="visible md:hidden">MG</span>
     </a>
@@ -28,25 +28,21 @@
   </ul>
 </nav>
 
-<div class="hero bg-gray-900 text-white/90 py-12 lg:py-24 mb-12">
-  
-    <div class="my-4">
-      
-        <div class="text-5xl md:text-8xl leading-snug text-center font-serif">Creating Github Pages</div>
-      
-      
-    </div>
-  
 
-  <div class="w-full max-w-5xl mx-auto p-4 text-center md:text-left">
+<div class="w-full max-w-6xl mx-auto p-4 text-center my-36">
     
-  </div>
-</div>
-
-<div class="w-full max-w-6xl mx-auto p-4">
+        <h1 class="font-serif text-3xl md:text-7xl my-2 proportional-nums">Creating Github Pages</h1>
+    
     
 
-    <div class="mx-auto">
+    
+        <p class="text-sm text-gray-600 mt-2">Posted  April 05, 2012 </p>
+    
+
+    
+
+
+    <div class="w-full max-w-3xl mx-auto text-left my-8">
       <p>I am excited to re-mention that we&#8217;ve released the GitHub Page Generator and that we&#8217;ve created some amazing templates to go along with it, but to add to it we&#8217;re open sourcing some of these themes. We want you to have the ability to make changes, additions and even submit pull requests to these themes to better them for yourself and the community.</p>
 <div class="text-2xl font-serif my-4">Key features of each theme</div>
 
@@ -76,20 +72,46 @@
 	If youre so inspired send a note and let me know, I&#8217;d love to see where they&#8217;ve been used.  <a href="http://twitter.com/#!/mattgraham">@mattgraham</a>
 </p>
 
+
+      <hr>
+
+      <div class="w-full flex items-center gap-4 my-6">
+        
+        <button onclick="copyURLToClipboard()" class="px-2 py-1 text-sm border rounded">Copy URL</button>
+        <span id="copy-status" class="text-xs text-gray-600"></span>
+        <div class="flex-auto"></div>
+        <ul class="flex items-center gap-4">
+          <li class="">
+            <a href="http://twitter.com/mattgraham" target="_blank">
+              <div class="icon-x-footer h-6 md:h-6 w-6 md:w-6"></div>
+            </a>
+          </li>
+          <li class="">
+            <a href="http://github.com/mattgraham" target="_blank">
+              <div class="icon-github-footer h-6 md:h-6 w-6 md:w-6"></div>
+            </a>
+          </li>
+          <li class="">
+            <a href="http://dribbble.com/mattgraham" target="_blank">
+              <div class="icon-dribbble-footer h-6 md:h-6 w-6 md:w-6"></div>
+            </a>
+          </li>
+        </ul>
+        
+        
+      </div>
+
     </div>
 
-    <div class="text-center">
-    <a href="https://twitter.com/intent/tweet?screen_name=mattgraham" class="" data-size="large" data-show-count="true" data-lang="en">Tweet to @mattgraham</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</div>
-</div>
+  </div>
 
 
-<nav class="bg-gray-950 text-white p-6 shadow-xl flex flex-col md:flex-row items-center">
+
+<nav class="text-gray-950 p-4 border-t flex flex-col md:flex-row items-center z-50 text-sm">
     
       <div class="flex items-center">
-        <div class="font-bold mr-1">Previous Post: </div>
-        <a href="/blog/archives/2012/02/22/gauges-shipping-days/" title="Previous Post: Gaug.es Shipping Day"> Gaug.es Shipping Day</a>
+        <div class="font-bold mr-1">Previous: </div>
+        <a href="/blog/archives/2012/02/22/gauges-shipping-days/" title="Previous Post: Gaug.es Shipping Day" class="underline text-gray-950"> Gaug.es Shipping Day</a>
       </div>
     
 
@@ -97,11 +119,12 @@
 
     
       <div class="flex items-center">
-        <div class="font-bold mr-1">Next Post: </div>
-        <a href="/mlb" title="next Post: MLB Ballpark Tour"> MLB Ballpark Tour</a>
+        <div class="font-bold mr-1">Next: </div>
+        <a href="/mlb" title="next Post: MLB Ballpark Tour" class="underline text-gray-950"> MLB Ballpark Tour</a>
       </div>
     
 </nav>
+
 <script type="text/javascript">
   var _gauges = _gauges || [];
   (function() {
@@ -132,3 +155,21 @@
 </body>
 </html>
 
+
+<script>
+  function copyURLToClipboard() {
+    navigator.clipboard.writeText(window.location.href)
+      .then(() => {
+        // Optional: Display a success message
+        document.getElementById("copy-status").innerText = "URL Copied!";
+        setTimeout(() => {
+          document.getElementById("copy-status").innerText = "";
+        }, 2000);
+        
+      })
+      .catch(err => {
+        // Optional: Handle errors
+        console.error("Failed to copy: ", err);
+      });
+  }
+</script>

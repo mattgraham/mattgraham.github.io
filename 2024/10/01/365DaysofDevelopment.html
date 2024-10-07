@@ -11,9 +11,9 @@
   </head>
 <body>
 
-<nav class="bg-gray-950 text-white p-4 shadow-xl flex items-center">
+<nav class="bg-gray-950 text-white p-4 shadow-xl flex items-center fixed top-0 left-0 right-0">
   <div>
-    <a href="/" class="text-xl tracking-widest uppercase font-light">
+    <a href="/" class="text-xl font-light">
       <span class="hidden md:flex">Matt Graham</span>
       <span class="visible md:hidden">MG</span>
     </a>
@@ -27,24 +27,16 @@
 </nav>
 
 
-<div class="w-full max-w-6xl mx-auto p-4 text-center">
+<div class="w-full max-w-6xl mx-auto p-4 text-center my-36">
     
-         
-          <div class="my-12 font-bold text-xs uppercase">development</div>
-        
-    
-
-    
-        <h1 class="font-serif text-3xl md:text-6xl uppercase my-2 proportional-nums">365+ Days of (Rails) Development</h1>
+        <h1 class="font-serif text-3xl md:text-7xl my-2 proportional-nums">365+ Days of (Rails) Development</h1>
     
     
-        <h1 class="text-xl my-2 text-slate-700">How a year of daily commits transformed my development</h1>
+        <h1 class="text-xl md:text-2xl my-4 text-slate-700">How a year of daily commits transformed my development</h1>
     
 
     
-        <p class="text-sm text-gray-600 mt-2">October 01, 2024</p>
-    
-
+        <p class="text-sm text-gray-600 mt-2">Posted  October 01, 2024 </p>
     
 
     
@@ -110,22 +102,14 @@
 
 <p>Regardless of what you’re doing, here’s to showing up, one day at a time.</p>
 
-    </div>
-    
-    <hr class="flex-auto border-t border-gray-200 my-8">
 
-    <div class="w-full flex items-center mb-8">
-      
-      
-        <div class="flex items-center gap-2">
+      <hr>
+
+      <div class="w-full flex items-center gap-4 my-6">
         
-          <div class="no-underline text-xs uppercase text-gray-600 hover:text-gray-800 border rounded-full font-bold px-2 py-1">development</div>
-        
-        </div>
-      
-      <div class="flex-auto"></div>
-      <div class="flex items-center gap-4">
         <button onclick="copyURLToClipboard()" class="px-2 py-1 text-sm border rounded">Copy URL</button>
+        <span id="copy-status" class="text-xs text-gray-600"></span>
+        <div class="flex-auto"></div>
         <ul class="flex items-center gap-4">
           <li class="">
             <a href="http://twitter.com/mattgraham" target="_blank">
@@ -143,18 +127,21 @@
             </a>
           </li>
         </ul>
+        
+        
       </div>
 
     </div>
 
-</div>
+  </div>
 
 
-<nav class="bg-gray-950 text-white p-6 shadow-xl flex flex-col md:flex-row items-center">
+
+<nav class="text-gray-950 p-4 border-t flex flex-col md:flex-row items-center z-50 text-sm">
     
       <div class="flex items-center">
-        <div class="font-bold mr-1">Previous Post: </div>
-        <a href="/2020/11/06/LastSeen.html" title="Previous Post: Last Seen"> Last Seen</a>
+        <div class="font-bold mr-1">Previous: </div>
+        <a href="/2020/11/06/LastSeen.html" title="Previous Post: Last Seen" class="underline text-gray-950"> Last Seen</a>
       </div>
     
 
@@ -162,6 +149,7 @@
 
     
 </nav>
+
 <script type="text/javascript">
   var _gauges = _gauges || [];
   (function() {
@@ -198,7 +186,11 @@
     navigator.clipboard.writeText(window.location.href)
       .then(() => {
         // Optional: Display a success message
-        alert("URL copied to clipboard!");
+        document.getElementById("copy-status").innerText = "URL Copied!";
+        setTimeout(() => {
+          document.getElementById("copy-status").innerText = "";
+        }, 2000);
+        
       })
       .catch(err => {
         // Optional: Handle errors
