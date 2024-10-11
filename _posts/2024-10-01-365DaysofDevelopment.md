@@ -35,13 +35,13 @@ I can't even put to words why my apprication for Rails continued to grow, some o
 
 **Showing up was half the battle**
 
-Like anything, in the beginning, the biggest challenge was simply getting up and putting myself in front of the computer. Life was busy. Even on paternity leave the challenges of wrangling (now two) kids, social events, and the occasional laziness that makes it easier to watch tv instead of sitting on a laptop made it hard. There were days filled with motivation, where I’d work on exciting new features, and other days were more of a struggle, where all I could manage was to update gems and keep the apps running. But I continued to showed up. And what I realized was that the act of showing up, day in and day out, became easier and easier as time went on. It’s was about the discipline of consistency.
+Like anything, in the beginning, the biggest challenge was simply getting up and putting myself in front of the computer. Life is busy. Even while on paternity leave the day to day challenges of wrangling (now two) kids, attending routene social events, etc. makes it easier to sit down and watch tv than sitting down infront of the computer. There were days filled with motivation, where I’d sit down for a few commits and find myself working for hours, and other days were more of a struggle, where all I could manage was to update gems and keep the apps running. But I continued to show up. And what I realized was that the act of showing up, day in and day out, became easier and easier as time went on. It was about discipline and consistency..
 
 **The growth was not always obvious**
 
 In the midst of daily commits, it was sometimes hard to see the progress. Growth often felt subtle. But then I’d look back at the code I wrote in the first few weeks, and I could see just how far I had come. Concepts that were once confusing became natural. Things that used to take me hours now took me much less time.
 
-What started as me learning Rails, strengthened my Ruby, which then led to me questioning why am I using things like MySQL and what does this Postgresql have to offer. Slowly every area of my developement began to grow. I noticed that even while going back to work on older PHP apps I had new insights on how to make them better. (Or I just replaced them with Rails apps). The discipline of daily development made me a better not because it magically imparted genius-level insights, but because it forced me to work away at my weaknesses one day or commit at a time. Each commit, no matter how small, was a reminder that I was getting better. And when I looked back, the overall effects are forever motivating.
+What started as me learning Rails, strengthened my Ruby, which then led to me questioning why am I using things like MySQL and what does this Postgresql have to offer. Slowly every area of my developement began to grow. I noticed that even while going back to work on older PHP apps I had new insights on how to make them better. (Or I just replaced them with Rails apps). The discipline of daily development made me a better not because it magically imparted genius-level insights, but because it forced me to work away at my weaknesses one day or commit at a time. Each commit, no matter how small, was a reminder that I was getting better. And when I look back, the overall effects are forever motivating.
 
 **Building a habit, creating confidence**
 
@@ -51,12 +51,12 @@ The most valuable outcome wasn’t just becoming better at coding, but becoming 
 
 **It has its costs**
 
-I will say each day came with a cost. There were times when I was choosing to head downstairs and push code vs spending the time with my girls or getting something else done around the house. Those that know, know, my three girls are most joyous part of every day. There were events I'd choose not to attend because I had a feature or pull-request waiting, moments that I missed potentially. We choose to invest our time each and every day, this last year I invested in development and hope that its return will follow.
+I will say each day came with a cost. There were times when I was choosing to head downstairs and push code vs spending the time with my girls or getting something else done around the house. Those that know, know, my three girls are the most joyous part of every day. There were events I'd choose not to attend because I had a feature or pull-request waiting, moments that I missed potentially. We choose to invest our time each and every day, this last year I invested in development and hope that its return will follow.
 
 **A year later: what’s next?**
 
 Now that the year is complete, I will tell you that this coding-challenge was an incredible season of growth. I'm in no way an expert at rails, or any development language for that matter, however, I'm even more confident that with time I can learn any of them. Moving forward, I'm not sure if I'll push code each and every day, but not because I don't have software to ship, but because I have additional lessons to learn. Not all of them in the digital world. 
 
-I will tell you that I'm getting closer to shipping a new app for Search and Recovery Dive teams (like ours), and this excites (and terifys me). I have also purchased rookieonrails.com and hope to document some of my successes and failures as I continue to design and develop. 
+I will tell you that I'm getting closer to shipping a new app for Search and Recovery Dive teams (like ours), and this excites (and terrifies me). I have also purchased rookieonrails.com and hope to document some of my successes and failures as I continue to design and develop. 
 
 Regardless of what you're doing, here’s to showing up, one day at a time.
