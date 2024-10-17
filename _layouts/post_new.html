@@ -1,0 +1,83 @@
+{% include head.html %}
+{% include post-nav.html %}
+
+<div class="w-full max-w-6xl mx-auto p-4 text-center my-36">
+    {% if page.title %}
+        <h1 class="font-serif text-3xl md:text-7xl my-2 proportional-nums">{{ page.title }}</h1>
+    {% endif %}
+    {% if page.sub_title %}
+        <h1 class="text-xl md:text-2xl my-4 text-slate-700">{{ page.sub_title }}</h1>
+    {% endif %}
+
+    {% if page.date %}
+        <p class="text-sm text-gray-600 mt-2">Posted {% if page.author %}by {{page.author}}, {% endif %} {{ page.date | date: "%B %d, %Y" }} </p>
+    {% endif %}
+
+    {% if page.cover %}
+      <div class="my-8">
+        <img src="{{ page.cover }}" class="w-full" alt="{{ page.title }}">
+        {% if page.cover-text %}
+            <p class="text-xs text-gray-600 mt-3">{{ page.cover-text }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+
+
+    <div class="w-full max-w-3xl mx-auto text-left my-8">
+      {{ content }}
+
+      <hr>
+
+      <div class="w-full flex items-center gap-4 my-6">
+        
+        <button onclick="copyURLToClipboard()" class="px-2 py-1 text-sm border rounded">Copy URL</button>
+        <span id="copy-status" class="text-xs text-gray-600"></span>
+        <div class="flex-auto"></div>
+        <ul class="flex items-center gap-4">
+          <li class="">
+            <a href="http://twitter.com/mattgraham" target="_blank">
+              <div class="icon-x-footer h-6 md:h-6 w-6 md:w-6"></div>
+            </a>
+          </li>
+          <li class="">
+            <a href="http://github.com/mattgraham" target="_blank">
+              <div class="icon-github-footer h-6 md:h-6 w-6 md:w-6"></div>
+            </a>
+          </li>
+          <li class="">
+            <a href="http://dribbble.com/mattgraham" target="_blank">
+              <div class="icon-dribbble-footer h-6 md:h-6 w-6 md:w-6"></div>
+            </a>
+          </li>
+        </ul>
+        
+        
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+{% include pagination.html %}
+
+{% include footer.html %}
+
+<script>
+  function copyURLToClipboard() {
+    navigator.clipboard.writeText(window.location.href)
+      .then(() => {
+        // Optional: Display a success message
+        document.getElementById("copy-status").innerText = "URL Copied!";
+        setTimeout(() => {
+          document.getElementById("copy-status").innerText = "";
+        }, 2000);
+        
+      })
+      .catch(err => {
+        // Optional: Handle errors
+        console.error("Failed to copy: ", err);
+      });
+  }
+</script>
