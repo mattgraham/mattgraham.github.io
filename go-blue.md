@@ -7,7 +7,6 @@ permalink: goblue
 
 {% include post-title.html %}
 
-<!-- TO DO -->
 <div class="">
     {% for team in site.data.team.first %}
         {% if team.record == blank %}
