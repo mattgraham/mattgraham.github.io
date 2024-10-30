@@ -41,7 +41,7 @@ permalink: goblue
         <div class="flex items-center lg:gap-2">
             <div class="text-left flex flex-col lg:flex-row items-center col-span-2">
                 {% if item.competitions.first.competitors.first.team.id == "130" %}
-                    <img src="{{item.competitions.first.competitors[1].team.logos.last.href}}" alt="{{item.competitions.first.competitors[1].team.name}}" class="order-1 h-12 lg:h-16 mx-3">
+                    <img src="{{item.competitions.first.competitors[1].team.logos.first.href}}" alt="{{item.competitions.first.competitors[1].team.name}}" class="order-1 h-12 lg:h-16 mx-3">
                 {% else %}
                     <img src="{{item.competitions.first.competitors[1].team.logos.first.href}}" alt="{{item.competitions.first.competitors[1].team.name}}" class="order-1 h-12 lg:h-16 mx-3">
                 {% endif %}
