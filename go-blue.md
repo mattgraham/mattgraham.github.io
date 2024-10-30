@@ -7,6 +7,7 @@ permalink: goblue
 
 {% include post-title.html %}
 
+<!-- TO DO -->
 <div class="">
     {% for team in site.data.team.first %}
         {% if team.record == blank %}
@@ -81,7 +82,7 @@ permalink: goblue
                     <span class="hidden md:flex font-normal">(0-0)</span>
                 </div>
                 {% if item.competitions.first.competitors.first.team.id == "130" %}
-                    <img src="{{item.competitions.first.competitors[0].team.logos.last.href}}" alt="{{item.competitions.first.competitors[0].team.name}}" class="order-1 h-12 lg:h-16 mx-3">
+                    <img src="{{item.competitions.first.competitors[0].team.logos.first.href}}" alt="{{item.competitions.first.competitors[0].team.name}}" class="order-1 h-12 lg:h-16 mx-3">
                 {% else %}
                     <img src="{{item.competitions.first.competitors[0].team.logos.first.href}}" alt="{{item.competitions.first.competitors[0].team.name}}" class="h-12 order-1 lg:h-16 mx-3">
                 {% endif %}
