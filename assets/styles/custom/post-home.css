@@ -1,13 +1,141 @@
 .welcome {
-	background: url('/assets/images/cover-image.jpg') no-repeat right top, #0f020b;
-    height: 75vh;
+    background: #0f020b;
+    height: 95vh;
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+.welcome-content {
+    position: relative;
+    display: flex;
+    height: 100%;
+}
+
+.welcome-text {
+    z-index: 10;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    overflow: hidden;
-    background-size: cover;
-    text-align: center;
+    padding-left: 2rem;
+}
+
+@media (min-width: 768px) {
+
+    .welcome-text {
+        padding-left: 4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .welcome-text {
+        padding-left: 6rem;
+    }
+}
+
+.welcome-text {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.welcome-name {
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+
+    .welcome-name {
+        font-size: 16vw;
+    }
+}
+
+.welcome-name {
+    /* font-size: clamp(6rem, 12vw, 15rem); */
+    line-height: 0.9;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+}
+
+.welcome-quote {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: rgb(255 255 255 / 0.8);
+}
+
+@media (min-width: 768px) {
+
+    .welcome-quote {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .welcome-quote {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}
+
+.welcome-quote {
+    font-family: 'Merriweather', serif;
+    max-width: 90%;
+    line-height: 1.5;
+}
+
+.welcome-social {
+    margin-top: 2rem;
+}
+
+.welcome-image {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+}
+
+@media (min-width: 768px) {
+
+    .welcome-image {
+        left: 50%;
+        width: 50%;
+    }
+}
+
+.welcome-image {
+    right: 0;
+    z-index: 1;
+}
+
+.welcome-image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+/* Ensure text overlaps image on smaller screens */
+@media (max-width: 768px) {
+    .welcome-text {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 2rem;
+    }
+    
+    .welcome-image {
+        width: 100%;
+        opacity: 0.3;
+    }
+    
+    .welcome-name {
+        font-size: clamp(3rem, 15vw, 6rem);
+    }
 }
