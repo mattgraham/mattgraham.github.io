@@ -3,26 +3,33 @@ layout: home
 customCSS: post-home.css
 ---
 
-<div class="welcome text-center">
-    <div class="mb-3 text-5xl md:text-7xl lg:text-8xl uppercase lg:tracking-widest font-light">Matt Graham</div>
-    <div class="text-red-500 font-serif text-xl md:text-2xl tracking-wide m-3">Lead UX design and frontend development at Heroku</div>
-    <ul class="flex items-center my-6">
-      <li class="mx-4">
-        <a href="http://twitter.com/mattgraham" target="_blank">
-          <div class="icon-x h-12 md:h-12 w-12 md:w-12"></div>
-        </a>
-      </li>
-      <li class="mx-4">
-        <a href="http://github.com/mattgraham" target="_blank">
-          <div class="icon-github h-12 md:h-12 w-12 md:w-12"></div>
-        </a>
-      </li>
-      <li class="mx-4">
-        <a href="http://dribbble.com/mattgraham" target="_blank">
-          <div class="icon-dribbble h-12 md:h-12 w-12 md:w-12"></div>
-        </a>
-      </li>
-    </ul>
+<div class="welcome">
+  <div class="welcome-content">
+    <div class="welcome-text">
+      <div class="welcome-name">MATT</div>
+      <div class="welcome-quote">When this is all said and done I hope its obvious my life was full of faith, hope and love, full of family, laughter, and community.</div>
+      <ul class="welcome-social flex items-center my-6">
+        <li class="mx-4">
+          <a href="http://twitter.com/mattgraham" target="_blank">
+            <div class="icon-x h-12 md:h-12 w-12 md:w-12"></div>
+          </a>
+        </li>
+        <li class="mx-4">
+          <a href="http://github.com/mattgraham" target="_blank">
+            <div class="icon-github h-12 md:h-12 w-12 md:w-12"></div>
+          </a>
+        </li>
+        <li class="mx-4">
+          <a href="http://dribbble.com/mattgraham" target="_blank">
+            <div class="icon-dribbble h-12 md:h-12 w-12 md:w-12"></div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="welcome-image">
+      <img src="/assets/images/graham-dive-hero.png" alt="Matt Graham" class="h-full w-full object-cover">
+    </div>
+  </div>
 </div>
 
 <div id="about" class="p-4 mb-12">  

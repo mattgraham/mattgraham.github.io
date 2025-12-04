@@ -2,8 +2,65 @@
 ---
 
 .welcome {
-	background: url('/assets/images/cover-image.jpg') no-repeat right top, #0f020b;
-    height: 75vh;
-    @apply flex flex-col justify-center items-center;
-    @apply text-white text-center overflow-hidden bg-cover;
+    background: #0f020b;
+    height: 95vh;
+    min-height: 600px;
+    @apply relative overflow-hidden;
+}
+
+.welcome-content {
+    @apply relative h-full flex;
+}
+
+.welcome-text {
+    @apply flex flex-col justify-center pl-8 md:pl-16 lg:pl-24 z-10;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.welcome-name {
+    @apply text-white font-bold uppercase text-6xl md:text-[16vw];
+    /* font-size: clamp(6rem, 12vw, 15rem); */
+    line-height: 0.9;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+}
+
+.welcome-quote {
+    @apply text-white/80 text-lg md:text-xl lg:text-2xl;
+    font-family: 'Merriweather', serif;
+    max-width: 90%;
+    line-height: 1.5;
+}
+
+.welcome-social {
+    @apply mt-8;
+}
+
+.welcome-image {
+    @apply absolute top-0 h-full opacity-90 w-full md:w-1/2 md:left-1/2;
+    right: 0;
+    z-index: 1;
+}
+
+.welcome-image img {
+    @apply h-full w-full object-cover;
+}
+
+/* Ensure text overlaps image on smaller screens */
+@media (max-width: 768px) {
+    .welcome-text {
+        flex: 0 0 100%;
+        max-width: 100%;
+        @apply pr-8;
+    }
+    
+    .welcome-image {
+        width: 100%;
+        opacity: 0.3;
+    }
+    
+    .welcome-name {
+        font-size: clamp(3rem, 15vw, 6rem);
+    }
 }
