@@ -85,7 +85,6 @@
 }
 
 .welcome-quote {
-    font-family: 'Merriweather', serif;
     max-width: 90%;
     line-height: 1.5;
 }
@@ -149,56 +148,153 @@
        object-fit: cover;
 }
 
-/* Family page specific styles - full width layout */
+/* Family page specific styles - follows home model */
 .welcome-family {
     overflow: visible;
+}
+
+@media (max-width: 767px) {
+    .welcome-family {
+        overflow: hidden;
+    }
 }
 
 .welcome-family .welcome-text {
     flex: 0 0 100%;
     max-width: 100%;
+    text-align: center;
 }
 
 .welcome-family .welcome-image {
+    position: absolute;
+    top: 0px;
+    height: 100%;
     width: 100%;
-    left: auto;
+    opacity: 0.15;
+}
+
+@media (min-width: 768px) {
+
+    .welcome-family .welcome-image {
+        left: 50%;
+        width: 50%;
+    }
+}
+
+.welcome-family .welcome-image {
     right: 0;
+    z-index: 1;
     overflow: visible;
 }
 
 .welcome-family .welcome-image img {
-    position: absolute;
-    right: 0;
     height: 100%;
-    width: auto;
-    min-width: 100%;
+    width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
-    -o-object-position: left top;
-       object-position: left top;
+    -o-object-position: right center;
+       object-position: right center;
 }
 
 .welcome-family .welcome-overlay {
+    position: absolute;
+    top: 0px;
+    height: 100%;
     width: 100%;
-    left: auto;
+    opacity: 0.15;
+}
+
+@media (min-width: 768px) {
+
+    .welcome-family .welcome-overlay {
+        left: 50%;
+        width: 50%;
+    }
+}
+
+.welcome-family .welcome-overlay {
     right: 0;
+    z-index: 20;
     overflow: visible;
 }
 
 .welcome-family .welcome-overlay img {
-    position: absolute;
-    right: 0;
     height: 100%;
-    width: auto;
-    min-width: 100%;
+    width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
-    -o-object-position: left top;
-       object-position: left top;
+    -o-object-position: right center;
+       object-position: right center;
 }
 
-/* Ensure text overlaps image on smaller screens */
-@media (max-width: 768px) {
+/* MD breakpoint - keep faded background, adjust layout */
+@media (min-width: 768px) {
+    .welcome-family {
+        overflow: hidden;
+    }
+    
+    .welcome-family .welcome-text {
+        flex: 0 0 50%;
+        max-width: 50%;
+        text-align: left;
+    }
+    
+    .welcome-family .welcome-image {
+        width: 100%;
+        left: 0;
+        right: 0;
+        opacity: 0.2;
+        overflow: hidden;
+    }
+    
+    .welcome-family .welcome-image img {
+        -o-object-position: center center;
+           object-position: center center;
+    }
+    
+    .welcome-family .welcome-overlay {
+        width: 100%;
+        left: 0;
+        right: 0;
+        opacity: 1;
+        overflow: hidden;
+    }
+    
+    .welcome-family .welcome-overlay img {
+        -o-object-position: center center;
+           object-position: center center;
+    }
+}
+
+/* XL breakpoint - 50/50 split, images stay to the right */
+@media (min-width: 1280px) {
+    .welcome-family .welcome-image {
+        width: 50%;
+        left: auto;
+        right: 0;
+        opacity: 0.3;
+    }
+    
+    .welcome-family .welcome-image img {
+        -o-object-position: right center;
+           object-position: right center;
+    }
+    
+    .welcome-family .welcome-overlay {
+        width: 50%;
+        left: auto;
+        right: 0;
+        opacity: 1;
+    }
+    
+    .welcome-family .welcome-overlay img {
+        -o-object-position: right center;
+           object-position: right center;
+    }
+}
+
+/* Mobile screens - full width low opacity background */
+@media (max-width: 767px) {
     .welcome-text {
         flex: 0 0 100%;
         max-width: 100%;
@@ -208,13 +304,34 @@
     .welcome-image {
         width: 100%;
         opacity: 0.3;
+        
     }
     
     .welcome-overlay {
         width: 100%;
+        
     }
     
     .welcome-name {
         font-size: clamp(3rem, 15vw, 6rem);
+    }
+    
+    /* Family page mobile - shift background images to the right */
+    .welcome-family .welcome-image {
+        overflow: hidden;
+    }
+    
+    .welcome-family .welcome-image img {
+        -o-object-position: 85% center;
+           object-position: 85% center;
+    }
+    
+    .welcome-family .welcome-overlay {
+        overflow: hidden;
+    }
+    
+    .welcome-family .welcome-overlay img {
+        -o-object-position: 85% center;
+           object-position: 85% center;
     }
 }
