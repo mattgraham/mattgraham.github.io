@@ -47,6 +47,60 @@
     @apply h-full w-full object-cover;
 }
 
+.welcome-overlay {
+    @apply absolute top-0 h-full w-full md:w-1/2 md:left-1/2;
+    right: 0;
+    z-index: 20;
+}
+
+.welcome-overlay img {
+    @apply h-full w-full object-cover;
+}
+
+/* Family page specific styles - full width layout */
+.welcome-family {
+    overflow: visible;
+}
+
+.welcome-family .welcome-text {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.welcome-family .welcome-image {
+    width: 100%;
+    left: auto;
+    right: 0;
+    overflow: visible;
+}
+
+.welcome-family .welcome-image img {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: auto;
+    min-width: 100%;
+    object-fit: cover;
+    object-position: left top;
+}
+
+.welcome-family .welcome-overlay {
+    width: 100%;
+    left: auto;
+    right: 0;
+    overflow: visible;
+}
+
+.welcome-family .welcome-overlay img {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: auto;
+    min-width: 100%;
+    object-fit: cover;
+    object-position: left top;
+}
+
 /* Ensure text overlaps image on smaller screens */
 @media (max-width: 768px) {
     .welcome-text {
@@ -58,6 +112,10 @@
     .welcome-image {
         width: 100%;
         opacity: 0.3;
+    }
+    
+    .welcome-overlay {
+        width: 100%;
     }
     
     .welcome-name {
