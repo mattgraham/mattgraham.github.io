@@ -28,7 +28,6 @@
 
 .welcome-quote {
     @apply text-white/80 text-lg md:text-xl lg:text-2xl;
-    font-family: 'Merriweather', serif;
     max-width: 90%;
     line-height: 1.5;
 }
@@ -126,7 +125,7 @@
         width: 100%;
         left: 0;
         right: 0;
-        opacity: 0.2;
+        opacity: 1;
         overflow: hidden;
     }
     
