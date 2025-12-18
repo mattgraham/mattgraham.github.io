@@ -26,3 +26,21 @@ customCSS: post-home.css
     When this is all said and done I hope its obvious my life was full of faith, hope and love, full of family, laughter, and community. My measure of success is love, devotion, and a steadfast commitment to making a meaningful impact in the world around me.
   </div>
 </div>
+
+<div class="max-w-screen-2xl mx-auto px-4 md:px-8 py-8">
+  <div class="columns-1 md:columns-2 lg:columns-3 gap-4">
+    {% for file in site.static_files %}
+      {% if file.path contains '/assets/images/family/' and file.extname == '.jpg' %}
+        <div class="break-inside-avoid mb-4">
+          <img 
+            src="{{ file.path }}" 
+            alt="Family photo" 
+            class="w-full h-auto rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
+            loading="lazy"
+          >
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
