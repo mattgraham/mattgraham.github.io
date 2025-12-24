@@ -1,2 +1,7 @@
+#!/bin/bash
+# Kill any existing Jekyll processes on the ports we need
+lsof -ti:4001 | xargs kill -9 2>/dev/null
+lsof -ti:35729 | xargs kill -9 2>/dev/null
+
 # Run the development server
-jekyll serve --watch --livereload --drafts
+jekyll serve --port 4001 --watch --livereload --livereload-port 35730 --drafts

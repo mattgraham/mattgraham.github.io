@@ -2261,3 +2261,6 @@ a:hover {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
+.\[\&\>\*\]\:tracking-tight>* {
+  letter-spacing: -0.025em;
+}
