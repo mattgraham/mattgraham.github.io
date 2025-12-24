@@ -1,0 +1,349 @@
+---
+---
+
+.welcome {
+    background: #0f020b;
+    height: 95vh;
+    min-height: 600px;
+    @apply relative overflow-hidden;
+}
+
+.welcome-content {
+    @apply relative h-full flex;
+}
+
+.welcome-text {
+    @apply flex flex-col justify-center pl-8 md:pl-16 lg:pl-24 z-10;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+
+.welcome-name {
+    @apply text-white font-bold uppercase text-6xl md:text-[16vw];
+    /* font-size: clamp(6rem, 12vw, 15rem); */
+    line-height: 0.9;
+    letter-spacing: 0.02em;
+    margin-bottom: 1rem;
+}
+
+.welcome-quote {
+    @apply text-white/80 text-lg md:text-xl lg:text-2xl;
+    max-width: 90%;
+    line-height: 1.5;
+}
+
+.welcome-social {
+    @apply mt-8;
+}
+
+.welcome-image {
+    @apply absolute top-0 h-full opacity-90 w-full md:w-1/2 md:left-1/2;
+    right: 0;
+    z-index: 1;
+}
+
+.welcome-image img {
+    @apply h-full w-full object-cover;
+}
+
+.welcome-overlay {
+    @apply absolute top-0 h-full w-full md:w-1/2 md:left-1/2;
+    right: 0;
+    z-index: 20;
+}
+
+.welcome-overlay img {
+    @apply h-full w-full object-cover;
+}
+
+/* Family page specific styles - follows home model */
+.welcome-family {
+    overflow: visible;
+}
+
+@media (max-width: 767px) {
+    .welcome-family {
+        overflow: hidden;
+    }
+}
+
+.welcome-family .welcome-text {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+}
+
+.welcome-family .welcome-image {
+    @apply absolute top-0 h-full opacity-15 w-full md:w-1/2 md:left-1/2;
+    right: 0;
+    z-index: 1;
+    overflow: visible;
+}
+
+.welcome-family .welcome-image img {
+    @apply h-full w-full object-cover;
+    object-position: right center;
+}
+
+.welcome-family .welcome-overlay {
+    @apply absolute top-0 h-full opacity-15 w-full md:w-1/2 md:left-1/2;
+    right: 0;
+    z-index: 20;
+    overflow: visible;
+}
+
+.welcome-family .welcome-overlay img {
+    @apply h-full w-full object-cover;
+    object-position: right center;
+}
+
+/* MD breakpoint - keep faded background, adjust layout */
+@media (min-width: 768px) {
+    .welcome-family {
+        overflow: hidden;
+    }
+    
+    .welcome-family .welcome-text {
+        flex: 0 0 50%;
+        max-width: 50%;
+        text-align: left;
+    }
+    
+    .welcome-family .welcome-image {
+        width: 100%;
+        left: 0;
+        right: 0;
+        opacity: 0.2;
+        overflow: hidden;
+    }
+    
+    .welcome-family .welcome-image img {
+        object-position: center center;
+    }
+    
+    .welcome-family .welcome-overlay {
+        width: 100%;
+        left: 0;
+        right: 0;
+        opacity: 1;
+        overflow: hidden;
+    }
+    
+    .welcome-family .welcome-overlay img {
+        object-position: center center;
+    }
+}
+
+/* XL breakpoint - 50/50 split, images stay to the right */
+@media (min-width: 1280px) {
+    .welcome-family .welcome-image {
+        width: 50%;
+        left: auto;
+        right: 0;
+        opacity: 0.3;
+    }
+    
+    .welcome-family .welcome-image img {
+        object-position: right center;
+    }
+    
+    .welcome-family .welcome-overlay {
+        width: 50%;
+        left: auto;
+        right: 0;
+        opacity: 1;
+    }
+    
+    .welcome-family .welcome-overlay img {
+        object-position: right center;
+    }
+}
+
+/* Mobile screens - full width low opacity background */
+@media (max-width: 767px) {
+    .welcome-text {
+        flex: 0 0 100%;
+        max-width: 100%;
+        @apply pr-8;
+    }
+    
+    .welcome-image {
+        width: 100%;
+        opacity: 0.3;
+        
+    }
+    
+    .welcome-overlay {
+        width: 100%;
+        
+    }
+    
+    .welcome-name {
+        font-size: clamp(3rem, 15vw, 6rem);
+    }
+    
+    /* Family page mobile - shift background images to the right */
+    .welcome-family .welcome-image {
+        overflow: hidden;
+    }
+    
+    .welcome-family .welcome-image img {
+        object-position: 85% center;
+    }
+    
+    .welcome-family .welcome-overlay {
+        overflow: hidden;
+    }
+    
+    .welcome-family .welcome-overlay img {
+        object-position: 85% center;
+    }
+}
+
+/* Family photo gallery masonry layout */
+.family-gallery {
+    column-gap: 1rem;
+}
+
+.family-gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+/* Full Screen Image Modal */
+.image-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-modal.hidden {
+    display: none;
+}
+
+.image-modal-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    cursor: pointer;
+}
+
+.image-modal-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+}
+
+.image-modal-img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.image-modal-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 48px;
+    font-weight: 300;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10001;
+    line-height: 1;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+}
+
+.image-modal-close:hover {
+    opacity: 0.7;
+}
+
+.image-modal-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 48px;
+    font-weight: 300;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+    z-index: 10001;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    padding: 0;
+}
+
+.image-modal-nav:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.image-modal-prev {
+    left: 30px;
+}
+
+.image-modal-next {
+    right: 30px;
+}
+
+@media (max-width: 768px) {
+    .image-modal-close {
+        top: 10px;
+        right: 15px;
+        font-size: 36px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .image-modal-nav {
+        width: 50px;
+        height: 50px;
+        font-size: 36px;
+    }
+
+    .image-modal-prev {
+        left: 15px;
+    }
+
+    .image-modal-next {
+        right: 15px;
+    }
+
+    .image-modal-img {
+        max-width: 95%;
+        max-height: 85%;
+    }
+}
