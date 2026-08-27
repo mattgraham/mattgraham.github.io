@@ -21,6 +21,11 @@ plugins:
 highlighter:  rouge
 markdown:    kramdown
 
+# Serve .ics as a calendar feed (Jekyll webrick / local preview)
+webrick:
+  mime_types:
+    ics: text/calendar
+
 postcss:
   script: node_modules/.bin/postcss
   config: postcss.config.js
