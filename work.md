@@ -3,17 +3,21 @@ layout: home
 title: Work
 ---
 
-UX in `ENV['Production']`
+<div class="w-full mx-auto mt-8">
+    <div class="bg-rose-700/90 py-24 px-4 text-white" id="">
+        <div class="text-4xl md:text-5xl my-12 text-white font-serif text-center">UX <span class="italic">in</span> <code class="tracking-tight">ENV['Production']</code></div>
+        <div class="text-xl text-white/70 leading-8 mb-6 max-w-prose mx-auto">
+            <span class="font-bold">I’m a UX professional who bridges the gap between design and production.</span> I’ve spent decades in all the leading design tools, including Figma, Sketch, and Adobe Creative Suite, Claude AI Design tools, with experience spanning both digital and print design. My greatest passion is guiding user experiences from discovery and strategy through design and development.
+        </div>
+        <div class="text-xl text-white/70 leading-8 mb-6 max-w-prose mx-auto">
+            I’ve worked with many modern programming languages and frameworks, although I’m a Ruby on Rails superfan deep at heart. I’m also experienced with CSS frameworks and today’s leading AI models and tools.
+        </div>
+        <div class="text-xl text-white/70 leading-8 mb-6 max-w-prose mx-auto">
+            I’m especially proud to have contributed production code to developer tools and platforms used worldwide, including the Salesforce CLI, Code Builder, Heroku Dashboard, the various Heroku marketing sites and CSS frameworks, the Elements Marketplace, GitHub, GitHub for Android, Atom (IDE), Speaker Deck, Harmony, Gauges, and more.
+        </div>
+    </div>
 
-I’m a UX professional who bridges the gap between design and production. I’ve spent decades in all the leading design tools, including Figma, Sketch, and Adobe Creative Suite, Claude AI Design tools, with experience spanning both digital and print design. My greatest passion is guiding user experiences from discovery and strategy through design and development.
-
-I’ve worked with many modern programming languages and frameworks, although I’m a Ruby on Rails superfan deep at heart. I’m also experienced with CSS frameworks and today’s leading AI models and tools. 
-
-I’m especially proud to have contributed production code to developer tools and platforms used worldwide, including the Salesforce CLI, Code Builder, Heroku Dashboard, the various Heroku marketing sites and CSS frameworks, the Elements Marketplace, GitHub, GitHub for Android, Atom (IDE), Speaker Deck, Harmony, Gauges, and more.  
-
-
-```
-<div class="bg-black/90" id="salesforce-cli">
+    <div class="bg-black/90" id="salesforce-cli">
 <div class="w-full max-w-screen-2xl mx-auto grid lg:grid-cols-2 lg:gap-4">
     <div class="text-white font-mono text-sm bg-black p-12 lg:mt-12 order-1 lg:order-0 overflow-hidden">
     <div><span class="text-blue-500">$</span> sf</div>
@@ -219,7 +223,6 @@ I’m especially proud to have contributed production code to developer tools an
     </div>
 </div>
 </div>
-```
 
-
+</div>
 
