@@ -27,7 +27,7 @@ customCSS: post-home.css
       </ul>
     </div>
     <div class="welcome-image">
-      <img src="/assets/images/graham-dive-hero.png" alt="Matt Graham" class="h-full w-full object-cover">
+      <img src="/assets/images/graham-dive-hero.png" alt="Matt Graham" class="h-full w-full object-cover opacity-40">
     </div>
   </div>
 </div>
